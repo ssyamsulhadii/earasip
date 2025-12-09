@@ -1,0 +1,9 @@
+@extends('spk.pdf')
+@section('content')
+    @include('spk.halaman-1')
+    @include('spk.halaman-2')
+    @include('spk.halaman-3')
+    @include('spk.halaman-4')
+    @include('spk.halaman-5')
+    @include('spk.halaman-6')
+@endsection

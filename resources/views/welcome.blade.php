@@ -208,10 +208,10 @@
                                 class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">
                                 <i class="fas fa-download mr-1"></i> Download SPP
                             </a>
-                            <!--<a href="" target="_blank"-->
-                            <!--    class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">-->
-                            <!--    <i class="fas fa-download mr-1"></i> Download SPK-->
-                            <!--</a>-->
+                            {{-- <a href="{{ route('cetak.spk', ['no_peserta' => $result->username, 'nik' => $result->nik]) }}"
+                                target="_blank"
+                                class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">-->
+                                <i class="fas fa-download mr-1"></i> Cetak SPK</a> --}}
                         </div>
 
                         {{-- CARD INFORMASI --}}
@@ -254,9 +254,11 @@
                     <!--                placeholder="NIK Peserta"-->
                     <!--                class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150 text-gray-800">-->
 
-                    <!--            @error('spk_final')-->
-                    <!--                <p class="text-red-600 text-sm mt-1">{{ $message }}</p>-->
-                    <!--            @enderror-->
+                    <!--            @error('spk_final')
+    -->
+                        <!--                <p class="text-red-600 text-sm mt-1">{{ $message }}</p>-->
+                        <!--
+@enderror-->
                     <!--        </div>-->
                     <!--    </div>-->
 

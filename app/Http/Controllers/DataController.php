@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Services\ServicePdf;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class DataController extends Controller
 {
@@ -42,11 +44,32 @@ class DataController extends Controller
             'has_search' => true,
         ]);
     }
-    
-     public function uploadSpk(Request $request)
+    public function cetakSpk(Request $request, ServicePdf $pdf)
+    {
+        $query = User::query();
+
+        if ($request->no_peserta) {
+            $query->where('username', $request->no_peserta);
+        }
+
+        if ($request->nik) {
+            $query->where('nik', $request->nik);
+        }
+        // $result = $query->first();
+        $html = view('spk.rinder')->render();
+
+        // $filename = $result->usernmae . '_SPKPW.pdf';
+
+        // INI CARA BENAR UNTUK PREVIEW
+        return $pdf->generate($html, 'nip-spkpw.pdf', 'I');
+
+        // return abort(404);
+    }
+
+    public function uploadSpk(Request $request)
     {
         $request->validate([
-            'spk_final' => 'required|mimes:pdf|max:2048', 
+            'spk_final' => 'required|mimes:pdf|max:2048',
             // max:2048 = 2MB
         ]);
         $nopeserta = $request->nopeserta;
@@ -66,5 +89,4 @@ class DataController extends Controller
 
         return back()->with('success', 'Dokumen berhasil diupload!');
     }
-
 }

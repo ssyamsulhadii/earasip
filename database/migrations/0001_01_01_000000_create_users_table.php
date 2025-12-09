@@ -16,7 +16,12 @@ return new class extends Migration
             $table->string('nama');
             $table->string('username');
             $table->string('nik');
-            // $table->string('password');
+            $table->string('nip')->nullable();
+            $table->string('tempat_lahir')->nullable();
+            $table->date('tanggal_lahir')->nullable();
+            $table->string('pendidikan')->nullable();
+            $table->string('jabatan')->nullable();
+            $table->string('unit_kerja')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
