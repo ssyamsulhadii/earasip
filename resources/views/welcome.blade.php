@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P3I-BKPSDM | Production</title>
-    Memuat Tailwind CSS untuk styling responsif
+    {{-- Memuat Tailwind CSS untuk styling responsif --}}
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script>
@@ -140,7 +140,7 @@
 
     <div class="max-w-4xl mx-auto">
 
-        Header Form Pencarian
+        {{-- Header Form Pencarian --}}
         <header class="mb-8">
             <h1 class="text-3xl font-extrabold text-gray-900 border-b pb-2">Penarikan Data SK PPPK Paruh Waktu</h1>
             <p class="text-gray-500 mt-2">Cukup masukkan kata kunci <b>No Peserta</b> dan <b>NIK Peserta</b> untuk
@@ -187,7 +187,7 @@
             </form>
         </div>
 
-        Area Hasil Pencarian
+        {{-- Area Hasil Pencarian --}}
         <div class="mt-8">
             @if (isset($has_search) && $has_search)
                 {{-- saat ada pencarian --}}
