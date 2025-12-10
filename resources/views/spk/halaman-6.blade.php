@@ -39,8 +39,8 @@ Peraturan perundang-undangan.">
             <span>Materai 10.000 <br> <br>Tempel/Elektronik </span>
             <br><br><br><br>
 
-            {{-- <strong>{{ $result->nama }}</strong><br>
-            NIP. {{ $result->nip }} --}}
+            <strong>{{ $result->nama }}</strong><br>
+            NIP. {{ $result->nip }}
         </td>
 
         <td style="width: 50%; text-align: center;">

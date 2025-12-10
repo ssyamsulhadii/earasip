@@ -38,19 +38,19 @@
     <tr>
         <td rowspan="5" style="width: 25px; vertical-align: top;">2.</td>
         <td class="label">Nama</td>
-        {{-- <td>: <b>{{ $result->nama }}</b></td> --}}
+        <td>: <b>{{ $result->nama }}</b></td>
     </tr>
     <tr>
         <td class="label">Nomor Induk PPPK PW</td>
-        {{-- <td>: {{ $result->nip }}</td> --}}
+        <td>: {{ $result->nip }}</td>
     </tr>
     <tr>
-        <td class="label">Tempat & Tanggal Lahir</td>
-        <td>: . . . </td>
+        <td class="label">Tempat, Tanggal Lahir</td>
+        <td>: {{ $result->tempat_lahir }}, {{ $tanggal_lahir }}</td>
     </tr>
     <tr>
         <td class="label">Pendidikan</td>
-        {{-- <td>: {{ $result->pendidikan }}</td> --}}
+        <td>: {{ $result->pendidikan }}</td>
     </tr>
     <tr>
         <td class="label">Alamat</td>
@@ -83,15 +83,15 @@
     </tr>
     <tr>
         <td class="label">Jabatan</td>
-        {{-- <td>: {{ $user->jabatan }}</td> --}}
+        <td>: {{ $result->jabatan }}</td>
     </tr>
     <tr>
         <td class="label">Masa kerja sebelumnya</td>
-        {{-- <td>: 0 Bulan {{ $user->mks }} Tahun</td> --}}
+        <td>: 0 Bulan 0 Tahun</td>
     </tr>
     <tr>
         <td class="label">Unit Kerja</td>
-        {{-- <td>: {{ $user->unit_kerja }}</td> --}}
+        <td>: {{ $result->unit_kerja }}</td>
     </tr>
     <tr>
         <td class="label">Gaji / Upah</td>

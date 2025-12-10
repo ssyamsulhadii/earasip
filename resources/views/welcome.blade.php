@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P3I-BKPSDM | Production</title>
-    <!-- Memuat Tailwind CSS untuk styling responsif -->
+    Memuat Tailwind CSS untuk styling responsif
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script>
@@ -140,14 +140,14 @@
 
     <div class="max-w-4xl mx-auto">
 
-        <!-- Header Form Pencarian -->
+        Header Form Pencarian
         <header class="mb-8">
             <h1 class="text-3xl font-extrabold text-gray-900 border-b pb-2">Penarikan Data SK PPPK Paruh Waktu</h1>
             <p class="text-gray-500 mt-2">Cukup masukkan kata kunci <b>No Peserta</b> dan <b>NIK Peserta</b> untuk
                 menemukan data Anda.</p>
         </header>
 
-        <!-- Form Pencarian -->
+        Form Pencarian
         <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100">
             <form id="search-form" method="GET" action="{{ route('search') }}">
                 <div class="flex-grow">
@@ -187,7 +187,7 @@
             </form>
         </div>
 
-        <!-- Area Hasil Pencarian -->
+        Area Hasil Pencarian
         <div class="mt-8">
             @if (isset($has_search) && $has_search)
                 {{-- saat ada pencarian --}}
@@ -208,10 +208,10 @@
                                 class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">
                                 <i class="fas fa-download mr-1"></i> Download SPP
                             </a>
-                            {{-- <a href="{{ route('cetak.spk', ['no_peserta' => $result->username, 'nik' => $result->nik]) }}"
+                            <a href="{{ route('cetak.spk', ['no_peserta' => $result->username, 'nik' => $result->nik]) }}"
                                 target="_blank"
-                                class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">-->
-                                <i class="fas fa-download mr-1"></i> Cetak SPK</a> --}}
+                                class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">
+                                <i class="fas fa-download mr-1"></i> Cetak SPK</a>
                         </div>
 
                         {{-- CARD INFORMASI --}}
@@ -242,32 +242,30 @@
                     @endif
 
 
-                    <!--<form id="search-form" method="POST" action="{{ route('upload.spk') }}"-->
-                    <!--    enctype="multipart/form-data">-->
-                    <!--    @csrf-->
-                    <!--    <input type="hidden" value="{{ $result->username }}" name="nopeserta">-->
-                    <!--    <div class="flex-grow">-->
-                    <!--        <h3 class="mb-3">Upload SPK Yang sudah dit TTD dengan <b>Materai tempel/elektronik</b>-->
-                    <!--        </h3>-->
-                    <!--        <div class="relative mt-2">-->
-                    <!--            <input type="file" name="spk_final" value="{{ old('nik', request('nik')) }}"-->
-                    <!--                placeholder="NIK Peserta"-->
-                    <!--                class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150 text-gray-800">-->
+                    <form id="search-form" method="POST" action="{{ route('upload.spk') }}"
+                        enctype="multipart/form-data">
+                        @csrf
+                        <input type="hidden" value="{{ $result->username }}" name="nopeserta">
+                        <div class="flex-grow">
+                            <h3 class="mb-3">Upload SPK Yang sudah dit TTD dengan <b>Materai tempel/elektronik</b>
+                            </h3>
+                            <div class="relative mt-2">
+                                <input type="file" name="spk_final" value="{{ old('nik', request('nik')) }}"
+                                    placeholder="NIK Peserta"
+                                    class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-primary focus:border-primary transition duration-150 text-gray-800">
 
-                    <!--            @error('spk_final')
-    -->
-                        <!--                <p class="text-red-600 text-sm mt-1">{{ $message }}</p>-->
-                        <!--
-@enderror-->
-                    <!--        </div>-->
-                    <!--    </div>-->
+                                @error('spk_final')
+                                    <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                        </div>
 
-                    <!--    <div class="w-full md:w-auto mt-3">-->
-                    <!--        <button type="submit"-->
-                    <!--            class="w-full md:w-auto px-6 py-2 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition duration-150">Simpan-->
-                    <!--        </button>-->
-                    <!--    </div>-->
-                    <!--</form>-->
+                        <div class="w-full md:w-auto mt-3">
+                            <button type="submit"
+                                class="w-full md:w-auto px-6 py-2 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition duration-150">Simpan
+                            </button>
+                        </div>
+                    </form>
                 </div>
 
 

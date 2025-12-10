@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\User;
 use App\Services\ServicePdf;
+use DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -55,8 +56,11 @@ class DataController extends Controller
         if ($request->nik) {
             $query->where('nik', $request->nik);
         }
-        // $result = $query->first();
-        $html = view('spk.rinder')->render();
+        $result = $query->first();
+        $nip = $result->nip;
+        $tanggal_lahir = DateTime::createFromFormat('Ymd', substr($nip, 0, 8))
+                  ->format('d-m-Y');
+        $html = view('spk.rinder', ['result' => $result, 'tanggal_lahir' => $tanggal_lahir])->render();
 
         // $filename = $result->usernmae . '_SPKPW.pdf';
 

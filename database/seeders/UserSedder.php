@@ -2288,6 +2288,36 @@ class UserSedder extends Seeder
             ["24670130810000911", "6203011010710011", "ZULUDIN.HD"],
         ];
 
+$list = [
+    [
+        "PW24670130810000970",
+        "6203050504990003",
+        "199904052025211087",
+        "ANDRE SUNTOSO",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional"
+    ],
+    [
+        "PW24670130810000948",
+        "6203012303890005",
+        "198903232025211176",
+        "MARYADI",
+        "Kapuas",
+        "SMK BISNIS DAN MANAJEMEN",
+        "Operator Layanan Operasional"
+    ],
+    [
+        "PW24670130810000901",
+        "6203010101890030",
+        "198001012025211255",
+        "MUHAMMAD ARSYAD",
+        "Kapuas",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional"
+    ]
+];
+
         $data = [];
 
         foreach ($list as $row) {
@@ -2296,12 +2326,12 @@ class UserSedder extends Seeder
             $data[] = [
                 'username' => $username,
                 'nik' => $row[1],
-                'nama'     => $row[2],
                 'nip'     => $row[2],
-                'tempat_lahir'     => $row[2],
-                'pendidikan'     => $row[2],
-                'jabatan'     => $row[2],
-                'unit_kerja'     => $row[2],
+                'nama'     => $row[3],
+                'tempat_lahir'     => $row[4],
+                'pendidikan'     => $row[5],
+                'jabatan'     => $row[6],
+                'unit_kerja'     => "Abcd",
                 'created_at' => now(),
                 'updated_at' => now(),
             ];
