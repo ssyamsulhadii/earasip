@@ -98,7 +98,6 @@ class DataController extends Controller
 
 public function updateData() {
         $list_data = $this->getPegawaiData();
-        dd($list_data);
         DB::transaction(function () use ($list_data) {
             foreach ($list_data as $item) {
                 User::updateOrCreate(
