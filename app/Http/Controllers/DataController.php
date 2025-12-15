@@ -129,16 +129,6 @@ public function updateData() {
         return 
         [
     [
-        "nama_lengkap",
-        "no_peserta",
-        "nik",
-        "nip",
-        "tempat lahir",
-        "pendidikan",
-        "jabatan",
-        "unit_kerja"
-    ],
-    [
         "ANDRE SUNTOSO",
         "24670130810000970",
         "6203050504990003",
@@ -1229,7 +1219,7 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "AHMAD REFKA, S.Pd.",
+        "AHMAD REFKA, S.pd.I",
         "24670110810000278",
         "6203040506970002",
         "199706052025211126",
@@ -1329,7 +1319,7 @@ public function updateData() {
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
-        "AHMAD SAMSURI, S.Pd.",
+        "AHMAD SAMSURI, S.pd.I",
         "24670110810000220",
         "6203170202950001",
         "199502022025211130",
@@ -1509,7 +1499,7 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "ALFIAN NOOR, S.Pd.",
+        "ALFIAN NOOR, S.pd.I",
         "24670110810000161",
         "6203010709010006",
         "200109072025211037",
@@ -2009,7 +1999,7 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "ANTONY, S.Pd.",
+        "ANTONY, S.pd.I",
         "24670110810000277",
         "6203110606850002",
         "198502122025211139",
@@ -2309,7 +2299,7 @@ public function updateData() {
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "ARIADI, S.Pd.",
+        "ARIADI, S.pd.I",
         "24670110810000110",
         "6203032909990002",
         "199909292025211068",
@@ -2709,7 +2699,7 @@ public function updateData() {
         "UPT Puskesmas Panamas"
     ],
     [
-        "AULIA RAHMAH, S.Pd.",
+        "AULIA RAHMAH, S.pd.I",
         "24670110820000346",
         "6203014608950009",
         "199508062025212140",
@@ -2809,7 +2799,7 @@ public function updateData() {
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "AYU FITRIA, S.Pd.",
+        "AYU FITRIA, S.pd.I",
         "24670110820000555",
         "6202084712000001",
         "200012072025212061",
@@ -2909,7 +2899,7 @@ public function updateData() {
         "SD Negeri 1 Sidomulyo"
     ],
     [
-        "AZHAR AYUNI, S.Pd.",
+        "AZHAR AYUNI, S.pd.I",
         "24670110820000590",
         "3501084110990001",
         "199910022025212089",
@@ -3069,7 +3059,7 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "BAMBANG IRAWAN, S.Pd.",
+        "BAMBANG IRAWAN, S.pd.I",
         "24670110810000281",
         "6203010808930004",
         "199308082025211147",
@@ -3759,7 +3749,7 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "DAVID AKBAR NOGROHO, S.Pd.",
+        "DAVID AKBAR NOGROHO, S.pd.I",
         "24670110810000288",
         "6203032510000003",
         "200010252025211062",
@@ -4319,7 +4309,7 @@ public function updateData() {
         "Kelurahan Selat Utara"
     ],
     [
-        "DEWI NUR UTAMI, S.Pd.",
+        "DEWI NUR UTAMI, S.pd.I",
         "24670130820000663",
         "6203096802960001",
         "199602282025212114",
@@ -4552,7 +4542,7 @@ public function updateData() {
         "DIYAH AFSARI, S.Pd",
         "24670110820000371",
         "6203096809880001",
-        "Belum ada nip",
+        "198809282025212101",
         "Kapuas",
         "S-1 PENDIDIDKAN OLAH RAGA DAN KESEHATAN",
         "Guru Ahli Pertama",
@@ -5709,7 +5699,7 @@ public function updateData() {
         "SD Negeri 1 Sriwidadi"
     ],
     [
-        "FAHRINA HIKMAH, S.Pd.",
+        "FAHRINA HIKMAH, S.pd.I",
         "24670110820000712",
         "6203016102010005",
         "200102212025212045",
@@ -7379,7 +7369,7 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "HENNIE ANANDA, S.Pd.",
+        "HENNIE ANANDA, S.pd.I",
         "24670110820000456",
         "6304054208010001",
         "200108022025212031",
@@ -7559,7 +7549,7 @@ public function updateData() {
         "SD Negeri 1 Pulau Mambulau"
     ],
     [
-        "HERLINA, S.Pd.",
+        "HERLINA, S.pd.I",
         "24670130820000561",
         "6271034708840003",
         "198408072025212097",
@@ -7919,7 +7909,7 @@ public function updateData() {
         "SD Negeri 1 Sari Makmur"
     ],
     [
-        "I KOMANG RATNE, S.Pd.",
+        "I KOMANG RATNE, S.pd.I",
         "24670110810000123",
         "6203080309930003",
         "199309212025211127",
@@ -8339,7 +8329,7 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "IMELDA YUNITA, S.Pd.",
+        "IMELDA YUNITA, S.pd.I",
         "24670110820000635",
         "6203054706010001",
         "200106072025212041",
@@ -9429,7 +9419,7 @@ public function updateData() {
         "SMP Negeri 3 Kapuas Kuala Satu Atap"
     ],
     [
-        "JUMIATI, S.Pd.",
+        "JUMIATI, S.pd.I",
         "24670110820000448",
         "6203055607990006",
         "199907162025212090",
@@ -9809,7 +9799,7 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "KORIANTO, S.Pd.",
+        "KORIANTO, S.pd.I",
         "24670110810000155",
         "6203091510000002",
         "200010152025211050",
@@ -9929,7 +9919,7 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "KUMALA SARI, S.Pd.",
+        "KUMALA SARI, S.pd.I",
         "24670130820000295",
         "6203016912930005",
         "199312292025212135",
@@ -11219,7 +11209,7 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MARLIANI, S.Pd.",
+        "MARLIANI, S.pd.I",
         "24670110820000578",
         "6203135009680001",
         "196809102025212018",
@@ -12029,7 +12019,7 @@ public function updateData() {
         "SD Negeri 1 Hurung Tampang"
     ],
     [
-        "MITA, S.Pd.",
+        "MITA, S.pd.I",
         "24670110820000729",
         "6203104204990001",
         "199904022025212100",
@@ -12069,7 +12059,7 @@ public function updateData() {
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
     [
-        "MOH. ANDI, S.Pd.",
+        "MOH. ANDI, S.pd.I",
         "24670110810000215",
         "6303080107960249",
         "199607012025211139",
@@ -12629,7 +12619,7 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "MUHAMMAD JASMI MUZAIN, S.Pd.",
+        "MUHAMMAD JASMI MUZAIN, S.pd.I",
         "24670110810000162",
         "6203011301020002",
         "200201132025211023",
@@ -12749,7 +12739,7 @@ public function updateData() {
         "Dinas Perumahan, Kawasan Permukiman, dan Pertanahan"
     ],
     [
-        "MUHAMMAD RIDHO ANSHARI, S.Pd.",
+        "MUHAMMAD RIDHO ANSHARI, S.pd.I",
         "24670110810000074",
         "6203012501020006",
         "200201252025211012",
@@ -13259,7 +13249,7 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "NADIA PEGA, S.Pd.",
+        "NADIA PEGA, S.pd.I",
         "24670110820000496",
         "6203076612000004",
         "200012262025212066",
@@ -13499,7 +13489,7 @@ public function updateData() {
         "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
     [
-        "NI NYOMAN MARDIANGSIH, S.Pd.",
+        "NI NYOMAN MARDIANGSIH, S.pd.I",
         "24670110820000679",
         "6203015502000002",
         "200002152025212074",
@@ -15259,7 +15249,7 @@ public function updateData() {
         "UPT Puskesmas Talekung Punai"
     ],
     [
-        "PUSPITA SARI, S.Pd.",
+        "PUSPITA SARI, S.pd.I",
         "24670110820000761",
         "6271016503900002",
         "199003252025212120",
@@ -15549,7 +15539,7 @@ public function updateData() {
         "SMP Negeri 1 Kapuas Tengah"
     ],
     [
-        "RAHMAN WAHYUDI, S.Pd.",
+        "RAHMAN WAHYUDI, S.pd.I",
         "24670110810000181",
         "6304061707900003",
         "199007172025211195",
@@ -16469,7 +16459,7 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "RIANA ANGGRAINI, S.Pd.",
+        "RIANA ANGGRAINI, S.pd.I",
         "24670110820000634",
         "6203044110970004",
         "199710012025212153",
@@ -17329,7 +17319,7 @@ public function updateData() {
         "Bidang Pembinaan Ketenagaan"
     ],
     [
-        "ROBBY HARTONO, S.Pd.",
+        "ROBBY HARTONO, S.pd.I",
         "24670110810000184",
         "6203093011970004",
         "199712302025211059",
@@ -17379,7 +17369,7 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ROBINTANG MAHARANI BAKKARA, S.Pd.",
+        "ROBINTANG MAHARANI BAKKARA, S.pd.I",
         "24670110820000609",
         "1208164707000001",
         "200007072025212079",
@@ -17929,7 +17919,7 @@ public function updateData() {
         "SD Negeri 1 Teluk Hiri"
     ],
     [
-        "SALMA SAFITRI, S.pd.",
+        "SALMA SAFITRI, S.pd.I",
         "24670110820000328",
         "6203016910020002",
         "200210292025212015",
@@ -18049,10 +18039,10 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "MADE CLARA SEPTIANA, S.Pd.",
+        "MADE CLARA SEPTIANA, S.Pd",
         "24670110820000619",
         "6203084409960001",
-        "Belum ada nip",
+        "199609042025212120",
         "Kapuas",
         "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
@@ -18579,7 +18569,7 @@ public function updateData() {
         "Badan Pendapatan Daerah"
     ],
     [
-        "SHELVIA HENDRIANI AS, S.Pd.",
+        "SHELVIA HENDRIANI AS, S.pd.I",
         "24670110820000374",
         "6203036605020001",
         "200205262025212025",
@@ -18889,7 +18879,7 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SITI KAMARIAH, S.Pd.",
+        "SITI KAMARIAH, S.pd.I",
         "24670130820000070",
         "6203015510900004",
         "199010152025212173",
@@ -19119,7 +19109,7 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "SOVIA RAHMAH RUSITA, S.Pd.",
+        "SOVIA RAHMAH RUSITA, S.pd.I",
         "24670110820000739",
         "6203094208990001",
         "199908022025212097",
@@ -19619,7 +19609,7 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "SULISTIA RAHMAH, S.Pd.",
+        "SULISTIA RAHMAH, S.pd.I",
         "24670110820000531",
         "6371034602000008",
         "200002062025212055",
@@ -19699,7 +19689,7 @@ public function updateData() {
         "UPT Puskesmas Melati"
     ],
     [
-        "SUNARTI ANGGRAINI, S.Pd.",
+        "SUNARTI ANGGRAINI, S.pd.I",
         "24670110820000300",
         "6203045506930004",
         "199306152025212173",
@@ -19959,7 +19949,7 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "SUSANDRI BERKAT HAWINI, S.Pd.",
+        "SUSANDRI BERKAT HAWINI, S.pd.I",
         "24670110820000562",
         "6213056009960002",
         "199609202025212131",
@@ -20179,7 +20169,7 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "SYAHRUDIN NOOR, S.Pd.",
+        "SYAHRUDIN NOOR, S.pd.I",
         "24670110810000189",
         "6203052408930003",
         "199308242025211102",
@@ -20869,7 +20859,7 @@ public function updateData() {
         "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
-        "UTOMO SAPUTRA, S.Pd.",
+        "UTOMO SAPUTRA, S.pd.I",
         "24670130810000500",
         "6203012810860002",
         "198610282025211147",
@@ -20899,7 +20889,7 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "VELIA HAYATI, S.Pd.",
+        "VELIA HAYATI, S.pd.I",
         "24670110820000597",
         "3209176106990008",
         "199906212025212094",
@@ -21019,7 +21009,7 @@ public function updateData() {
         "SMP Negeri 2 Mantangai"
     ],
     [
-        "VIRLIANA KHAIRUNNISA, S.Pd.",
+        "VIRLIANA KHAIRUNNISA, S.pd.I",
         "24670110820000382",
         "6203065610970002",
         "199710162025212130",
@@ -21549,7 +21539,7 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "WIWIN MEIKA SINTA, S.Pd.",
+        "WIWIN MEIKA SINTA, S.pd.I",
         "24670110820000317",
         "6211056705960003",
         "199605272025212139",
@@ -22019,7 +22009,7 @@ public function updateData() {
         "Kelurahan Selat Tengah"
     ],
     [
-        "YUHESTI, S.Pd.",
+        "YUHESTI, S.pd.I",
         "24670110820000755",
         "6203045704990002",
         "199904172025212084",
@@ -22039,7 +22029,7 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "YULANDA RISWAN, S.Pd.",
+        "YULANDA RISWAN, S.pd.I",
         "24670110810000127",
         "6203042110990002",
         "199910212025211072",
@@ -22059,7 +22049,7 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "YULI MARIANA, S.Pd.",
+        "YULI MARIANA, S.pd.I",
         "24670110820000535",
         "6271016404860007",
         "198604242025212135",
@@ -22359,7 +22349,7 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "YUNI MAULITA SARI, S.Pd.",
+        "YUNI MAULITA SARI, S.pd.I",
         "24670110820000376",
         "6203055806010002",
         "200106182025212038",
@@ -22479,7 +22469,7 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "YUTINAH, S.Pd.",
+        "YUTINAH, S.pd.I",
         "24670110820000402",
         "6203115207870002",
         "198607122025212124",
@@ -22769,7 +22759,7 @@ public function updateData() {
         "SD NEGERI 1 BASUTA RAYA"
     ],
     [
-        "MUHAMMAD FADHILAH, S.Pd.",
+        "MUHAMMAD FADHILAH, S.pd.I",
         "24670110810000133",
         "6203032912020001",
         "200212292025211016",
@@ -22782,17 +22772,17 @@ public function updateData() {
         "SINTA WULANDARI, S.Pd",
         "24670110820000410",
         "6211026905010004",
-        "Belum ada nip",
+        "200002222025212089",
         "Pulang Pisau",
         "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
         "Guru Ahli Pertama",
         "SD NEGERI 1 TERUSAN RAYA HULU"
     ],
     [
-        "SOPIA, S.Pd.",
+        "SOPIA, S.pd.I",
         "24670110820000428",
         "6203047105990001",
-        "Belum ada nip",
+        "199905312025212085",
         "Kapuas",
         "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
         "Guru Ahli Pertama",
