@@ -129,12 +129,22 @@ public function updateData() {
         return 
         [
     [
+        "nama_lengkap",
+        "no_peserta",
+        "nik",
+        "nip",
+        "tempat lahir",
+        "pendidikan",
+        "jabatan",
+        "unit_kerja"
+    ],
+    [
         "ANDRE SUNTOSO",
         "24670130810000970",
         "6203050504990003",
         "199904052025211087",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -149,12 +159,12 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MUHAMMAD ARSYAD",
-        "24670130810000901",
-        "6203010101800030",
-        "198001012025211255",
+        "ABDUL SAHID",
+        "24670130810000891",
+        "6203012912690001",
+        "196911292025211022",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "SMEA KEUANGAN",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -164,7 +174,7 @@ public function updateData() {
         "6203071203000001",
         "200003122025211050",
         "Banjarbaru",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Palingkau Baru"
     ],
@@ -179,13 +189,13 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "RUSDIAN NUR",
-        "24670130810000535",
-        "6203011712750003",
-        "197512172025211041",
-        "Kapuas",
-        "SEKOLAH MENENGAH UMUM TINGKAT PERTAMA",
-        "Pengelola Umum Operasional",
+        "BUDIYATI",
+        "24670130820000503",
+        "6203015604690006",
+        "196904162025212008",
+        "Temanggung",
+        "MADRASAH ALIYAH",
+        "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
@@ -204,7 +214,7 @@ public function updateData() {
         "6203010303940009",
         "199503032025211133",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -244,19 +254,19 @@ public function updateData() {
         "6203015212810007",
         "198112122025212081",
         "Kapuas",
-        "S-1",
+        "S-1 ADMINSTRASI PUBLIK",
         "Penata Layanan Operasional",
         "Badan Kesatuan Bangsa dan Politik"
     ],
     [
-        "ABAU",
-        "24670130810000378",
-        "6203021907720004",
-        "197207192025211030",
-        "Kapuas",
-        "SEKOLAH TEKNOLOGI MENENGAH",
+        "HARTOYO",
+        "24670130810000326",
+        "6203010701690006",
+        "196901072025211028",
+        "Ngawi",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Mandau Talawang"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "ABDI IRIANTO WIBOWO",
@@ -269,22 +279,22 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ABDILLAH",
-        "24670130810000751",
-        "6203011007720007",
-        "197207102025211068",
+        "HENDRI",
+        "24670130810000486",
+        "6203010404660013",
+        "196901242025211016",
         "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "SMA ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Transmigrasi dan Tenaga Kerja"
+        "Dinas Kearsipan dan Perpustakaan"
     ],
     [
-        "ABDUL AZIZ",
-        "24670130810000662",
-        "6203011110780005",
-        "197810112025211056",
+        "ICUN I. DAMIS",
+        "24670130810000896",
+        "6203021304690001",
+        "196904132025211026",
         "Kapuas",
-        "MADRASAH ALIYAH NEGERI IPS",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -299,14 +309,14 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "ABDUL BASID, S.Pd",
-        "24670110810000256",
-        "6303052308760008",
-        "197608222025211043",
-        "Banjar",
-        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD Negeri 1 Lupak Dalam"
+        "ISKANDAR",
+        "24670130810001042",
+        "6203052306690001",
+        "196906232025211020",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Kecamatan Kapuas Barat"
     ],
     [
         "ABDUL GANI, S.Pi",
@@ -319,24 +329,24 @@ public function updateData() {
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "ABDUL HADI",
-        "24670130810000888",
-        "6203062406710003",
-        "197106242025211023",
-        "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "KORNELIUS",
+        "24670130810000579",
+        "6203011206690011",
+        "196906122025211051",
+        "Bengkulu",
+        "SMA ILMU ILMU BIOLOGI",
         "Operator Layanan Operasional",
-        "Kecamatan Pulau Petak"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ABDUL HAKIM",
-        "24670130810000671",
-        "6203010202770011",
-        "198007052025211166",
+        "LAMRI",
+        "24670130810000463",
+        "6203011605690001",
+        "196905162025211024",
         "Kapuas",
         "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Kelurahan Murung Keramat"
+        "Dinas Pendidikan"
     ],
     [
         "ABDUL HAMID",
@@ -349,14 +359,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "ABDUL HAMID",
-        "24670130810000218",
-        "6203010911740006",
-        "197411092025211038",
+        "LEMBAI",
+        "24670130820000473",
+        "6203104506690002",
+        "196906052025212019",
         "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pemberdayaan Masyarakat dan Desa"
+        "Dinas Pendidikan"
     ],
     [
         "ABDUL KADIR",
@@ -364,7 +374,7 @@ public function updateData() {
         "6271030505810015",
         "199105052025211235",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -389,14 +399,14 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "ABDUL SAHID",
-        "24670130810000891",
-        "6203012912690001",
-        "196911292025211022",
-        "Kapuas",
-        "SMEA KEUANGAN",
+        "MARANTUTI",
+        "24670130820000637",
+        "6203096011690002",
+        "196911202025212016",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "ABDUL SAID, S.Kom",
@@ -414,7 +424,7 @@ public function updateData() {
         "6203082408880002",
         "198808242025211129",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Basarang"
     ],
@@ -424,19 +434,19 @@ public function updateData() {
         "6203012808880014",
         "198808272025211127",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ABDUL SYAHID",
-        "24670130810000837",
-        "6203070302700005",
-        "197002032025211047",
-        "Barito Kuala",
-        "SLTA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "NENENG LITALIE, S.Hut",
+        "24670110820000462",
+        "6203105009690003",
+        "196909102025212020",
+        "Kapuas",
+        "S-1 KEHUTANAN",
+        "Guru Ahli Pertama",
+        "SMP Negeri 1 Timpah"
     ],
     [
         "ABDULLAH",
@@ -444,7 +454,7 @@ public function updateData() {
         "6203011402940005",
         "199402142025211133",
         "Hulu Sungai Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -454,7 +464,7 @@ public function updateData() {
         "6203012207000006",
         "200007222025211046",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -469,14 +479,14 @@ public function updateData() {
         "SD NEGERI 1 BANGUN HARJO"
     ],
     [
-        "ABU MARWAN",
-        "24670130810000861",
-        "6203011205750011",
-        "197505122025211095",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "NGATMINASIH",
+        "24670130820000301",
+        "6203016908690004",
+        "196908292025212010",
+        "Jember",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Pendidikan"
     ],
     [
         "ABU YAZID",
@@ -484,7 +494,7 @@ public function updateData() {
         "6203010505930009",
         "199305052025211220",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -494,7 +504,7 @@ public function updateData() {
         "6203010205980003",
         "199805022025211103",
         "Surabaya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -534,7 +544,7 @@ public function updateData() {
         "3308102304830002",
         "198304232025211097",
         "Magelang",
-        "SLTP\/SMP SEDERAJAT",
+        "SLTP/SMP SEDERAJAT",
         "Pengelola Umum Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -564,7 +574,7 @@ public function updateData() {
         "6213012606860001",
         "198606262025211200",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Dadahup"
     ],
@@ -594,7 +604,7 @@ public function updateData() {
         "6203014211880009",
         "198811022025212095",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -614,7 +624,7 @@ public function updateData() {
         "6271031804930004",
         "199304182025211128",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -674,7 +684,7 @@ public function updateData() {
         "6203030309900005",
         "199009032025211124",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN BAHASA INGGRIS",
+        "S-1/A-IV PENDIDIKAN BAHASA INGGRIS",
         "Guru Ahli Pertama",
         "SD Negeri 1 Anjir Serapat Timur"
     ],
@@ -689,14 +699,14 @@ public function updateData() {
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
-        "ADJI ANDI ALFIAN",
-        "24670130810000603",
-        "6203011606780001",
-        "197806162025211079",
-        "Kutai Kartanegara",
-        "SEKOLAH MENENGAH ATAS",
+        "PRIANTO YANTINO",
+        "24670130810000580",
+        "6371052209690003",
+        "196909222025211021",
+        "Barito Timur",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "ADJINOR OCTAVIA",
@@ -754,7 +764,7 @@ public function updateData() {
         "6203012110990009",
         "199910212025211070",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Gudang Farmasi Kesehatan"
     ],
@@ -774,7 +784,7 @@ public function updateData() {
         "6203016703850008",
         "198503272025212083",
         "Bima",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -789,14 +799,14 @@ public function updateData() {
         "UPT Puskesmas Timpah"
     ],
     [
-        "AGMON ANUGERAH MANGORE, S.Pd",
-        "24670110810000210",
-        "6203073008720004",
-        "197208302025211024",
-        "Kepulauan Talaud",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
-        "Guru Ahli Pertama",
-        "SD Negeri 5 Selat Hilir"
+        "SEKO WINARNO",
+        "24670130810001029",
+        "6203100704690002",
+        "196904072025211041",
+        "Kapuas",
+        "D-I IPS",
+        "Operator Layanan Operasional",
+        "Kecamatan Timpah"
     ],
     [
         "AGUNG ADHITAMA",
@@ -819,14 +829,14 @@ public function updateData() {
         "Dinas Pemberdayaan Perempuan, Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana"
     ],
     [
-        "AGUS FITHRY",
-        "24670130810000030",
-        "6203012408790005",
-        "197908242025211063",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SITI MUSYAROPAH",
+        "24670130820000604",
+        "6203044403690004",
+        "196903042025212012",
+        "Jember",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Pemberdayaan Masyarakat dan Desa"
+        "Dinas Pendidikan"
     ],
     [
         "AGUS IRAWAN",
@@ -834,7 +844,7 @@ public function updateData() {
         "6203020808930001",
         "199308082025211142",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -859,14 +869,14 @@ public function updateData() {
         "SMP Negeri 4 Kapuas Tengah Satu Atap"
     ],
     [
-        "AGUS NADI",
-        "24670130810000652",
-        "6203013008730001",
-        "197308302025211042",
-        "Kapuas",
-        "SLTA",
+        "SRI SUSANTI",
+        "24670130820000478",
+        "6203016912690003",
+        "196912292025212013",
+        "Barito Utara",
+        "SMEA",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kesehatan"
     ],
     [
         "AGUS PRIANTO",
@@ -879,24 +889,24 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "AGUS SALIM",
-        "24670130810000782",
-        "6203012711780007",
-        "197811272025211049",
+        "TRIS VENTILOWATI",
+        "24670130820000462",
+        "6203016810690003",
+        "196910282025212010",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "SMA ILMU ILMU SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "AGUS SALIM",
-        "24670130810000522",
-        "3674040506740005",
-        "197406052025211099",
-        "Jakarta Selatan",
-        "SMA A.2\/BIOLOGI",
+        "YUSUA",
+        "24670130810000583",
+        "6203011605690002",
+        "196905162025211023",
+        "Kapuas",
+        "SMA ILMU ILMU BIOLOGI",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "AGUS SAMSIANOR",
@@ -904,19 +914,19 @@ public function updateData() {
         "6203010208820002",
         "198208262025211096",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "AGUS TIMBANG, SE",
-        "24670130810000175",
-        "6203011008720005",
-        "197208102025211079",
-        "Kapuas",
-        "S-1 MANAJEMEN",
-        "Penata Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "ABDUL SYAHID",
+        "24670130810000837",
+        "6203070302700005",
+        "197002032025211047",
+        "Barito Kuala",
+        "SLTA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "AGUS WIDODO",
@@ -934,7 +944,7 @@ public function updateData() {
         "6203011004000005",
         "200004102025211065",
         "Kapuas",
-        "S-1",
+        "D-III MANAJEMEN TRANSPORTASI",
         "Pengelola Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -959,14 +969,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "AGUSTINA MALINDA",
-        "24670130820000166",
-        "6203017108770005",
-        "197708312025212029",
-        "Hulu Sungai Selatan",
-        "SLTA SEDERAJAT",
+        "ATIE",
+        "24670130820000614",
+        "6203027108720002",
+        "197008312025212010",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Pendidikan"
     ],
     [
         "AGUSTINUS, S.Pd",
@@ -989,14 +999,14 @@ public function updateData() {
         "Dinas Perhubungan"
     ],
     [
-        "AHMAD",
-        "24670130810000992",
-        "6203012702780003",
-        "197802272025211039",
+        "DEWI",
+        "24670130820000340",
+        "6203095108710002",
+        "197008112025212014",
         "Kapuas",
-        "SMP PAKET B",
-        "Pengelola Umum Operasional",
-        "Dinas Perhubungan"
+        "SMA PAKET C",
+        "Operator Layanan Operasional",
+        "UPT Puskesmas Mantangai"
     ],
     [
         "AHMAD ANHAR FAUJI",
@@ -1014,7 +1024,7 @@ public function updateData() {
         "6203016704000001",
         "200004272025212060",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -1034,7 +1044,7 @@ public function updateData() {
         "6203010701860008",
         "198601082025211113",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -1044,7 +1054,7 @@ public function updateData() {
         "6203041908950002",
         "199508192025211117",
         "Kapuas",
-        "S-1",
+        "S-1 BIMBINGAN DAN KONSELING PENDIDIKAN ISLAM",
         "Guru Ahli Pertama",
         "SMP NEGERI 2 TAMBAN CATUR"
     ],
@@ -1084,7 +1094,7 @@ public function updateData() {
         "6203022201870002",
         "198701222025211089",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -1109,14 +1119,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "AHMAD IWANSYAH",
-        "24670130810000636",
-        "6203012510790011",
-        "197910252025211066",
-        "Banjarmasin",
-        "SMK",
+        "MARIYATI",
+        "24670130820000475",
+        "6203014503700015",
+        "197003052025212010",
+        "Kapuas",
+        "SMEA",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "AHMAD JAMALIANSYAH",
@@ -1129,14 +1139,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "AHMAD KURNIA",
-        "24670130810000480",
-        "6203012210790002",
-        "197910222025211047",
-        "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
+        "MURJANI",
+        "24670130810000761",
+        "6271031010700012",
+        "197010102025211064",
+        "Barito Kuala",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
         "AHMAD KUSMADI",
@@ -1144,7 +1154,7 @@ public function updateData() {
         "6203012310950003",
         "199510232025211095",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -1154,7 +1164,7 @@ public function updateData() {
         "6203012410000005",
         "200010242025211036",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -1174,7 +1184,7 @@ public function updateData() {
         "6203022701000004",
         "200001272025211047",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -1214,7 +1224,7 @@ public function updateData() {
         "6203071405970004",
         "199705142025211094",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -1224,7 +1234,7 @@ public function updateData() {
         "6203040506970002",
         "199706052025211126",
         "Kapuas",
-        "S-1",
+        "S-1 PENDIDIKAN SEJARAH",
         "Guru Ahli Pertama",
         "SD Negeri 1 Simpang Bunga Tanjung"
     ],
@@ -1264,7 +1274,7 @@ public function updateData() {
         "6203011406890004",
         "198906142025211154",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -1274,7 +1284,7 @@ public function updateData() {
         "6203011011990012",
         "199911102025211095",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Gudang Farmasi Kesehatan"
     ],
@@ -1284,7 +1294,7 @@ public function updateData() {
         "6203012306000002",
         "200006232025211058",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -1314,7 +1324,7 @@ public function updateData() {
         "6203012002980011",
         "199802202025211091",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -1349,14 +1359,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "AHMAD YANI",
-        "24670130810000979",
-        "6203011909750005",
-        "197505192025211062",
-        "Tabalong",
-        "KPG PAKET C",
+        "NORAINAH",
+        "24670130820000649",
+        "6203094704700004",
+        "197004072025212007",
+        "Kapuas",
+        "STM BANGUNAN",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "AHMAD YANI",
@@ -1389,14 +1399,14 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "AHMADI",
-        "24670130810000646",
-        "6203090308750002",
-        "197508032025211061",
+        "NURA WARNIE",
+        "24670130820000564",
+        "6203026505700003",
+        "197005252025212018",
         "Kapuas",
-        "SLTA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Pendidikan"
     ],
     [
         "AHMADI, S.Pd",
@@ -1424,7 +1434,7 @@ public function updateData() {
         "6203030203870002",
         "198703022025211151",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -1444,7 +1454,7 @@ public function updateData() {
         "6203011406830003",
         "198306142025211116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Inspektorat"
     ],
@@ -1474,7 +1484,7 @@ public function updateData() {
         "6106220604830001",
         "198304062025211135",
         "Kapuas Hulu",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -1494,7 +1504,7 @@ public function updateData() {
         "6203022911960002",
         "199611292025211106",
         "Kapuas",
-        "S-1",
+        "S-1 ADMINSTRASI PUBLIK",
         "Penata Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -1524,7 +1534,7 @@ public function updateData() {
         "6203022508820001",
         "198208252025211105",
         "Rote Ndao",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -1534,7 +1544,7 @@ public function updateData() {
         "6203011804840001",
         "198404182025211140",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -1604,7 +1614,7 @@ public function updateData() {
         "6203015210840012",
         "198410122025212074",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
     ],
@@ -1649,14 +1659,14 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "ANANG AMINUDDIN, S.Pd",
-        "24670110810000173",
-        "6271031709800006",
-        "198009172025211074",
-        "Jombang",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 TERUSAN MAKMUR"
+        "REINHARD SEPTADI",
+        "24670130810000155",
+        "6203012109700002",
+        "197009212025211033",
+        "Banjarmasin",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Badan Pendapatan Daerah"
     ],
     [
         "ANANG MA'RUF, S.Pd",
@@ -1679,24 +1689,24 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ANDI ANANIAS, S.AP",
-        "24670130810000147",
-        "6203020807760002",
-        "197607082025211053",
-        "Kapuas",
-        "S-1",
-        "Penata Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "SRI MULATSIH",
+        "24670130820000588",
+        "6371036005700008",
+        "197005202025212021",
+        "Blora",
+        "SEKOLAH MENENGAH KESEJAHTRAAN KELUARGA",
+        "Operator Layanan Operasional",
+        "Dinas Sosial"
     ],
     [
-        "ANDI FAHRUDIN",
-        "24670130810000771",
-        "6203011605750004",
-        "197505162025211090",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SRI MULYAHASANAH",
+        "24670130820000457",
+        "6471046706700004",
+        "197006272025212010",
+        "Barito Utara",
+        "SMA ILMU ILMU SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "Dinas Sosial"
     ],
     [
         "ANDI FRINATA M. SUJAT, A.Md.Kep",
@@ -1734,7 +1744,7 @@ public function updateData() {
         "6203022404870002",
         "198704242025211174",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -1754,7 +1764,7 @@ public function updateData() {
         "6204014409000004",
         "200009042025212057",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -1794,7 +1804,7 @@ public function updateData() {
         "6203012410960003",
         "199610242025211104",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Pendapatan Daerah"
     ],
@@ -1804,7 +1814,7 @@ public function updateData() {
         "6203012510970002",
         "199710252025211073",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -1844,7 +1854,7 @@ public function updateData() {
         "6203013008890002",
         "199108302025211116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -1864,7 +1874,7 @@ public function updateData() {
         "6203016512970008",
         "199712252025212111",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -1879,14 +1889,14 @@ public function updateData() {
         "Bidang Pembinaan Ketenagaan"
     ],
     [
-        "ANITA",
-        "24670130820000587",
-        "6203016908720002",
-        "197208292025212009",
-        "Kapuas",
-        "SLTA PENDIDIKAN GURU AGAMA KRISTEN PROTESTAN",
-        "Operator Layanan Operasional",
-        "Dinas Sosial"
+        "SUTER, S.Sos.",
+        "24670130810000053",
+        "6203050704700001",
+        "197004072025211034",
+        "Kotawaringin Timur",
+        "S-1 ADMINITRASI NEGARA",
+        "Penata Layanan Operasional",
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "ANITA RAHMAN, S.Pd",
@@ -1914,7 +1924,7 @@ public function updateData() {
         "6203021803810002",
         "198103182025211074",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -1944,7 +1954,7 @@ public function updateData() {
         "6203026706880001",
         "198806272025212118",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Perhubungan"
     ],
@@ -1954,7 +1964,7 @@ public function updateData() {
         "6203014105810010",
         "198105012025212049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -1969,14 +1979,14 @@ public function updateData() {
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "ANSARI SUBHAN",
-        "24670130810000157",
-        "6203011110710007",
-        "197110112025211036",
-        "Banjarmasin",
-        "SEKOLAH MENENGAH ATAS",
+        "TETI HARIYATI",
+        "24670130820000012",
+        "6203076308700002",
+        "197008232025212009",
+        "Kapuas",
+        "SMKK BUSANA",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "ANSHARI",
@@ -1984,7 +1994,7 @@ public function updateData() {
         "6203011612850004",
         "198512162025211087",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -2034,7 +2044,7 @@ public function updateData() {
         "6203022508860003",
         "198608252025211121",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -2044,19 +2054,19 @@ public function updateData() {
         "6271030504900007",
         "199004052025211151",
         "Gunung Mas",
-        "S-1\/A-IV PENDIDIKAN BIOLOGI",
+        "S-1/A-IV PENDIDIKAN BIOLOGI",
         "Guru Ahli Pertama",
         "SD Negeri 1 Balai Banjang"
     ],
     [
-        "APRI YOKO",
-        "24670130810000850",
-        "6203050104780003",
-        "197804012025211087",
-        "Palangka Raya",
-        "SMU",
+        "WARTINI",
+        "24670130820000659",
+        "6210056210700002",
+        "197010222025212005",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "APRIANI",
@@ -2094,7 +2104,7 @@ public function updateData() {
         "6203024404980002",
         "199604062025211145",
         "Gunung Mas",
-        "S-1",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
         "SD Negeri 1 Danau Pantau"
     ],
@@ -2116,15 +2126,15 @@ public function updateData() {
         "Kapuas",
         "SMA PAKET C",
         "Operator Layanan Operasional",
-        "0"
+        "Dinas Pendidikan"
     ],
     [
-        "APRINENSI",
-        "24670130820000651",
-        "6203105204730001",
-        "197304122025212030",
+        "WAWAN",
+        "24670130810000338",
+        "6203071505700003",
+        "197005152025211061",
         "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
+        "SMA IPS",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -2136,7 +2146,7 @@ public function updateData() {
         "Kapuas",
         "SMA IPS",
         "Operator Layanan Operasional",
-        "0"
+        "Dinas Pendidikan"
     ],
     [
         "APRIYANTI, S.E.",
@@ -2159,14 +2169,14 @@ public function updateData() {
         "UPT Puskesmas Pulau Telo"
     ],
     [
-        "ARBAINAH",
-        "24670130820000468",
-        "6203014101800014",
-        "198001012025212149",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "WAWAN KUSWANDA",
+        "24670130810000575",
+        "6203012004700004",
+        "197004202025211050",
+        "Kapuas",
+        "SMEA PERDAGANGAN",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "ARBAINAH",
@@ -2184,7 +2194,7 @@ public function updateData() {
         "6203012711820004",
         "198211272025211077",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kesehatan"
     ],
@@ -2214,19 +2224,19 @@ public function updateData() {
         "6203013006840001",
         "198406302025211105",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ARDIANSYAH",
-        "24670130810000758",
-        "6203011705780001",
-        "197805172025211072",
+        "ABDUL HADI",
+        "24670130810000888",
+        "6203062406710003",
+        "197106242025211023",
         "Kapuas",
-        "SMK AKUNTANSI DAN KEUANGAN",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Kecamatan Pulau Petak"
     ],
     [
         "ARDIANSYAH BUDIARGOY",
@@ -2234,7 +2244,7 @@ public function updateData() {
         "6371011606900006",
         "199006162025211176",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Dahirang"
     ],
@@ -2269,12 +2279,12 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "ARI NAHAN",
-        "24670130810000122",
-        "6371050404740005",
-        "197404042025211103",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "ANSARI SUBHAN",
+        "24670130810000157",
+        "6203011110710007",
+        "197110112025211036",
+        "Banjarmasin",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -2294,7 +2304,7 @@ public function updateData() {
         "6203012809900003",
         "199009282025211106",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
@@ -2324,7 +2334,7 @@ public function updateData() {
         "6203031105960004",
         "199505112025211126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Sei Pasah"
     ],
@@ -2334,7 +2344,7 @@ public function updateData() {
         "6211030109940001",
         "199409012025211134",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -2429,14 +2439,14 @@ public function updateData() {
         "Badan Penanggulangan Bencana Daerah"
     ],
     [
-        "ARIPIN",
-        "24670130810000502",
-        "6203010305780012",
-        "197805032025211083",
+        "DEDAE",
+        "24670130810000655",
+        "6203101908710002",
+        "197108192025211045",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMA PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Kesehatan"
+        "Kecamatan Timpah"
     ],
     [
         "ARISADI",
@@ -2509,14 +2519,14 @@ public function updateData() {
         "SD Negeri 1 Mantangai Tengah"
     ],
     [
-        "ARMAN",
-        "24670130810000639",
-        "6203010101800021",
-        "198001012025211247",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "HARTONI TANJUNG",
+        "24670130810000963",
+        "6203012608710003",
+        "197108262025211027",
+        "Tapanuli Selatan",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kelurahan Selat Dalam"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "ARMIAH, S.Pd",
@@ -2554,7 +2564,7 @@ public function updateData() {
         "6203010611870006",
         "198711062025211134",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -2569,14 +2579,14 @@ public function updateData() {
         "SD Negeri 3 Palingkau Baru"
     ],
     [
-        "ASDIANNOOR",
-        "24670130810000828",
-        "6203010202760004",
-        "197602042025211067",
+        "IWAN KITING",
+        "24670130810000870",
+        "6203012609710004",
+        "197109262025211021",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Inspektorat"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "ASIAH, S.Pd.I",
@@ -2604,7 +2614,7 @@ public function updateData() {
         "6203011202930003",
         "199302122025211111",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -2614,7 +2624,7 @@ public function updateData() {
         "6203097110910001",
         "199110312025212108",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -2634,7 +2644,7 @@ public function updateData() {
         "6212015202870003",
         "198702122025212130",
         "Gunung Mas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -2649,34 +2659,34 @@ public function updateData() {
         "UPT Puskesmas Palingkau"
     ],
     [
-        "ATENG",
-        "24670130810000063",
-        "6203111710770002",
-        "197710172025211043",
+        "KAWOT",
+        "24670130810000539",
+        "6203022202710001",
+        "197102222025211015",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Pasak Talawang"
+        "Kelurahan Sei Pasah"
     ],
     [
-        "ATIE",
-        "24670130820000614",
-        "6203027108720002",
-        "197008312025212010",
+        "MASJAKAWATI",
+        "24670130820000452",
+        "6203017110710001",
+        "197110312025212006",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMA ILMU SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "AUDAWINA",
-        "24670130820000485",
-        "6203016111760011",
-        "197611212025212024",
+        "RAHMAWATI, S.Pd.I",
+        "24670110820000289",
+        "6203016212710006",
+        "197112222025212013",
         "Kapuas",
-        "SMEA",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SMP Negeri 11 Mantangai Satu Atap"
     ],
     [
         "AULIA AGUSTININGSIH",
@@ -2684,7 +2694,7 @@ public function updateData() {
         "6203015608990014",
         "199908162025212090",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "UPT Puskesmas Basarang"
     ],
@@ -2724,7 +2734,7 @@ public function updateData() {
         "7371094712870007",
         "198712072025212093",
         "Ujung Pandang",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -2734,7 +2744,7 @@ public function updateData() {
         "6203045012960001",
         "199612102025212147",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "S-1/A-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
         "Guru Ahli Pertama",
         "SD Negeri 1 Cemara Labat"
     ],
@@ -2744,7 +2754,7 @@ public function updateData() {
         "6203011711970004",
         "199711112025211136",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -2764,7 +2774,7 @@ public function updateData() {
         "6203012704000004",
         "200004272025211054",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -2874,7 +2884,7 @@ public function updateData() {
         "6213094906920001",
         "199206092025212139",
         "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -2904,7 +2914,7 @@ public function updateData() {
         "3501084110990001",
         "199910022025212089",
         "Pacitan",
-        "S-1",
+        "S-1 TADRIS ILMU PENGETAHUAN ALAM",
         "Guru Ahli Pertama",
         "SMP NEGERI 6 BATAGUH SATU ATAP"
     ],
@@ -2934,7 +2944,7 @@ public function updateData() {
         "6203010107950316",
         "199609062025211106",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -2954,7 +2964,7 @@ public function updateData() {
         "6203011308970004",
         "199708132025211084",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -2984,7 +2994,7 @@ public function updateData() {
         "6203050405810002",
         "198105042025211121",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -3014,7 +3024,7 @@ public function updateData() {
         "6203012911830004",
         "198311292025211070",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -3069,24 +3079,24 @@ public function updateData() {
         "SD Negeri 1 Baranggau"
     ],
     [
-        "BAMBANG KURNIANTO",
-        "24670130810000075",
-        "6203091309720006",
-        "197209132025211035",
-        "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "RAYANI",
+        "24670130820000185",
+        "6203016002710005",
+        "197102202025212010",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "BAMBANG SUPRAPTO",
-        "24670130810000481",
-        "6203010202740008",
-        "197402022025211069",
+        "RITA TRIYANIE",
+        "24670130820000380",
+        "6211024306710001",
+        "197106032025212019",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMA BIOLOGI",
         "Operator Layanan Operasional",
-        "Dinas Pemberdayaan Masyarakat dan Desa"
+        "Dinas Pendidikan"
     ],
     [
         "BANRUSLIN, S.Pd",
@@ -3109,14 +3119,14 @@ public function updateData() {
         "SD Negeri 1 Budi Mufakat"
     ],
     [
-        "BATMAN",
-        "24670130810000187",
-        "6203011707800009",
-        "198007172025211117",
+        "RUSLIN",
+        "24670130810000876",
+        "6203011703710002",
+        "197103172025211026",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Perhubungan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "BAYU NARTOKO",
@@ -3124,7 +3134,7 @@ public function updateData() {
         "6203011409910004",
         "199109142025211126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Kesatuan Bangsa dan Politik"
     ],
@@ -3174,7 +3184,7 @@ public function updateData() {
         "6203100606870004",
         "198706172025211153",
         "Kapuas",
-        "S-1",
+        "S-1 SISTEM INFORMASI",
         "Guru Ahli Pertama",
         "SMP Negeri 3 Timpah"
     ],
@@ -3194,7 +3204,7 @@ public function updateData() {
         "6203021912000004",
         "200012192025211043",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -3204,7 +3214,7 @@ public function updateData() {
         "6203025704850001",
         "198504172025212087",
         "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -3264,19 +3274,19 @@ public function updateData() {
         "6203012701920007",
         "199201272025211119",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "BONISON",
-        "24670130810000884",
-        "6203022906780002",
-        "197806292025211051",
+        "YAN MELDA",
+        "24670130810000745",
+        "6203012001710004",
+        "197101202025211028",
         "Kapuas",
-        "SMU IPS",
+        "SMA A.1/FISIKA",
         "Operator Layanan Operasional",
-        "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "BOY KASSUMAWIJAYA, S.Kom",
@@ -3294,7 +3304,7 @@ public function updateData() {
         "6271030512840003",
         "198412052025211092",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
@@ -3344,7 +3354,7 @@ public function updateData() {
         "6203030312840002",
         "198412032025211091",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -3364,7 +3374,7 @@ public function updateData() {
         "6304132809870001",
         "198709282025211128",
         "Barito Kuala",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
         "SD NEGERI 1 TAMBAN MAKMUR"
     ],
@@ -3389,14 +3399,14 @@ public function updateData() {
         "Dinas Perhubungan"
     ],
     [
-        "BUDIYATI",
-        "24670130820000503",
-        "6203015604690006",
-        "196904162025212008",
-        "Temanggung",
-        "MADRASAH ALIYAH",
+        "YULIANTO.",
+        "24670130810000330",
+        "6203020807710002",
+        "197107082025211051",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "CARLES",
@@ -3414,18 +3424,18 @@ public function updateData() {
         "6203016303870004",
         "198703232025212143",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "CAROLINA DEASY, A.Md",
-        "24670130820000036",
-        "6203015012790009",
-        "197912102025212062",
-        "Kapuas",
-        "D-III TEKNIK PERTAMBANGAN",
-        "Pengelola Layanan Operasional",
+        "ZULUDIN.HD",
+        "24670130810000911",
+        "6203011010710011",
+        "197110102025211064",
+        "Hulu Sungai Utara",
+        "SLTA SEDERAJAT",
+        "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
@@ -3494,7 +3504,7 @@ public function updateData() {
         "6203015303870008",
         "198703132025212133",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -3514,7 +3524,7 @@ public function updateData() {
         "6203072309890001",
         "198909232025211138",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -3589,14 +3599,14 @@ public function updateData() {
         "SMP Negeri 2 Kapuas Hulu"
     ],
     [
-        "CISNA HELDAYATI",
-        "24670130820000075",
-        "6203026703800001",
-        "198003272025212050",
+        "ABAU",
+        "24670130810000378",
+        "6203021907720004",
+        "197207192025211030",
         "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
+        "SEKOLAH TEKNOLOGI MENENGAH",
         "Operator Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "Kecamatan Mandau Talawang"
     ],
     [
         "CITRA DEWI, SH",
@@ -3614,7 +3624,7 @@ public function updateData() {
         "6203076712870001",
         "198712272025212137",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -3644,7 +3654,7 @@ public function updateData() {
         "6271036208930006",
         "199308222025212136",
         "Demak",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Gudang Farmasi Kesehatan"
     ],
@@ -3729,14 +3739,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "DARYONO",
-        "24670130810000599",
-        "6203010704760005",
-        "197604072025211093",
-        "Purworejo",
-        "SEKOLAH TEKNOLOGI MENENGAH",
+        "ABDILLAH",
+        "24670130810000751",
+        "6203011007720007",
+        "197207102025211068",
+        "Kapuas",
+        "SEKOLAH MENENGAH EKONOMI ATAS",
         "Operator Layanan Operasional",
-        "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
+        "Dinas Transmigrasi dan Tenaga Kerja"
     ],
     [
         "DAVID, S.T.",
@@ -3794,19 +3804,19 @@ public function updateData() {
         "6203033005970004",
         "199705302025211072",
         "Ujung Pandang",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "DAYA",
-        "24670130820000495",
-        "6203014709770009",
-        "197709062025212038",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "AGMON ANUGERAH MANGORE, S.Pd",
+        "24670110810000210",
+        "6203073008720004",
+        "197208302025211024",
+        "Kepulauan Talaud",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
+        "Guru Ahli Pertama",
+        "SD Negeri 5 Selat Hilir"
     ],
     [
         "NORAIDA, S.M.",
@@ -3849,14 +3859,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "DEDAE",
-        "24670130810000655",
-        "6203101908710002",
-        "197108192025211045",
+        "AGUS TIMBANG, SE",
+        "24670130810000175",
+        "6203011008720005",
+        "197208102025211079",
         "Kapuas",
-        "SMA PAKET C",
-        "Operator Layanan Operasional",
-        "Kecamatan Timpah"
+        "S-1 MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "DEDE HATLIN SANDITO JAYA, S.Kep., Ners",
@@ -3884,7 +3894,7 @@ public function updateData() {
         "6203010209840007",
         "198409022025211099",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -3919,14 +3929,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "DEDI MULYANA",
-        "24670130810001033",
-        "3272050707800901",
-        "198007072025211134",
-        "Sukabumi",
-        "SMU IPA",
+        "ANITA",
+        "24670130820000587",
+        "6203016908720002",
+        "197208292025212009",
+        "Kapuas",
+        "SLTA PENDIDIKAN GURU AGAMA KRISTEN PROTESTAN",
         "Operator Layanan Operasional",
-        "Kecamatan Selat"
+        "Dinas Sosial"
     ],
     [
         "DEDI NURAHMAN",
@@ -3954,7 +3964,7 @@ public function updateData() {
         "6203050701940004",
         "199410072025211119",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -3969,14 +3979,14 @@ public function updateData() {
         "Subbagian Keuangan dan Aset"
     ],
     [
-        "DEDY ERAWAN, S.E",
-        "24670130810000021",
-        "6203013105720003",
-        "197205312025211020",
+        "BAMBANG KURNIANTO",
+        "24670130810000075",
+        "6203091309720006",
+        "197209132025211035",
         "Kapuas",
-        "S-1 MANAJEMEN",
-        "Penata Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "DEDY SUTRISNO B.",
@@ -3999,14 +4009,14 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "DEGUS HARIYANTO",
-        "24670130810000138",
-        "6203012008780007",
-        "197808202025211072",
+        "DEDY ERAWAN, S.E",
+        "24670130810000021",
+        "6203013105720003",
+        "197205312025211020",
         "Kapuas",
-        "SEKOLAH MENENGAH UMUM",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "S-1 MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Badan Pendapatan Daerah"
     ],
     [
         "RAMINTO",
@@ -4029,14 +4039,14 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "DEMIWATI",
-        "24670130820000549",
-        "6203114404740002",
-        "197404042025212046",
+        "EFENDY",
+        "24670130810000803",
+        "6203013006720001",
+        "197206302025211037",
         "Kapuas",
-        "SEKOLAH MENENGAH UMUM",
+        "SMA A.2/BIOLOGI",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
         "DENI ANGGARA",
@@ -4044,7 +4054,7 @@ public function updateData() {
         "6203021503980002",
         "199803152025211092",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -4094,7 +4104,7 @@ public function updateData() {
         "6203056912960001",
         "199612292025212109",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -4124,7 +4134,7 @@ public function updateData() {
         "6211050110000001",
         "200010012025211047",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -4164,7 +4174,7 @@ public function updateData() {
         "6203017112930004",
         "199312312025212252",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Pulau Petak"
     ],
@@ -4174,7 +4184,7 @@ public function updateData() {
         "6203105212950004",
         "199512122025212185",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
@@ -4249,14 +4259,14 @@ public function updateData() {
         "SD Negeri 1 Sidorejo"
     ],
     [
-        "DEWI",
-        "24670130820000340",
-        "6203095108710002",
-        "197008112025212014",
-        "Kapuas",
-        "SMA PAKET C",
-        "Operator Layanan Operasional",
-        "UPT Puskesmas Mantangai"
+        "GUNIS SAWON WIJAYA",
+        "24670130810000995",
+        "6203010804720007",
+        "197204082025211057",
+        "Cilacap",
+        "SD/SEDERAJAT",
+        "Pengelola Umum Operasional",
+        "Dinas Kesehatan"
     ],
     [
         "DEWI AGUS TINA, S.Pd.I",
@@ -4324,7 +4334,7 @@ public function updateData() {
         "6203014804850001",
         "198504082025212079",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -4374,19 +4384,19 @@ public function updateData() {
         "6203010303860005",
         "198603032025211156",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "DIAN ANGGRIYANI",
-        "24670130820000428",
-        "6203017112820006",
-        "197812312025212116",
+        "KURDI, S.Pd.I",
+        "24670110810000030",
+        "6203040704720003",
+        "197204072025211054",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Palampai"
     ],
     [
         "DIAN PUTRI ANGGRAINI, S.Pd",
@@ -4404,7 +4414,7 @@ public function updateData() {
         "6203015301840001",
         "198401132025212046",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -4424,7 +4434,7 @@ public function updateData() {
         "6203026310810001",
         "198110232025212049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Selat Hilir"
     ],
@@ -4464,7 +4474,7 @@ public function updateData() {
         "6203011709990008",
         "199909172025211065",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -4504,7 +4514,7 @@ public function updateData() {
         "6203011605970004",
         "199705162025211100",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -4514,7 +4524,7 @@ public function updateData() {
         "6203016407000005",
         "200007242025212060",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Penanaman Modal dan PTSP"
     ],
@@ -4542,7 +4552,7 @@ public function updateData() {
         "DIYAH AFSARI, S.Pd",
         "24670110820000371",
         "6203096809880001",
-        "198809282025212101",
+        "Belum ada nip",
         "Kapuas",
         "S-1 PENDIDIDKAN OLAH RAGA DAN KESEHATAN",
         "Guru Ahli Pertama",
@@ -4554,7 +4564,7 @@ public function updateData() {
         "6203010308850008",
         "198508032025211112",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -4574,7 +4584,7 @@ public function updateData() {
         "6203050404860002",
         "198604042025211168",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -4594,7 +4604,7 @@ public function updateData() {
         "6203124710980001",
         "199810072025212083",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Mandau Talawang"
     ],
@@ -4614,7 +4624,7 @@ public function updateData() {
         "6203011807000005",
         "200007182025211038",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -4644,7 +4654,7 @@ public function updateData() {
         "6203071610870001",
         "198710162025211118",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -4654,7 +4664,7 @@ public function updateData() {
         "6271031105930004",
         "199305112025211141",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -4664,7 +4674,7 @@ public function updateData() {
         "6203016801860003",
         "198601282025212076",
         "Kapuas",
-        "S-1\/A-IV SISTEM INFORMASI",
+        "S-1/A-IV SISTEM INFORMASI",
         "Penata Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
@@ -4676,7 +4686,7 @@ public function updateData() {
         "Kapuas",
         "SMA IPA",
         "Operator Layanan Operasional",
-        "0"
+        "Dinas Pendidikan"
     ],
     [
         "DWI PUJIYANTO, S.E",
@@ -4724,7 +4734,7 @@ public function updateData() {
         "6203082108830002",
         "198308212025211087",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -4744,7 +4754,7 @@ public function updateData() {
         "6203014708940016",
         "199405072025212165",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -4779,14 +4789,14 @@ public function updateData() {
         "SD Negeri 1 Manusup"
     ],
     [
-        "EDINOOR SULAIMAN, A. Md",
-        "24670130810000005",
-        "6203021110780001",
-        "197810112025211054",
-        "Barito Utara",
-        "AKADEMI MANAJEMEN INFORMATIKA DAN KOMPUTER",
-        "Pengelola Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "MASRANI",
+        "24670130810000542",
+        "6203011004720013",
+        "197204102025211059",
+        "Hulu Sungai Selatan",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "EDO RICO RONALDO",
@@ -4794,7 +4804,7 @@ public function updateData() {
         "6271032311960005",
         "199611232025211110",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -4819,14 +4829,14 @@ public function updateData() {
         "Kecamatan Kapuas Hilir"
     ],
     [
-        "EDY FITRIAN",
-        "24670130810000451",
-        "6203011909770005",
-        "197709192025211055",
+        "MUHAMMAD MALIK",
+        "24670130810000619",
+        "6203010509780010",
+        "197209052025211052",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMA BAHASA",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "EDY RACHMAN, S.Pd.I",
@@ -4834,7 +4844,7 @@ public function updateData() {
         "6203011811870003",
         "198711182025211098",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Tamban Catur"
     ],
@@ -4849,24 +4859,24 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "EFENDI RIANTO",
-        "24670130810000673",
-        "6203022506760003",
-        "197606252025211077",
+        "NUAH TASA",
+        "24670130810000783",
+        "6203021702720001",
+        "197202172025211049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "EFENDY",
-        "24670130810000803",
-        "6203013006720001",
-        "197206302025211037",
+        "ORBITO NYANGKAL, S.Pi",
+        "24670130810001015",
+        "6203140712720002",
+        "197212072025211051",
         "Kapuas",
-        "SMA A.2\/BIOLOGI",
-        "Operator Layanan Operasional",
-        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
+        "S-1 PERIKANAN",
+        "Guru Ahli Pertama",
+        "SMP Negeri 2 PASAK TALAWANG SATU ATAP"
     ],
     [
         "EFFENDY",
@@ -4994,19 +5004,19 @@ public function updateData() {
         "6203083012850001",
         "198512302025211136",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Basarang"
     ],
     [
-        "EKO BUDIYANTO",
-        "24670130810000839",
-        "6203012111790004",
-        "197911212025211062",
-        "Kendal",
-        "SLTA\/SMA SEDERAJAT",
+        "RADIAH",
+        "24670130820000538",
+        "6203016308720003",
+        "197208232025212022",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
     [
         "EKO PRASETIO, S.Pd",
@@ -5029,14 +5039,14 @@ public function updateData() {
         "SMP NEGERI 2 DADAHUP"
     ],
     [
-        "ELGEN TANANO",
-        "24670130810001031",
-        "6203020909780002",
-        "197809092025211088",
-        "Kapuas",
-        "SMU IPS",
+        "REPELITA LIUS",
+        "24670130810000443",
+        "6203012310720001",
+        "197210232025211027",
+        "Barito Utara",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Pemadam kebakaran dan Penyelamatan"
     ],
     [
         "ELI DIANA SARI, S.H",
@@ -5064,7 +5074,7 @@ public function updateData() {
         "6203014207900006",
         "199007022025212137",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -5129,12 +5139,12 @@ public function updateData() {
         "SD Negeri 1 Lamunti Baru"
     ],
     [
-        "ELPINA",
-        "24670130820000606",
-        "6203056812780001",
-        "197812282025212039",
+        "RIDUANSYAH",
+        "24670130810000348",
+        "6203052411710001",
+        "197211242025211021",
         "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
+        "SMA ILMU ILMU BIOLOGI",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -5154,7 +5164,7 @@ public function updateData() {
         "6211054508990004",
         "199908052025212098",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -5244,7 +5254,7 @@ public function updateData() {
         "6203017009880002",
         "198809302025212100",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Kesatuan Bangsa dan Politik"
     ],
@@ -5274,19 +5284,19 @@ public function updateData() {
         "6203025704930001",
         "199304172025212130",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Penata Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "ENDANG SUNARNI, S.E.",
-        "24670130820000111",
-        "6203016009800006",
-        "198009202025212045",
-        "Ponorogo",
-        "D-IV\/S-1 MANAJEMEN",
-        "Penata Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "ROBEN",
+        "24670130810000932",
+        "6203012712720006",
+        "197212272025211025",
+        "Kapuas",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "ENDANG YULIYANTI",
@@ -5294,7 +5304,7 @@ public function updateData() {
         "6203017007840005",
         "198407302025212049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Panamas"
     ],
@@ -5314,7 +5324,7 @@ public function updateData() {
         "6203015601960004",
         "199601162025212122",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -5354,7 +5364,7 @@ public function updateData() {
         "6203111606910003",
         "199106162025211175",
         "Kapuas",
-        "S-1\/A-IV ILMU HUKUM",
+        "S-1/A-IV ILMU HUKUM",
         "Penata Layanan Operasional",
         "Dinas Perhubungan"
     ],
@@ -5369,14 +5379,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "ERAS PANEAH, S.T",
-        "24670110810000153",
-        "6203112210750001",
-        "197510222025211039",
+        "SAYUTI",
+        "24670130810001016",
+        "6203010709720002",
+        "197209072025211058",
         "Kapuas",
-        "S-1 TEKNIK SIPIL",
-        "Guru Ahli Pertama",
-        "SMP Negeri 1 Kapuas Tengah"
+        "SEKOLAH DASAR",
+        "Pengelola Umum Operasional",
+        "Dinas Perhubungan"
     ],
     [
         "ERICA NOPRI DAMAYANTI, A.Md.Kep",
@@ -5424,7 +5434,7 @@ public function updateData() {
         "6203096605810001",
         "198105262025212039",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -5469,12 +5479,12 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "ERTISEN",
-        "24670130820000635",
-        "6203095010770010",
-        "197710102025212057",
+        "SURYADI",
+        "24670130810000769",
+        "6203010708720011",
+        "197208072025211060",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMEA PERKANTORAN",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -5489,14 +5499,14 @@ public function updateData() {
         "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
     ],
     [
-        "ERWANDI",
-        "24670130810001043",
-        "6203021408770002",
-        "197708142025211058",
+        "WENDY",
+        "24670130810000142",
+        "6203022702720001",
+        "197202272025211024",
         "Kapuas",
-        "SMU IPS",
+        "D-I ADMINISTRASI KANTOR",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "ERWIN RIZKY PRAKOSO",
@@ -5534,7 +5544,7 @@ public function updateData() {
         "6203022906680002",
         "196806292025211006",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -5589,14 +5599,14 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "EVITRINITA",
-        "24670130820000055",
-        "6203027107760002",
-        "197607312025212020",
+        "ZULKIFLI",
+        "24670130810000019",
+        "6203030609720004",
+        "197209062025211058",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Badan Pendapatan Daerah"
     ],
     [
         "EVY RULIANA SIMANGUNSONG, S.H",
@@ -5614,7 +5624,7 @@ public function updateData() {
         "6203015808000009",
         "200008182025212060",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -5664,7 +5674,7 @@ public function updateData() {
         "6203010811890004",
         "198911082025211120",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -5684,7 +5694,7 @@ public function updateData() {
         "6203010701000002",
         "200001072025211049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -5719,14 +5729,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "FAHRUDIN",
-        "24670130810000802",
-        "6203010606760008",
-        "197606062025211131",
-        "Hulu Sungai Selatan",
-        "PAKET C",
+        "AGUS NADI",
+        "24670130810000652",
+        "6203013008730001",
+        "197308302025211042",
+        "Kapuas",
+        "SLTA",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "FAHRUL",
@@ -5759,14 +5769,14 @@ public function updateData() {
         "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
-        "FAIDATUL HUSNA, S.Pd.I",
-        "24670110820000265",
-        "6203035703760001",
-        "197603172025212014",
-        "Banjarmasin",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Anjir Mambulau Timur"
+        "APRINENSI",
+        "24670130820000651",
+        "6203105204730001",
+        "197304122025212030",
+        "Kapuas",
+        "SEKOLAH MENENGAH ATAS",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "FAISAL",
@@ -5804,7 +5814,7 @@ public function updateData() {
         "6203012803980003",
         "199603282025211099",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -5834,7 +5844,7 @@ public function updateData() {
         "6203010210910006",
         "199110022025211152",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -5844,7 +5854,7 @@ public function updateData() {
         "6304040608970001",
         "199708062025211091",
         "Barito Kuala",
-        "S-1",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
         "SD Negeri 2 Tumbang Manyarung"
     ],
@@ -5964,7 +5974,7 @@ public function updateData() {
         "6203011512000011",
         "200012152025211045",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -6094,7 +6104,7 @@ public function updateData() {
         "6203011402900013",
         "199002142025211130",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -6119,24 +6129,24 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "FERDINAN",
-        "24670130810000554",
-        "6203012909750004",
-        "197509292025211042",
-        "Kapuas",
-        "SMEA PERDAGANGAN",
+        "HERRY JUNAEDI",
+        "24670130810000572",
+        "6203012708730004",
+        "197308272025211048",
+        "Palangka Raya",
+        "SMT PERTANIAN",
         "Operator Layanan Operasional",
-        "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
+        "Dinas Penanaman Modal dan PTSP"
     ],
     [
-        "FERNANDUS",
-        "24670130810000608",
-        "6203022502760002",
-        "197602252025211035",
+        "HERTONO",
+        "24670130810000881",
+        "6203010310730003",
+        "197310032025211036",
         "Kapuas",
-        "SLTA",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Kecamatan Bataguh"
     ],
     [
         "FERRYANTO, S.A.P",
@@ -6154,7 +6164,7 @@ public function updateData() {
         "6203012802980003",
         "199802282025211082",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -6244,7 +6254,7 @@ public function updateData() {
         "6203055603920001",
         "199203162025212136",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
@@ -6259,14 +6269,14 @@ public function updateData() {
         "SD Negeri 2 Selat Hulu"
     ],
     [
-        "FITRIA AN'NISA, SH",
-        "24670130820000145",
-        "6203016911800006",
-        "198011292025212036",
+        "JUMADI IMANUEL SANTOSO, A.Ma.Pd",
+        "24670130810000987",
+        "6211033107730001",
+        "197307312025211025",
         "Palangka Raya",
-        "S-1",
-        "Penata Layanan Operasional",
-        "Dinas Pertanian"
+        "SEKOLAH MENENGAH ATAS",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "FITRIA ANGGRENI WULANDARI",
@@ -6369,14 +6379,14 @@ public function updateData() {
         "Badan Pendapatan Daerah"
     ],
     [
-        "FRAN SALUNDIK, S.T",
-        "24670130810000401",
-        "6203011406790005",
-        "197906142025211105",
-        "Palangka Raya",
-        "S-1 TEKNIK SIPIL",
-        "Penata Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "MUHAMMAD AMBRI",
+        "24670130810000434",
+        "6203011510730006",
+        "197310152025211046",
+        "Kapuas",
+        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "Operator Layanan Operasional",
+        "Dinas Perhubungan"
     ],
     [
         "FRANKLIN, S.E",
@@ -6414,7 +6424,7 @@ public function updateData() {
         "6203022505970002",
         "199705252025211121",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -6464,7 +6474,7 @@ public function updateData() {
         "6203022611930001",
         "199311262025211096",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -6484,7 +6494,7 @@ public function updateData() {
         "6203013006880002",
         "198806302025211117",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -6514,7 +6524,7 @@ public function updateData() {
         "6203012006000005",
         "200009172025211055",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -6554,7 +6564,7 @@ public function updateData() {
         "6203012705880005",
         "198805272025211134",
         "Palangka Raya",
-        "S-1\/A-IV PENDIDIKAN JASMANI KESEHATAN DAN REKREASI",
+        "S-1/A-IV PENDIDIKAN JASMANI KESEHATAN DAN REKREASI",
         "Guru Ahli Pertama",
         "SMP Negeri 2 Timpah Satu Atap"
     ],
@@ -6589,14 +6599,14 @@ public function updateData() {
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
-        "GUNIS SAWON WIJAYA",
-        "24670130810000995",
-        "6203010804720007",
-        "197204082025211057",
-        "Cilacap",
-        "SD\/SEDERAJAT",
-        "Pengelola Umum Operasional",
-        "Dinas Kesehatan"
+        "NASARUDDIN KARYA",
+        "24670130810000805",
+        "6203012304730001",
+        "197304232025211036",
+        "Kapuas",
+        "SMEA",
+        "Operator Layanan Operasional",
+        "Kelurahan Selat Hulu"
     ],
     [
         "GUSNESI, S.Kom",
@@ -6624,7 +6634,7 @@ public function updateData() {
         "6203011008900009",
         "199008102025211190",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -6649,14 +6659,14 @@ public function updateData() {
         "Badan Keuangan dan Aset Daerah"
     ],
     [
-        "H.SUFIANSYAH",
-        "24670130810000762",
-        "6203011807740008",
-        "197407182025211039",
+        "NELI WANGI",
+        "24670130820000543",
+        "6203024305730001",
+        "197305032025212033",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "D-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD Negeri 5 Pulau Kupang"
     ],
     [
         "HADIJAH, S.Pd",
@@ -6699,14 +6709,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "HADY SANTOSO",
-        "24670130810000163",
-        "6203010808740019",
-        "197408082025211077",
+        "NOPRIYEDI",
+        "24670130810001011",
+        "6203071911730001",
+        "197311192025211028",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Penanaman Modal dan PTSP"
+        "SLTP/SMP SEDERAJAT",
+        "Pengelola Umum Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "HAFIZ ANSHARI, S.Pd",
@@ -6754,7 +6764,7 @@ public function updateData() {
         "6203095509000001",
         "200003152025212075",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -6789,14 +6799,14 @@ public function updateData() {
         "UPT Puskesmas Dadahup"
     ],
     [
-        "HAMDAH",
-        "24670130820000594",
-        "6203045211800003",
-        "198011122025212052",
+        "NUR SUPIAN",
+        "24670130810000942",
+        "6203013103730002",
+        "197303312025211026",
         "Kapuas",
-        "MADRASAH ALIYAH NEGERI",
+        "SMT PERTANIAN",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "HAMDAN",
@@ -6814,7 +6824,7 @@ public function updateData() {
         "6203012104860010",
         "198604212025211135",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -6834,7 +6844,7 @@ public function updateData() {
         "6203096910810003",
         "198110292025212052",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -6909,12 +6919,12 @@ public function updateData() {
         "SD Negeri 2 Dadahup"
     ],
     [
-        "HARIANTO",
-        "24670130810000913",
-        "6203010504790016",
-        "197904052025211101",
+        "REINHARD",
+        "24670130810000537",
+        "6203010111730001",
+        "197311012025211038",
         "Kapuas",
-        "SMEA KEUANGAN",
+        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -7044,19 +7054,19 @@ public function updateData() {
         "6203016008850006",
         "198508202025212097",
         "Enrekang",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kesehatan"
     ],
     [
-        "HARTONI TANJUNG",
-        "24670130810000963",
-        "6203012608710003",
-        "197108262025211027",
-        "Tapanuli Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "RUBENSI",
+        "24670130810001003",
+        "6203110405730003",
+        "197305042025211087",
+        "Kapuas",
+        "SMA PAKET C",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "RESSA FIRMANDA",
@@ -7069,24 +7079,24 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "HARTOYO",
-        "24670130810000326",
-        "6203010701690006",
-        "196901072025211028",
-        "Ngawi",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "RUSMILA",
+        "24670130820000600",
+        "6203025002730004",
+        "197302102025212036",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Barimba"
     ],
     [
-        "HARYADI",
-        "24670130810000974",
-        "6203022210750002",
-        "197510222025211036",
+        "SETIAWAN",
+        "24670130810000874",
+        "6203052011730002",
+        "197311202025211041",
         "Kapuas",
-        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "HARYADI GUSMAN",
@@ -7094,7 +7104,7 @@ public function updateData() {
         "6203012808860007",
         "198608282025211138",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -7104,7 +7114,7 @@ public function updateData() {
         "6203010203810004",
         "198103022025211094",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -7159,14 +7169,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "HATNI",
-        "24670130810000975",
-        "6203061603730001",
-        "197804102025211099",
-        "Banjarmasin",
-        "PERSAMAAN SLTA (PAKET C)",
+        "SUJOKO",
+        "24670130810000996",
+        "6203042811730002",
+        "197311282025211023",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "UPT Puskesmas Tamban Catur"
     ],
     [
         "HAYATUN NUPUS, S.Pd",
@@ -7194,7 +7204,7 @@ public function updateData() {
         "6203095707870004",
         "198707172025212191",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -7209,14 +7219,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "HEMAWATI, S.Pd.I",
-        "24670110820000118",
-        "6203014412870001",
-        "198712042025212092",
+        "DODI PURWANSYAH",
+        "24670130810000524",
+        "6203030807840003",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
-        "Guru Ahli Pertama",
-        "SMP NEGERI 4 MANTANGAI SATU ATAP"
+        "SEKOLAH MENENGAH ATAS",
+        "Pengelola Umum Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "HENDI MUALAMI",
@@ -7224,19 +7234,19 @@ public function updateData() {
         "6203010809880004",
         "198809082025211148",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "HENDRA TOKANDAYA SAU",
-        "24670130810000552",
-        "6203010212790009",
-        "197912022025211061",
-        "Poso",
-        "SMK MEKANIK OTOMOTIF",
+        "TERISIANA FEBRIANTI, A.Ma.",
+        "24670130820000057",
+        "6205056302730004",
+        "197302232025212020",
+        "Kapuas",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "HENDRATNO",
@@ -7244,7 +7254,7 @@ public function updateData() {
         "6203010808820013",
         "198208082025211157",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -7259,14 +7269,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "HENDRI",
-        "24670130810000486",
-        "6203010404660013",
-        "196901242025211016",
+        "WELDI SURIADI",
+        "24670130810000807",
+        "6203060706730001",
+        "197306072025211060",
         "Kapuas",
-        "SMA ILMU PENGETAHUAN SOSIAL",
+        "PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Kearsipan dan Perpustakaan"
+        "Dinas Pendidikan"
     ],
     [
         "HENDRI FEBRIANSON, SE",
@@ -7319,14 +7329,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "HENDRU",
-        "24670130810000846",
-        "6203051312780002",
-        "197812132025211061",
+        "YAN LOTHARD",
+        "24670130810000719",
+        "6206050506730002",
+        "197306052025211089",
         "Kapuas",
-        "SMT PERTANIAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "ABDURRAHMAN",
@@ -7334,7 +7344,7 @@ public function updateData() {
         "6203031101010002",
         "200101112025211049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -7354,19 +7364,19 @@ public function updateData() {
         "6203016205910004",
         "199105222025212122",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
         "SD Negeri 2 Murung Keramat"
     ],
     [
-        "HENIE",
-        "24670130820000656",
-        "6203014510740006",
-        "197410052025212039",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "ZULKISMIAH, S.Sos",
+        "24670130820000344",
+        "6203024203730003",
+        "197303022025212026",
+        "Balikpapan",
+        "S-1 ADMINISTRASI NEGARA",
+        "Penata Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "HENNIE ANANDA, S.Pd.",
@@ -7394,7 +7404,7 @@ public function updateData() {
         "6203016910820004",
         "198210292025212042",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -7409,24 +7419,24 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "HENRY, S.Pi",
-        "24670130810000091",
-        "6203010809750002",
-        "197509082025211063",
+        "ABDUL HAMID",
+        "24670130810000218",
+        "6203010911740006",
+        "197411092025211038",
         "Kapuas",
-        "S-1",
-        "Penata Layanan Operasional",
-        "Dinas Ketahanan Pangan dan Perikanan"
+        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "Operator Layanan Operasional",
+        "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "HENSU RIWUN",
-        "24670130820000489",
-        "6203016107760004",
-        "197607212025212028",
-        "Pulang Pisau",
-        "SMKK",
+        "AGUS SALIM",
+        "24670130810000522",
+        "3674040506740005",
+        "197406052025211099",
+        "Jakarta Selatan",
+        "SMA A.2/BIOLOGI",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "HEPPY, S.Pt",
@@ -7484,7 +7494,7 @@ public function updateData() {
         "6203012301900007",
         "199001232025211123",
         "Kapuas",
-        "D-IV\/S-1 SISTEM INFORMASI",
+        "D-IV/S-1 SISTEM INFORMASI",
         "Penata Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -7494,7 +7504,7 @@ public function updateData() {
         "6203011604850007",
         "198504162025211116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -7564,18 +7574,18 @@ public function updateData() {
         "6204064910990002",
         "199910092025212094",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "HERMANUS, S.T",
-        "24670130810000659",
-        "6203010603790010",
-        "197903062025211069",
-        "Pulang Pisau",
-        "S-1 TEKNIK INFORMATIKA",
-        "Penata Layanan Operasional",
+        "ARI NAHAN",
+        "24670130810000122",
+        "6371050404740005",
+        "197404042025211103",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
@@ -7639,14 +7649,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "HERO SUSILO",
-        "24670130810000398",
-        "6203011104800004",
-        "198004112025211059",
+        "BAMBANG SUPRAPTO",
+        "24670130810000481",
+        "6203010202740008",
+        "197402022025211069",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Satuan Polisi Pamong Praja"
+        "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
         "HERO",
@@ -7659,24 +7669,24 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "HERRY JUNAEDI",
-        "24670130810000572",
-        "6203012708730004",
-        "197308272025211048",
-        "Palangka Raya",
-        "SMT PERTANIAN",
+        "DEMIWATI",
+        "24670130820000549",
+        "6203114404740002",
+        "197404042025212046",
+        "Kapuas",
+        "SEKOLAH MENENGAH UMUM",
         "Operator Layanan Operasional",
-        "Dinas Penanaman Modal dan PTSP"
+        "Dinas Pendidikan"
     ],
     [
-        "HERTONO",
-        "24670130810000881",
-        "6203010310730003",
-        "197310032025211036",
+        "H.SUFIANSYAH",
+        "24670130810000762",
+        "6203011807740008",
+        "197407182025211039",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Bataguh"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "HERVIANSYAH",
@@ -7694,7 +7704,7 @@ public function updateData() {
         "6203024807840005",
         "198407082025212086",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Hampatung"
     ],
@@ -7734,7 +7744,7 @@ public function updateData() {
         "6271035712890002",
         "198912172025212127",
         "Gunung Mas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -7749,14 +7759,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "HEWI",
-        "24670130820000318",
-        "6203124203740002",
-        "197403022025212023",
+        "HADY SANTOSO",
+        "24670130810000163",
+        "6203010808740019",
+        "197408082025211077",
         "Kapuas",
-        "SLTA",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Penanaman Modal dan PTSP"
     ],
     [
         "HIDAYAH, S.Kom",
@@ -7789,14 +7799,14 @@ public function updateData() {
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
-        "HIKMAH, S,Pd.I",
-        "24670110820000064",
-        "6203045012760002",
-        "197612102025212040",
+        "HENIE",
+        "24670130820000656",
+        "6203014510740006",
+        "197410052025212039",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM",
-        "Guru Ahli Pertama",
-        "SD NEGERI 1 SEI BAKUT"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "HILMI",
@@ -7834,7 +7844,7 @@ public function updateData() {
         "6203092002990004",
         "199902202025211051",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -7844,7 +7854,7 @@ public function updateData() {
         "6203016801880007",
         "198801282025212088",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Bidang Pembinaan SMP"
     ],
@@ -7874,7 +7884,7 @@ public function updateData() {
         "6203010408930003",
         "199106122025211151",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Sosial"
     ],
@@ -7904,7 +7914,7 @@ public function updateData() {
         "6203085812890002",
         "198912182025212127",
         "Pulang Pisau",
-        "S-1",
+        "S-1 PENDIDIKAN AGAMA HINDU",
         "Guru Ahli Pertama",
         "SD Negeri 1 Sari Makmur"
     ],
@@ -7939,14 +7949,14 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "I NYOMAN PASEK BAGIARTA",
-        "24670130810000538",
-        "6203011211780008",
-        "197811122025211063",
-        "Buleleng",
-        "SMA IPA",
+        "HEWI",
+        "24670130820000318",
+        "6203124203740002",
+        "197403022025212023",
+        "Kapuas",
+        "SLTA",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "I NYOMAN WARTA, SH",
@@ -8039,24 +8049,24 @@ public function updateData() {
         "Dinas Pemadam kebakaran dan Penyelamatan"
     ],
     [
-        "IBRAMSYAH",
-        "24670130810000872",
-        "6203070709780001",
-        "197809072025211074",
+        "JUMBERI",
+        "24670130810000949",
+        "6203060211740002",
+        "197411022025211030",
         "Kapuas",
         "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Kecamatan Pulau Petak"
     ],
     [
-        "ICUN I. DAMIS",
-        "24670130810000896",
-        "6203021304690001",
-        "196904132025211026",
+        "KAMALA PUSPAWATI, S.Pd",
+        "24670130820000519",
+        "6203095907740001",
+        "197406162025212037",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD NEGERI 1 TARANTANG"
     ],
     [
         "IDA ANDRIYANI, A.Md. Keb",
@@ -8074,7 +8084,7 @@ public function updateData() {
         "6203014401920009",
         "199201042025212136",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -8144,19 +8154,19 @@ public function updateData() {
         "6203015702870004",
         "198702172025212082",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
-        "IKA AUSTRALINA",
-        "24670130820000497",
-        "6203014202790011",
-        "197902022025212062",
-        "Hulu Sungai Tengah",
-        "SMU IPS",
+        "M. RAMLI",
+        "24670130810000540",
+        "6203010911740005",
+        "197411092025211041",
+        "Banjarmasin",
+        "SMPS",
         "Operator Layanan Operasional",
-        "Dinas Pemberdayaan Perempuan, Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "IKA KARTIKASARI",
@@ -8224,7 +8234,7 @@ public function updateData() {
         "6203010608840010",
         "198408062025211126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -8239,13 +8249,13 @@ public function updateData() {
         "SMP NEGERI 13 MANTANGAI SATU ATAP"
     ],
     [
-        "ILAWANSI",
-        "24670130820000629",
-        "6203094812800003",
-        "198012082025212049",
+        "MOHAMAD AMIN, S.E.",
+        "24670130810000809",
+        "6203020403740005",
+        "197403042025211069",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
+        "SLTA/SMA SEDERAJAT",
+        "Penata Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
@@ -8294,7 +8304,7 @@ public function updateData() {
         "6203010402940005",
         "199402042025211124",
         "Grobogan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kesehatan"
     ],
@@ -8324,7 +8334,7 @@ public function updateData() {
         "6203011412890004",
         "198912142025211126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -8364,7 +8374,7 @@ public function updateData() {
         "6203016009920006",
         "199209202025212133",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -8374,7 +8384,7 @@ public function updateData() {
         "6203015908010006",
         "200108192025212037",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -8404,7 +8414,7 @@ public function updateData() {
         "6203022303950002",
         "199503212025211100",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -8424,7 +8434,7 @@ public function updateData() {
         "6203021410880002",
         "198810142025211138",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -8444,7 +8454,7 @@ public function updateData() {
         "6203021709840001",
         "198409172025211124",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -8454,7 +8464,7 @@ public function updateData() {
         "6203021004960004",
         "199604102025211131",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -8474,7 +8484,7 @@ public function updateData() {
         "6203012511960004",
         "199611252025211113",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Palingkau Baru"
     ],
@@ -8484,7 +8494,7 @@ public function updateData() {
         "6203051606990004",
         "199906162025211078",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -8544,7 +8554,7 @@ public function updateData() {
         "6203036301880001",
         "198801232025212068",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Timur"
     ],
@@ -8584,7 +8594,7 @@ public function updateData() {
         "6203010601970001",
         "199701062025211097",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -8629,14 +8639,14 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "IRMAS SARI, S.Pd.I",
-        "24670110820000005",
-        "6203066708780001",
-        "197808272025212032",
+        "MURNIE, S.Ag.",
+        "24670110820000695",
+        "6203105007740002",
+        "197407102025212039",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "S-1 PENDIDIKAN AGAMA HINDU",
         "Guru Ahli Pertama",
-        "SD Negeri 2 Banama"
+        "SD Negeri 1 Timpah"
     ],
     [
         "IRNI, S.Pd",
@@ -8664,7 +8674,7 @@ public function updateData() {
         "6203013006010008",
         "200106302025211029",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -8674,7 +8684,7 @@ public function updateData() {
         "6203011107840017",
         "198407112025211105",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -8689,24 +8699,24 @@ public function updateData() {
         "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
-        "IRWANSYAH",
-        "24670130810000734",
-        "6203011011750007",
-        "197511102025211093",
-        "Kapuas",
-        "SMEA PERKANTORAN",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "PEBRUANITA, SE",
+        "24670110820000470",
+        "6202036702740001",
+        "197402272025212008",
+        "Seruyan",
+        "S-1 MANAGEMENT",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Pujon"
     ],
     [
-        "IRWANSYAH",
-        "24670130810000008",
-        "6203010807790003",
-        "197907082025211078",
+        "RAMINI",
+        "24670130820000655",
+        "6203014506740005",
+        "197406052025212036",
         "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "ISHAK PARMANA",
@@ -8729,24 +8739,24 @@ public function updateData() {
         "SD Negeri 2 Selat Hulu"
     ],
     [
-        "ISKANDAR",
-        "24670130810000882",
-        "6203041607770003",
-        "197707162025211087",
-        "Trenggalek",
-        "SLTA\/SMA SEDERAJAT",
+        "ROSALINDA",
+        "24670130820000574",
+        "6203095405740003",
+        "197405142025212019",
+        "Kapuas",
+        "SMEA",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Pendidikan"
     ],
     [
-        "ISKANDAR",
-        "24670130810001042",
-        "6203052306690001",
-        "196906232025211020",
+        "SATRIANOR",
+        "24670130810000739",
+        "6203010709740003",
+        "197409072025211054",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Kapuas Barat"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "ISKANDAR ZULKARNAIN",
@@ -8784,7 +8794,7 @@ public function updateData() {
         "6203010405920009",
         "199205042025211167",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -8814,7 +8824,7 @@ public function updateData() {
         "6203050509010002",
         "200109052025211034",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -8859,24 +8869,24 @@ public function updateData() {
         "Badan Kesatuan Bangsa dan Politik"
     ],
     [
-        "IWAN HARTAWAN",
-        "24670130810000692",
-        "6203012110790004",
-        "197910212025211070",
+        "SITI HADIJAH, S.Pd.I",
+        "24670130820000575",
+        "6203025108740003",
+        "197408112025212016",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Sei Asam"
     ],
     [
-        "IWAN KITING",
-        "24670130810000870",
-        "6203012609710004",
-        "197109262025211021",
+        "SRI AYU ARIATI",
+        "24670130820000652",
+        "6203015210740004",
+        "197410122025212029",
         "Kapuas",
-        "SLTA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Pendidikan"
     ],
     [
         "IWAN RIDWAN, S.Pd",
@@ -8889,14 +8899,14 @@ public function updateData() {
         "SD Negeri 1 Sumber Agung"
     ],
     [
-        "JABIR",
-        "24670130810000195",
-        "6203041006790004",
-        "197906102025211129",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Kecamatan Kapuas Kuala"
+        "SRIMINIATI",
+        "24670130820000412",
+        "6203075309740001",
+        "197409132025212021",
+        "Tabalong",
+        "SEKOLAH MENENGAH PERTAMA",
+        "Pengelola Umum Operasional",
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "JAINAH, S.Pd",
@@ -8934,7 +8944,7 @@ public function updateData() {
         "6203021410850001",
         "198510142025211104",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -8944,7 +8954,7 @@ public function updateData() {
         "6203071804900003",
         "199004182025211111",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -8964,7 +8974,7 @@ public function updateData() {
         "6203045312910003",
         "199112132025212145",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
+        "S-1/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
         "SD Negeri 1 Palampai"
     ],
@@ -9009,14 +9019,14 @@ public function updateData() {
         "SD Negeri 2 Pujon"
     ],
     [
-        "JAYA",
-        "24670130810000849",
-        "6203021008790004",
-        "197908102025211115",
-        "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "SUJALMI",
+        "24670130820000388",
+        "6203015303740006",
+        "197403132025212018",
+        "Banyuwangi",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Badan Penanggulangan Bencana Daerah"
+        "Laboratorium Kesehatan Daerah Kabupaten Kapuas"
     ],
     [
         "JEFRI PRANANDO",
@@ -9024,7 +9034,7 @@ public function updateData() {
         "6203012601920003",
         "199201262025211118",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -9044,7 +9054,7 @@ public function updateData() {
         "6371041511900011",
         "199011152025211162",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -9069,14 +9079,14 @@ public function updateData() {
         "Badan Penanggulangan Bencana Daerah"
     ],
     [
-        "JHONNY",
-        "24670130810000319",
-        "6302062411790002",
-        "197911242025211068",
+        "TRIFINA AMBON",
+        "24670130820000644",
+        "6203116304740001",
+        "197404232025212022",
         "Kapuas",
-        "SMU IPA",
+        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Dinas Pendidikan"
     ],
     [
         "JHONRETNO",
@@ -9124,7 +9134,7 @@ public function updateData() {
         "6203011207010004",
         "200107122025211027",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -9144,19 +9154,19 @@ public function updateData() {
         "6203015208900016",
         "199108122025212181",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Murung"
     ],
     [
-        "JOHN BRORY, S.E.",
-        "24670130810000168",
-        "6301062406780002",
-        "197806242025211058",
-        "Kapuas",
-        "S-1 EKONOMI PEMBANGUNAN",
-        "Penata Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "WAHYUDI",
+        "24670130810000821",
+        "6203082404740003",
+        "197404242025211077",
+        "Trenggalek",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "DELANITA",
@@ -9164,7 +9174,7 @@ public function updateData() {
         "6203075411010003",
         "200111142025212021",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -9174,7 +9184,7 @@ public function updateData() {
         "6203010608990003",
         "199908062025211066",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Penanaman Modal dan PTSP"
     ],
@@ -9184,7 +9194,7 @@ public function updateData() {
         "6203010611830001",
         "198311062025211077",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -9204,7 +9214,7 @@ public function updateData() {
         "6203010306940010",
         "199406032025211152",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Pasak Talawang"
     ],
@@ -9214,7 +9224,7 @@ public function updateData() {
         "6203011606810004",
         "198203162025211097",
         "Banjarmasin",
-        "D-I ILMU PENGETAHUAN ALAM",
+        "MADRASAH ALIYAH IPA",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -9244,19 +9254,19 @@ public function updateData() {
         "6203011103810001",
         "198103112025211064",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
-        "JONNIKSO",
-        "24670130810000927",
-        "6203010508760013",
-        "197608052025211079",
+        "RUSDIAN NUR",
+        "24670130810000535",
+        "6203011712750003",
+        "197512172025211041",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "SEKOLAH MENENGAH UMUM TINGKAT PERTAMA",
+        "Pengelola Umum Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "JOSHUA PUTRA ROBERTO",
@@ -9279,14 +9289,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "JUANDI",
-        "24670130810001020",
-        "6203011009800005",
-        "198009102025211120",
+        "ABU MARWAN",
+        "24670130810000861",
+        "6203011205750011",
+        "197505122025211095",
         "Kapuas",
-        "SMK AKUNTANSI",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "JULIANSON SAHIDAR, S.Kep",
@@ -9349,14 +9359,14 @@ public function updateData() {
         "SD Negeri 1 Tabore"
     ],
     [
-        "JUMADI IMANUEL SANTOSO, A.Ma.Pd",
-        "24670130810000987",
-        "6211033107730001",
-        "197307312025211025",
-        "Palangka Raya",
-        "SEKOLAH MENENGAH ATAS",
+        "AHMAD YANI",
+        "24670130810000979",
+        "6203011909750005",
+        "197505192025211062",
+        "Tabalong",
+        "KPG PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "JUMAIDI",
@@ -9364,29 +9374,29 @@ public function updateData() {
         "6203010801850007",
         "198501082025211113",
         "Kapuas",
-        "SD\/SEDERAJAT",
+        "SD/SEDERAJAT",
         "Pengelola Umum Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "JUMARI",
-        "24670130810000741",
-        "6203010204790010",
-        "197904022025211077",
+        "AHMADI",
+        "24670130810000646",
+        "6203090308750002",
+        "197508032025211061",
         "Kapuas",
-        "SMK BISNIS DAN MANAJEMEN",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pertanian"
     ],
     [
-        "JUMBERI",
-        "24670130810000949",
-        "6203060211740002",
-        "197411022025211030",
+        "ANDI FAHRUDIN",
+        "24670130810000771",
+        "6203011605750004",
+        "197505162025211090",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Pulau Petak"
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "JUMEDIE",
@@ -9464,7 +9474,7 @@ public function updateData() {
         "6203015706860003",
         "198606172025212089",
         "Kapuas",
-        "S-1",
+        "S-1 ILMU ADMINISTRASI NIAGA",
         "Penata Layanan Operasional",
         "Badan Pendapatan Daerah"
     ],
@@ -9499,14 +9509,14 @@ public function updateData() {
         "SD Negeri 2 Selat Tengah"
     ],
     [
-        "KAMALA PUSPAWATI, S.Pd",
-        "24670130820000519",
-        "6203095907740001",
-        "197406162025212037",
+        "ERAS PANEAH, S.T",
+        "24670110810000153",
+        "6203112210750001",
+        "197510222025211039",
         "Kapuas",
-        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "S-1 TEKNIK SIPIL",
         "Guru Ahli Pertama",
-        "SD NEGERI 1 TARANTANG"
+        "SMP Negeri 1 Kapuas Tengah"
     ],
     [
         "KAMARIYAH",
@@ -9544,7 +9554,7 @@ public function updateData() {
         "6203026112010001",
         "200112212025212020",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Sei Pasah"
     ],
@@ -9579,14 +9589,14 @@ public function updateData() {
         "UPT Puskesmas Barimba"
     ],
     [
-        "KAROLA, S.E",
-        "24670130820000331",
-        "6203025104750001",
-        "197504112025212027",
+        "FERDINAN",
+        "24670130810000554",
+        "6203012909750004",
+        "197509292025211042",
         "Kapuas",
-        "S-1 EKONOMI MANAJEMEN",
-        "Penata Layanan Operasional",
-        "Dinas Kesehatan"
+        "SMEA PERDAGANGAN",
+        "Operator Layanan Operasional",
+        "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
     ],
     [
         "KARTIKA, S.Pd",
@@ -9599,14 +9609,14 @@ public function updateData() {
         "SMP Negeri 5 Mantangai Satu Atap"
     ],
     [
-        "KARTINI",
-        "24670130820000437",
-        "6203015608770011",
-        "197708162025212046",
-        "Grobogan",
-        "SLTA\/SMA SEDERAJAT",
+        "HARYADI",
+        "24670130810000974",
+        "6203022210750002",
+        "197510222025211036",
+        "Kapuas",
+        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "KARYADI",
@@ -9629,14 +9639,14 @@ public function updateData() {
         "Dinas Kesehatan"
     ],
     [
-        "KAWOT",
-        "24670130810000539",
-        "6203022202710001",
-        "197102222025211015",
+        "HENRY, S.Pi",
+        "24670130810000091",
+        "6203010809750002",
+        "197509082025211063",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Kelurahan Sei Pasah"
+        "S-1 MANAJEMEN SUMBER DAYA PERAIRAN",
+        "Penata Layanan Operasional",
+        "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
         "KELLY",
@@ -9674,19 +9684,19 @@ public function updateData() {
         "6203010703850008",
         "198503072025211109",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "KHAIRIYANA, S.Pd.I",
-        "24670110820000384",
-        "6203076005860004",
-        "198605202025212095",
+        "HEMAWATI, S.Pd.I",
+        "24670110820000118",
+        "6203014412870001",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PAI",
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
         "Guru Ahli Pertama",
-        "SD NEGERI 1 CEMARA LABAT"
+        "SMP NEGERI 4 MANTANGAI SATU ATAP"
     ],
     [
         "KHAIRUDDIN",
@@ -9694,7 +9704,7 @@ public function updateData() {
         "6203040605970004",
         "199705062025211082",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "UPT Puskesmas Lupak"
     ],
@@ -9704,7 +9714,7 @@ public function updateData() {
         "6203012604010002",
         "200104262025211033",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -9774,7 +9784,7 @@ public function updateData() {
         "6203106310860001",
         "198610232025212105",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -9809,14 +9819,14 @@ public function updateData() {
         "SMP Negeri 1 Mantangai"
     ],
     [
-        "KORNELIUS",
-        "24670130810000579",
-        "6203011206690011",
-        "196906122025211051",
-        "Bengkulu",
-        "SMA ILMU ILMU BIOLOGI",
+        "IRWANSYAH",
+        "24670130810000734",
+        "6203011011750007",
+        "197511102025211093",
+        "Kapuas",
+        "SMEA PERKANTORAN",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "FADLI",
@@ -9824,7 +9834,7 @@ public function updateData() {
         "6203011205010007",
         "200105122025211042",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -9864,7 +9874,7 @@ public function updateData() {
         "6203010910910009",
         "199110092025211165",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -9874,7 +9884,7 @@ public function updateData() {
         "6213012808860001",
         "198608282025211139",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -9884,7 +9894,7 @@ public function updateData() {
         "6203022802830006",
         "198302282025211120",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -9904,7 +9914,7 @@ public function updateData() {
         "6203022409990003",
         "199909242025211075",
         "Kotawaringin Barat",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -9929,14 +9939,14 @@ public function updateData() {
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
-        "KURDI, S.Pd.I",
-        "24670110810000030",
-        "6203040704720003",
-        "197204072025211054",
+        "KAROLA, S.E",
+        "24670130820000331",
+        "6203025104750001",
+        "197504112025212027",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM",
-        "Guru Ahli Pertama",
-        "SD Negeri 1 Palampai"
+        "S-1 EKONOMI MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Dinas Kesehatan"
     ],
     [
         "KURNAIN",
@@ -9954,7 +9964,7 @@ public function updateData() {
         "6203094707880007",
         "198807072025212199",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -9964,7 +9974,7 @@ public function updateData() {
         "6203020802010002",
         "200102082025211030",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -9974,7 +9984,7 @@ public function updateData() {
         "6203082811900002",
         "199011282025211114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -9989,24 +9999,24 @@ public function updateData() {
         "SMP NEGERI 6 BATAGUH SATU ATAP"
     ],
     [
-        "KUSMARANTI",
-        "24670130820000591",
-        "6203027011790003",
-        "197911302025212038",
+        "LENSA",
+        "24670130810000700",
+        "6203022411750002",
+        "197511242025211037",
         "Kapuas",
-        "SMK AKUNTANSI",
+        "SMA IPS",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "KUSNADI",
-        "24670130810000752",
-        "6203010612790003",
-        "197912062025211070",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Kelurahan Palingkau Baru"
+        "MARANATHA",
+        "24670130820000496",
+        "6203015906730002",
+        "197506192025212028",
+        "Barito Selatan",
+        "D-III THEOLOGIA",
+        "Pengelola Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "KUYUNG",
@@ -10039,14 +10049,14 @@ public function updateData() {
         "UPT Puskesmas Lamunti"
     ],
     [
-        "LAMRI",
-        "24670130810000463",
-        "6203011605690001",
-        "196905162025211024",
-        "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "MARIANA HARAHAP, S.E.",
+        "24670130820000372",
+        "6203011103750006",
+        "197503112025212027",
+        "Kotawaringin Timur",
+        "S-1 EKONOMI MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Dinas Perhubungan"
     ],
     [
         "LANA ELIYANA",
@@ -10054,7 +10064,7 @@ public function updateData() {
         "6203015709960002",
         "199609172025212134",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Mambulau"
     ],
@@ -10084,7 +10094,7 @@ public function updateData() {
         "6203026411930001",
         "199311242025212117",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Palingkau Lama"
     ],
@@ -10119,14 +10129,14 @@ public function updateData() {
         "SD Negeri 2 Jangkang"
     ],
     [
-        "LEMBAI",
-        "24670130820000473",
-        "6203104506690002",
-        "196906052025212019",
+        "MARIATUL KIPTIAH, S.Pd",
+        "24670110820000727",
+        "6203046005760001",
+        "197505202025212034",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "S-1/A-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD NEGERI 1 BANDAR MEKAR"
     ],
     [
         "LENI RUSMAWATI, S.Pd",
@@ -10159,14 +10169,14 @@ public function updateData() {
         "SD Negeri 1 Harapan Jaya"
     ],
     [
-        "LENSA",
-        "24670130810000700",
-        "6203022411750002",
-        "197511242025211037",
-        "Kapuas",
-        "SMA IPS",
+        "MASRADI",
+        "24670130810000513",
+        "6203011202750004",
+        "197502122025211078",
+        "Banjarmasin",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Perhubungan"
     ],
     [
         "LEONAR MARKUS META",
@@ -10194,19 +10204,19 @@ public function updateData() {
         "6203056208930002",
         "199302282025212139",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "LIA, S.E",
-        "24670130820000063",
-        "6471056612780009",
-        "197812262025212028",
-        "Palangka Raya",
-        "S-1 EKONOMI",
-        "Penata Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "MAYASISKA, S.Pi",
+        "24670110820000385",
+        "6203056609750002",
+        "197509262025212020",
+        "Kapuas",
+        "S-1 PERIKANAN",
+        "Guru Ahli Pertama",
+        "SMP NEGERI 4 KAPUAS BARAT SATU ATAP"
     ],
     [
         "LIA KARLINA AYU, S.T",
@@ -10289,14 +10299,14 @@ public function updateData() {
         "SD Negeri 3 Lawang Kajang"
     ],
     [
-        "LILI YATI, S.Pd",
-        "24670130820000578",
-        "6203074603780003",
-        "197803062025212040",
+        "MUHAMAD FADLI FAISAL",
+        "24670130810000403",
+        "6203022803750001",
+        "197503282025211037",
         "Kapuas",
-        "S-1 PENDIDIKAN BIOLOGI",
-        "Penata Layanan Operasional",
-        "Dinas Pendidikan"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "LILIK WAHYUNI, S.Kep",
@@ -10369,12 +10379,12 @@ public function updateData() {
         "SD Negeri 2 Jangkang"
     ],
     [
-        "LINAE",
-        "24670130820000520",
-        "6203016301790003",
-        "197901232025212031",
+        "MUNTI",
+        "24670130820000636",
+        "6203096901750003",
+        "197501292025212018",
         "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -10394,7 +10404,7 @@ public function updateData() {
         "6203026809890002",
         "198909282025212113",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -10419,14 +10429,14 @@ public function updateData() {
         "Dinas Kearsipan dan Perpustakaan"
     ],
     [
-        "LISA",
-        "24670130820000256",
-        "6271034712800004",
-        "198012072025212055",
+        "NOOR WIYADI",
+        "24670130810000250",
+        "6203011902750004",
+        "197502192025211039",
         "Kapuas",
-        "SMA IPA",
+        "SMA A.2/BIOLOGI",
         "Operator Layanan Operasional",
-        "Badan Penanggulangan Bencana Daerah"
+        "Dinas Pertanian"
     ],
     [
         "LISA AGUS SUSAN",
@@ -10434,7 +10444,7 @@ public function updateData() {
         "6203014308890006",
         "198908032025212145",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -10459,14 +10469,14 @@ public function updateData() {
         "SD Negeri 1 Hurung Tabengan"
     ],
     [
-        "LISAWATI, S.Pd",
-        "24670110820000461",
-        "6203015505780011",
-        "197705152025212055",
-        "Hulu Sungai Utara",
-        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD 2 Bamban Raya"
+        "RIADI",
+        "24670130810000922",
+        "6203012810750005",
+        "197510282025211041",
+        "Kapuas",
+        "SMA IPA",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "LISGINA ANISA",
@@ -10504,7 +10514,7 @@ public function updateData() {
         "6203044711920002",
         "199211112025212198",
         "Kapuas",
-        "S-1 \/ AKTA IV PAI",
+        "S-1 / AKTA IV PAI",
         "Guru Ahli Pertama",
         "SD Negeri 1 Batanjung"
     ],
@@ -10534,7 +10544,7 @@ public function updateData() {
         "6203012901960003",
         "199601292025211110",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Perhubungan"
     ],
@@ -10584,7 +10594,7 @@ public function updateData() {
         "6203080811930003",
         "199311082025211114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -10594,7 +10604,7 @@ public function updateData() {
         "6203011708010012",
         "200108172025211048",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -10604,7 +10614,7 @@ public function updateData() {
         "6203090906870004",
         "198706092025211157",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -10614,7 +10624,7 @@ public function updateData() {
         "6203011603900003",
         "199003162025211125",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -10634,7 +10644,7 @@ public function updateData() {
         "6203017009010001",
         "200109302025212029",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -10679,14 +10689,14 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "M. RAMLI",
-        "24670130810000540",
-        "6203010911740005",
-        "197411092025211041",
-        "Banjarmasin",
-        "SMPS",
-        "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "SARINAH, S.Pd.I",
+        "24670110820000196",
+        "6203044102750004",
+        "197502012025212031",
+        "Barito Kuala",
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD NEGERI 1 TAMBAN JAYA"
     ],
     [
         "M. RIZAL KURNIAWAN, S.Kom",
@@ -10744,7 +10754,7 @@ public function updateData() {
         "6203012010010008",
         "200110292025211032",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -10779,14 +10789,14 @@ public function updateData() {
         "Dinas Sosial"
     ],
     [
-        "M.RUSDI S.HUT, S.Hut",
-        "24670110810000289",
-        "6203041712790002",
-        "197912172025211079",
+        "SYARKIAH, S.Pd.I",
+        "24670110820000288",
+        "6203035607750001",
+        "197507162025212024",
         "Kapuas",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
         "Guru Ahli Pertama",
-        "SD Negeri 2 Lupak Dalam"
+        "SD Negeri 1 Anjir Serapat Timur"
     ],
     [
         "M.SAINI, S.Pd",
@@ -10799,14 +10809,14 @@ public function updateData() {
         "SD Negeri 1 Batanjung"
     ],
     [
-        "M.SALEH",
-        "24670130810000804",
-        "6203071905780001",
-        "197906042025211084",
-        "Hulu Sungai Utara",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "TRI MULIYANINGSIH",
+        "24670130820000393",
+        "6203015101750007",
+        "197501112025212016",
+        "Kapuas",
+        "SMEA KEUANGAN",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "MADE ARDIASE, S.E.",
@@ -10819,24 +10829,24 @@ public function updateData() {
         "UPT Puskesmas Terusan Tengah"
     ],
     [
-        "MADE CLARA SEPTIANA, S.Pd.",
-        "24670110820000619",
-        "6203084409960001",
-        "199609042025212120",
+        "KHAIRIYANA, S.Pd.I",
+        "24670110820000384",
+        "6203076005860004",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
+        "S-1 PAI",
         "Guru Ahli Pertama",
-        "SD NEGERI 2 TERUSAN RAYA HULU"
+        "SD NEGERI 1 CEMARA LABAT"
     ],
     [
-        "MADE FRANDI WINATA, S.Pd",
-        "24670110810000195",
-        "6210010609780001",
-        "197809062025211065",
+        "YAN MARO",
+        "24670130810000647",
+        "6203021803750001",
+        "197503182025211034",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN BIOLOGI",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Pujon"
+        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "MADE INDRIANI, S.Kom",
@@ -10869,24 +10879,24 @@ public function updateData() {
         "UPT Puskesmas Pulau Telo"
     ],
     [
-        "MAHDALENA WARNI",
-        "24670130820000541",
-        "6203015402770006",
-        "197702142025212026",
-        "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "YOTO",
+        "24670130810001010",
+        "6203091304750005",
+        "197504132025211047",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Badan Kesatuan Bangsa dan Politik"
+        "Dinas Pendidikan"
     ],
     [
-        "MAHMUD JAUHARI, S.Pd",
-        "24670130810000989",
-        "6203042706920002",
-        "199206272025211139",
-        "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "KHUSNUL KHATIMAH, S.Pd",
+        "24670110820000677",
+        "6203016706980014",
+        "Belum ada nip",
+        "Banjarmasin",
+        "S-1 / AKTA IV BIMBINGAN DAN KONSELING",
         "Guru Ahli Pertama",
-        "SD NEGERI 2 TERUSAN RAYA BARAT"
+        "SD NEGERI 1 JAJANGKIT"
     ],
     [
         "MAHMUDAH, S.Pd.I",
@@ -10944,7 +10954,7 @@ public function updateData() {
         "6203036310870002",
         "198710232025212114",
         "Banjar",
-        "S-1 \/ AKTA IV PAI",
+        "S-1 / AKTA IV PAI",
         "Guru Ahli Pertama",
         "SD Negeri 3 Anjir Mambulau Timur"
     ],
@@ -10959,14 +10969,14 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "MAKDALENA",
-        "24670130820000359",
-        "6203015204790008",
-        "197904122025212061",
-        "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "YUNIE",
+        "24670130820000477",
+        "6203026706750002",
+        "197502102025212024",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Kesehatan"
+        "Dinas Pendidikan"
     ],
     [
         "MALINA, S.Pd",
@@ -10999,24 +11009,24 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "MARANATHA",
-        "24670130820000496",
-        "6203015906730002",
-        "197506192025212028",
-        "Barito Selatan",
-        "S-1",
-        "Pengelola Layanan Operasional",
-        "Dinas Pendidikan"
+        "ABDUL BASID, S.Pd",
+        "24670110810000256",
+        "6303052308760008",
+        "197608222025211043",
+        "Banjar",
+        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Lupak Dalam"
     ],
     [
-        "MARANTUTI",
-        "24670130820000637",
-        "6203096011690002",
-        "196911202025212016",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "ANDI ANANIAS, S.AP",
+        "24670130810000147",
+        "6203020807760002",
+        "197607082025211053",
+        "Kapuas",
+        "S-1 ILMU ADMINISTRASI PUBLIK",
+        "Penata Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "MARDANI, S.Fil.H",
@@ -11109,34 +11119,34 @@ public function updateData() {
         "SD Negeri 1 Tumbang Sirat"
     ],
     [
-        "MARIANA HARAHAP, S.E.",
-        "24670130820000372",
-        "6203011103750006",
-        "197503112025212027",
-        "Kotawaringin Timur",
-        "S-1 EKONOMI MANAJEMEN",
-        "Penata Layanan Operasional",
-        "Dinas Perhubungan"
-    ],
-    [
-        "MARIATUL KIPTIAH, S.Pd",
-        "24670110820000727",
-        "6203046005760001",
-        "197505202025212034",
+        "ASDIANNOOR",
+        "24670130810000828",
+        "6203010202760004",
+        "197602042025211067",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD NEGERI 1 BANDAR MEKAR"
-    ],
-    [
-        "MARIO",
-        "24670130810000660",
-        "6203010604800007",
-        "198004062025211088",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Inspektorat"
+    ],
+    [
+        "AUDAWINA",
+        "24670130820000485",
+        "6203016111760011",
+        "197611212025212024",
+        "Kapuas",
+        "SMEA",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
+    ],
+    [
+        "DARYONO",
+        "24670130810000599",
+        "6203010704760005",
+        "197604072025211093",
+        "Purworejo",
+        "SEKOLAH TEKNOLOGI MENENGAH",
+        "Operator Layanan Operasional",
+        "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
     ],
     [
         "MARIYANI",
@@ -11149,14 +11159,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MARIYATI",
-        "24670130820000475",
-        "6203014503700015",
-        "197003052025212010",
+        "EFENDI RIANTO",
+        "24670130810000673",
+        "6203022506760003",
+        "197606252025211077",
         "Kapuas",
-        "SMEA",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Pendidikan"
     ],
     [
         "MARKAMAH",
@@ -11179,14 +11189,14 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "MARKUS ANIANUS DJUAN DE ROSARI",
-        "24670130810000464",
-        "6203012504760003",
-        "197604252025211053",
-        "Flores Timur",
-        "SMA IPS",
+        "EVITRINITA",
+        "24670130820000055",
+        "6203027107760002",
+        "197607312025212020",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Dadahup"
+        "Dinas Pendidikan"
     ],
     [
         "MARKYAH, S.Pd",
@@ -11194,19 +11204,19 @@ public function updateData() {
         "6203096104990006",
         "199904212025212119",
         "Kapuas",
-        "A-V \/ AKTA MENGAJAR",
+        "A-V / AKTA MENGAJAR",
         "Guru Ahli Pertama",
         "SD Negeri 1 Manusup Hilir"
     ],
     [
-        "MARLIANCE",
-        "24670130820000494",
-        "6203026809780001",
-        "197809282025212030",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "FAHRUDIN",
+        "24670130810000802",
+        "6203010606760008",
+        "197606062025211131",
+        "Hulu Sungai Selatan",
+        "PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "MARLIANI, S.Pd.",
@@ -11264,19 +11274,19 @@ public function updateData() {
         "6203147112900001",
         "199012312025212268",
         "Sumba Barat",
-        "S-1",
+        "S-1 KEPENDIDIKAN AGAMA KRISTEN",
         "Guru Ahli Pertama",
         "SD Negeri 1 Balai Banjang"
     ],
     [
-        "MARTHIN",
-        "24670130810000231",
-        "6203021603760003",
-        "197603162025211061",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
+        "FAIDATUL HUSNA, S.Pd.I",
+        "24670110820000265",
+        "6203035703760001",
+        "197603172025212014",
+        "Banjarmasin",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Anjir Mambulau Timur"
     ],
     [
         "MARTIN KURNIAWAN, A.Md.Kep",
@@ -11294,7 +11304,7 @@ public function updateData() {
         "6271036703870003",
         "198703272025212120",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
@@ -11319,14 +11329,14 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "MASJAKAWATI",
-        "24670130820000452",
-        "6203017110710001",
-        "197110312025212006",
+        "FERNANDUS",
+        "24670130810000608",
+        "6203022502760002",
+        "197602252025211035",
         "Kapuas",
-        "SMA ILMU SOSIAL",
+        "SLTA",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "MASLIHAT",
@@ -11339,24 +11349,24 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "MASRADI",
-        "24670130810000513",
-        "6203011202750004",
-        "197502122025211078",
-        "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "HENSU RIWUN",
+        "24670130820000489",
+        "6203016107760004",
+        "197607212025212028",
+        "Pulang Pisau",
+        "SMKK",
         "Operator Layanan Operasional",
-        "Dinas Perhubungan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MASRANI",
-        "24670130810000542",
-        "6203011004720013",
-        "197204102025211059",
-        "Hulu Sungai Selatan",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "HIKMAH, S,Pd.I",
+        "24670110820000064",
+        "6203045012760002",
+        "197612102025212040",
+        "Kapuas",
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD NEGERI 1 SEI BAKUT"
     ],
     [
         "MASTA KARINA, S.T",
@@ -11374,7 +11384,7 @@ public function updateData() {
         "6203012304880001",
         "198804232025211123",
         "Barito Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -11404,7 +11414,7 @@ public function updateData() {
         "6203022210010004",
         "200110222025211037",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Dahirang"
     ],
@@ -11444,7 +11454,7 @@ public function updateData() {
         "6203014301850011",
         "198501032025212081",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -11489,14 +11499,14 @@ public function updateData() {
         "SD NEGERI 1 TAMBAN LUPAK"
     ],
     [
-        "MAYASISKA, S.Pi",
-        "24670110820000385",
-        "6203056609750002",
-        "197509262025212020",
+        "JONNIKSO",
+        "24670130810000927",
+        "6203010508760013",
+        "197608052025211079",
         "Kapuas",
-        "S-1 PERIKANAN",
-        "Guru Ahli Pertama",
-        "SMP NEGERI 4 KAPUAS BARAT SATU ATAP"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "MAYATUN NUFUS, S.Pd",
@@ -11529,14 +11539,14 @@ public function updateData() {
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
     [
-        "MEGAWATI",
-        "24670130820000290",
-        "6203014606760015",
-        "197606062025212065",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "MARKUS ANIANUS DJUAN DE ROSARI",
+        "24670130810000464",
+        "6203012504760003",
+        "197604252025211053",
+        "Flores Timur",
+        "SMA IPS",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Kecamatan Dadahup"
     ],
     [
         "MEI IKA TINDUH",
@@ -11544,7 +11554,7 @@ public function updateData() {
         "6203015405880001",
         "198805142025212138",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
@@ -11634,7 +11644,7 @@ public function updateData() {
         "6203016209990008",
         "199909222025212097",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "UPT Puskesmas Panamas"
     ],
@@ -11654,7 +11664,7 @@ public function updateData() {
         "6203025304870002",
         "198810032025212131",
         "Bulungan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -11694,7 +11704,7 @@ public function updateData() {
         "6203015508020002",
         "200208152025212009",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
+        "S-1/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
         "SD Negeri 6 Pulau Kupang"
     ],
@@ -11709,14 +11719,14 @@ public function updateData() {
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
-        "MELY YUSTIANA",
-        "24670130820000368",
-        "6203025306760003",
-        "197606132025212036",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "MARTHIN",
+        "24670130810000231",
+        "6203021603760003",
+        "197603162025211061",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Kearsipan dan Perpustakaan"
+        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
         "MEMO SEPTIAWAN",
@@ -11724,7 +11734,7 @@ public function updateData() {
         "6203011809950005",
         "199509182025211113",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Inspektorat"
     ],
@@ -11734,7 +11744,7 @@ public function updateData() {
         "6203166505850001",
         "198505252025212169",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -11744,7 +11754,7 @@ public function updateData() {
         "6203096611860001",
         "198611262025212095",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
@@ -11809,14 +11819,14 @@ public function updateData() {
         "Kelurahan Selat Hilir"
     ],
     [
-        "MICKY DAVIS",
-        "24670130810000976",
-        "6203021303800003",
-        "198003132025211090",
+        "MEGAWATI",
+        "24670130820000290",
+        "6203014606760015",
+        "197606062025212065",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Pendidikan"
     ],
     [
         "MUHAMAD FUAD",
@@ -11849,14 +11859,14 @@ public function updateData() {
         "SMP NEGERI 12 MANTANGAI SATU ATAP"
     ],
     [
-        "MILAWATI, A.Ma.Pd",
-        "24670130820000603",
-        "6203024905780004",
-        "197805092025212041",
+        "MELY YUSTIANA",
+        "24670130820000368",
+        "6203025306760003",
+        "197606132025212036",
         "Kapuas",
-        "S-1",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kearsipan dan Perpustakaan"
     ],
     [
         "MILLA IRONA, S.Pd",
@@ -11889,14 +11899,14 @@ public function updateData() {
         "SD Negeri 1 Lupak Dalam"
     ],
     [
-        "MINARLY KUSUMAJAYA",
-        "24670130810000379",
-        "6271032301770001",
-        "197701232025211049",
+        "NORDIANSYAH",
+        "24670130810000415",
+        "6203100603760001",
+        "197603062025211059",
         "Kapuas",
-        "SEKOLAH TEKNOLOGI MENENGAH",
+        "SLTA",
         "Operator Layanan Operasional",
-        "Dinas Ketahanan Pangan dan Perikanan"
+        "Dinas Pendidikan"
     ],
     [
         "MIRA MINARTY",
@@ -11904,7 +11914,7 @@ public function updateData() {
         "6203016201890002",
         "198901222025212085",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -11914,7 +11924,7 @@ public function updateData() {
         "6203055405980001",
         "199805142025212120",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -12024,7 +12034,7 @@ public function updateData() {
         "6203104204990001",
         "199904022025212100",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN AGAMA HINDU",
+        "S-1/A-IV PENDIDIKAN AGAMA HINDU",
         "Guru Ahli Pertama",
         "SD Negeri 1 Aruk"
     ],
@@ -12034,7 +12044,7 @@ public function updateData() {
         "6203016907890002",
         "198907292025212135",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -12054,7 +12064,7 @@ public function updateData() {
         "6203012704990002",
         "199904262025211059",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -12069,14 +12079,14 @@ public function updateData() {
         "SMP Negeri 2 Basarang"
     ],
     [
-        "MOHAMAD AMIN, S.E.",
-        "24670130810000809",
-        "6203020403740005",
-        "197403042025211069",
+        "NOTO SUSANTO",
+        "24670130810000593",
+        "6203060806760001",
+        "197606082025211061",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Penata Layanan Operasional",
-        "Dinas Pendidikan"
+        "SMT PERTANIAN",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "MOHAMMAD RAFI'I",
@@ -12084,7 +12094,7 @@ public function updateData() {
         "6203011209870007",
         "198709122025211172",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -12204,19 +12214,19 @@ public function updateData() {
         "6203070411860004",
         "198611042025211098",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
     [
-        "MUHAMAD FADLI FAISAL",
-        "24670130810000403",
-        "6203022803750001",
-        "197503282025211037",
+        "NURATI",
+        "24670130820000068",
+        "6203016212760001",
+        "197612222025212031",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "MUHAMAD FAHMI",
@@ -12224,7 +12234,7 @@ public function updateData() {
         "6203061010920005",
         "199210102025211238",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -12274,7 +12284,7 @@ public function updateData() {
         "6203081010880006",
         "198810102025211245",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
@@ -12294,7 +12304,7 @@ public function updateData() {
         "6203011701970003",
         "199701172025211085",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -12319,14 +12329,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MUHAMAD SYAFI'E",
-        "24670130810000800",
-        "6203011910790006",
-        "197910192025211059",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "RACHMAD",
+        "24670130810000212",
+        "6203011404760003",
+        "197604142025211066",
+        "Pulang Pisau",
+        "SMA A.2/BIOLOGI",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Pemadam kebakaran dan Penyelamatan"
     ],
     [
         "MUHAMAD YUSUF NAFARIN",
@@ -12344,7 +12354,7 @@ public function updateData() {
         "6203010904990003",
         "199904092025211067",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -12374,7 +12384,7 @@ public function updateData() {
         "6203013107970004",
         "199707312025211082",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -12389,14 +12399,14 @@ public function updateData() {
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "MUHAMMAD AMBRI",
-        "24670130810000434",
-        "6203011510730006",
-        "197310152025211046",
+        "RAHMADI",
+        "24670130810000181",
+        "6203011304780001",
+        "197604132025211058",
         "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Perhubungan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "MUHAMMAD AMIN",
@@ -12424,7 +12434,7 @@ public function updateData() {
         "6203012110980001",
         "199810212025211061",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -12474,7 +12484,7 @@ public function updateData() {
         "6203010409900008",
         "199009042025211131",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -12484,7 +12494,7 @@ public function updateData() {
         "6203081508820003",
         "198208152025211143",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Basarang"
     ],
@@ -12494,7 +12504,7 @@ public function updateData() {
         "6203012409860007",
         "198609242025211118",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -12544,7 +12554,7 @@ public function updateData() {
         "6203012603980004",
         "199803262025211067",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Inspektorat"
     ],
@@ -12574,7 +12584,7 @@ public function updateData() {
         "6203042905890002",
         "198905292025211117",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -12604,7 +12614,7 @@ public function updateData() {
         "6203025211010002",
         "200111122025212027",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -12694,7 +12704,7 @@ public function updateData() {
         "6203010711980009",
         "199811072025211076",
         "Hulu Sungai Selatan",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -12709,14 +12719,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "MUHAMMAD MALIK",
-        "24670130810000619",
-        "6203010509780010",
-        "197209052025211052",
+        "RIANTO",
+        "24670130810000714",
+        "6203041203760002",
+        "197603122025211081",
         "Kapuas",
-        "SMA BAHASA",
+        "SMT PERTANIAN",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "MUHAMMAD MAULIDI RAHMAN, S.Pd., Gr",
@@ -12734,7 +12744,7 @@ public function updateData() {
         "6203011611840002",
         "198311162025211074",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Perumahan, Kawasan Permukiman, dan Pertanahan"
     ],
@@ -12844,7 +12854,7 @@ public function updateData() {
         "6203070910930006",
         "199310092025211102",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Murung"
     ],
@@ -12884,7 +12894,7 @@ public function updateData() {
         "6203132510860002",
         "198610252025211129",
         "Tapin",
-        "A-V \/ AKTA MENGAJAR",
+        "A-V / AKTA MENGAJAR",
         "Guru Ahli Pertama",
         "SD Negeri 1 Sidorejo"
     ],
@@ -12899,14 +12909,14 @@ public function updateData() {
         "UPT Puskesmas Anjir Serapat"
     ],
     [
-        "MUHAMMAD YUSRO",
-        "24670130810000893",
-        "6203012201780002",
-        "197801222025211048",
+        "RIMA MANDARALIA",
+        "24670130820000620",
+        "6203024402760002",
+        "197602042025212030",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "MUHAMMAD YUSUF",
@@ -12974,7 +12984,7 @@ public function updateData() {
         "6203052709920004",
         "199209272025211152",
         "Kapuas",
-        "S-1\/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
+        "S-1/A-IV PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
         "SD Negeri 1 SAKALAGUN"
     ],
@@ -13019,12 +13029,12 @@ public function updateData() {
         "Kecamatan Basarang"
     ],
     [
-        "MUNTI",
-        "24670130820000636",
-        "6203096901750003",
-        "197501292025212018",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "RINIE HERLIYANTI",
+        "24670130820000354",
+        "6203015010760012",
+        "197610102025212057",
+        "Banjarmasin",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -13039,34 +13049,34 @@ public function updateData() {
         "SD Negeri 2 Sei Jangkit"
     ],
     [
-        "MURAI",
-        "24670130820000198",
-        "6203026402790001",
-        "197902242025212033",
-        "Palangka Raya",
-        "SMK",
+        "RITA KARTIKA",
+        "24670130820000403",
+        "6203015006760006",
+        "197606102025212057",
+        "Barito Selatan",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
+        "Dinas Pertanian"
     ],
     [
-        "MURHAD",
-        "24670130810000748",
-        "6203011712800001",
-        "198012172025211080",
+        "SABRI",
+        "24670130810000629",
+        "6203020106760002",
+        "197606012025211097",
         "Kapuas",
-        "SMK SEKRETARIS",
+        "SEKOLAH MENENGAH EKONOMI ATAS",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "MURJANI",
-        "24670130810000761",
-        "6271031010700012",
-        "197010102025211064",
-        "Barito Kuala",
-        "SLTA\/SMA SEDERAJAT",
+        "SAHRIYADI",
+        "24670130810000312",
+        "6203011011760013",
+        "197611102025211084",
+        "Kapuas",
+        "SMA IPA",
         "Operator Layanan Operasional",
-        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
+        "Dinas Pertanian"
     ],
     [
         "MURNI",
@@ -13079,14 +13089,14 @@ public function updateData() {
         "Kecamatan Mandau Talawang"
     ],
     [
-        "MURNIE, S.Ag.",
-        "24670110820000695",
-        "6203105007740002",
-        "197407102025212039",
+        "SRI RAHAYU",
+        "24670130820000408",
+        "6203015810760004",
+        "197610182025212021",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA HINDU",
-        "Guru Ahli Pertama",
-        "SD Negeri 1 Timpah"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Kelurahan Pulau Kupang"
     ],
     [
         "MURSIDAH, S.Pd.I",
@@ -13184,19 +13194,19 @@ public function updateData() {
         "6203014608920008",
         "199208062025212162",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "MUTIARA",
-        "24670130820000599",
-        "6204056812810002",
-        "197803172025212035",
+        "SUMARTONO",
+        "24670130810000207",
+        "6203011212760010",
+        "197612122025211091",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMA PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Satuan Polisi Pamong Praja"
     ],
     [
         "RIZAL",
@@ -13234,7 +13244,7 @@ public function updateData() {
         "6203012605010009",
         "200105262025211036",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Pendapatan Daerah"
     ],
@@ -13284,7 +13294,7 @@ public function updateData() {
         "6203023007010002",
         "200107302025211033",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -13294,7 +13304,7 @@ public function updateData() {
         "6203016903930002",
         "199403292025212129",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -13319,14 +13329,14 @@ public function updateData() {
         "Dinas Pemberdayaan Perempuan, Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana"
     ],
     [
-        "NASARUDDIN KARYA",
-        "24670130810000805",
-        "6203012304730001",
-        "197304232025211036",
+        "SUPAIN",
+        "24670130810000704",
+        "6203030404800004",
+        "197605072025211059",
         "Kapuas",
-        "SMEA",
+        "PAKET C",
         "Operator Layanan Operasional",
-        "Kelurahan Selat Hulu"
+        "Dinas Pertanian"
     ],
     [
         "NASARUDIN NOOR, S.Kep.,Ns",
@@ -13344,7 +13354,7 @@ public function updateData() {
         "6203012112890003",
         "198912212025211111",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -13379,14 +13389,14 @@ public function updateData() {
         "Dinas Perhubungan"
     ],
     [
-        "NELI WANGI",
-        "24670130820000543",
-        "6203024305730001",
-        "197305032025212033",
+        "SUYANTO",
+        "24670130810000944",
+        "6203082801760004",
+        "197601282025211033",
         "Kapuas",
-        "D-IV PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD Negeri 5 Pulau Kupang"
+        "SLTA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "NEMIE",
@@ -13394,19 +13404,19 @@ public function updateData() {
         "6203095009860006",
         "198609102025212112",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "NENENG LITALIE, S.Hut",
-        "24670110820000462",
-        "6203105009690003",
-        "196909102025212020",
-        "Kapuas",
-        "S-1 KEHUTANAN",
-        "Guru Ahli Pertama",
-        "SMP Negeri 1 Timpah"
+        "URIANTINUS, S.M",
+        "24670130810000254",
+        "6203012110760003",
+        "197610122025211062",
+        "Barito Selatan",
+        "S-1 MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "NENGAH SUADA",
@@ -13449,14 +13459,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "NGATMINASIH",
-        "24670130820000301",
-        "6203016908690004",
-        "196908292025212010",
-        "Jember",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "WITRIANY MELATI, S.Pd",
+        "24670110820000702",
+        "6203095509760006",
+        "197609152025212036",
+        "Kapuas",
+        "S-1 GURU PAUD",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Mantangai Hulu"
     ],
     [
         "NI KETUT KARTINI",
@@ -13464,7 +13474,7 @@ public function updateData() {
         "6203086909900001",
         "199009262025212114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
@@ -13564,7 +13574,7 @@ public function updateData() {
         "6203015001980009",
         "199801102025212103",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -13574,19 +13584,19 @@ public function updateData() {
         "6203022508940002",
         "199408252025211112",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "NIDYA KIRANA ROMZAH, S.E",
-        "24670130820000217",
-        "6203016104790005",
-        "197904212025212080",
-        "Yogyakarta",
-        "S-1 EKONOMI AKUNTANSI",
-        "Penata Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "YANDRIANUS",
+        "24670130810000997",
+        "6203061109760003",
+        "197609112025211066",
+        "Kapuas",
+        "D-I LINGKUNGAN",
+        "Operator Layanan Operasional",
+        "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
         "NIDYA MARGARETH, S.E",
@@ -13754,12 +13764,12 @@ public function updateData() {
         "6203016508920004",
         "199208252025212135",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "NOOR MAYASARI, S.Pd.I",
+        "NOOR MAYASARI",
         "24670130820000202",
         "6203015312840004",
         "198412132025212054",
@@ -13769,14 +13779,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "NOOR WIYADI",
-        "24670130810000250",
-        "6203011902750004",
-        "197502192025211039",
+        "YULI HARNITA",
+        "24670130820000352",
+        "6203115707760002",
+        "197607172025212031",
         "Kapuas",
-        "SMA A.2\/BIOLOGI",
+        "SEKOLAH MENENGAH UMUM",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Pendidikan"
     ],
     [
         "NOORAMADAN",
@@ -13799,14 +13809,14 @@ public function updateData() {
         "Kelurahan Selat Hulu"
     ],
     [
-        "NOORHAYATI, S.Pd.AUD",
-        "24670110820000602",
-        "6203015110790001",
-        "197910112025212051",
+        "YULIUS",
+        "24670130810000866",
+        "6203030306760005",
+        "197606032025211057",
         "Kapuas",
-        "S-1 PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD Negeri 6 Selat Hilir"
+        "SMA ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "NOORYANA",
@@ -13844,19 +13854,19 @@ public function updateData() {
         "6203091911900003",
         "199011192025211104",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "NOPRIYEDI",
-        "24670130810001011",
-        "6203071911730001",
-        "197311192025211028",
-        "Kapuas",
-        "SLTP\/SMP SEDERAJAT",
-        "Pengelola Umum Operasional",
-        "Dinas Pendidikan"
+        "AGUSTINA MALINDA",
+        "24670130820000166",
+        "6203017108770005",
+        "197708312025212029",
+        "Hulu Sungai Selatan",
+        "SLTA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "NOR ABDI SAPUTRA",
@@ -13874,7 +13884,7 @@ public function updateData() {
         "6203016606930006",
         "199306262025212179",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
@@ -13964,19 +13974,19 @@ public function updateData() {
         "6203011805020004",
         "200205182025211020",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "NORAINAH",
-        "24670130820000649",
-        "6203094704700004",
-        "197004072025212007",
+        "ATENG",
+        "24670130810000063",
+        "6203111710770002",
+        "197710172025211043",
         "Kapuas",
-        "STM BANGUNAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Kecamatan Pasak Talawang"
     ],
     [
         "NORAYATI",
@@ -13989,12 +13999,12 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "NORDIANSYAH",
-        "24670130810000415",
-        "6203100603760001",
-        "197603062025211059",
+        "DAYA",
+        "24670130820000495",
+        "6203014709770009",
+        "197709062025212038",
         "Kapuas",
-        "SLTA",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -14114,7 +14124,7 @@ public function updateData() {
         "6203066012880004",
         "198712202025212137",
         "Kapuas",
-        "S-1 \/ AKTA IV PAI",
+        "S-1 / AKTA IV PAI",
         "Guru Ahli Pertama",
         "SD Negeri 1 Mawar Mekar"
     ],
@@ -14144,7 +14154,7 @@ public function updateData() {
         "6212014506890001",
         "198906052025212175",
         "Murung Raya",
-        "S-1\/A-IV PENDIDIKAN GURU TAMAN KANAK-KANAK (PGTK)",
+        "S-1/A-IV PENDIDIKAN GURU TAMAN KANAK-KANAK (PGTK)",
         "Guru Ahli Pertama",
         "SD Negeri 1 Bunga Mawar"
     ],
@@ -14169,14 +14179,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "NORMILAWATI",
-        "24670130820000482",
-        "6203016403770002",
-        "197703242025212025",
-        "Banjarmasin",
-        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
+        "EDY FITRIAN",
+        "24670130810000451",
+        "6203011909770005",
+        "197709192025211055",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "NORPAH",
@@ -14184,19 +14194,19 @@ public function updateData() {
         "6203054111880002",
         "198811012025212091",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "NOTO SUSANTO",
-        "24670130810000593",
-        "6203060806760001",
-        "197606082025211061",
+        "ERTISEN",
+        "24670130820000635",
+        "6203095010770010",
+        "197710102025212057",
         "Kapuas",
-        "SMT PERTANIAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
         "NOVA",
@@ -14214,7 +14224,7 @@ public function updateData() {
         "6203016812880005",
         "198812282025212139",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -14294,7 +14304,7 @@ public function updateData() {
         "6203065611920001",
         "199211162025212131",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Murung"
     ],
@@ -14359,14 +14369,14 @@ public function updateData() {
         "SMP NEGERI 13 MANTANGAI SATU ATAP"
     ],
     [
-        "NUAH TASA",
-        "24670130810000783",
-        "6203021702720001",
-        "197202172025211049",
+        "ERWANDI",
+        "24670130810001043",
+        "6203021408770002",
+        "197708142025211058",
         "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
+        "SMU IPS",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "NUGROHO, S.T",
@@ -14399,14 +14409,14 @@ public function updateData() {
         "SD Negeri 1 Mambulau"
     ],
     [
-        "NUNING",
-        "24670130820000336",
-        "6203084404800001",
-        "198004042025212067",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "ISKANDAR",
+        "24670130810000882",
+        "6203041607770003",
+        "197707162025211087",
+        "Trenggalek",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Pertanian"
     ],
     [
         "NUR ADINDA WULAN SARI",
@@ -14414,7 +14424,7 @@ public function updateData() {
         "6203014103880006",
         "198803012025212121",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
@@ -14474,7 +14484,7 @@ public function updateData() {
         "6203045505980003",
         "199805152025212148",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pertanian"
     ],
@@ -14489,14 +14499,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "NUR SUPIAN",
-        "24670130810000942",
-        "6203013103730002",
-        "197303312025211026",
-        "Kapuas",
-        "SMT PERTANIAN",
+        "KARTINI",
+        "24670130820000437",
+        "6203015608770011",
+        "197708162025212046",
+        "Grobogan",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "NUR SYA'BANA PRATAMA, S.Pd",
@@ -14529,14 +14539,14 @@ public function updateData() {
         "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
     [
-        "NURA WARNIE",
-        "24670130820000564",
-        "6203026505700003",
-        "197005252025212018",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "LISAWATI, S.Pd",
+        "24670110820000461",
+        "6203015505780011",
+        "197705152025212055",
+        "Hulu Sungai Utara",
+        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD 2 Bamban Raya"
     ],
     [
         "NURAFNI",
@@ -14549,14 +14559,14 @@ public function updateData() {
         "Kecamatan Basarang"
     ],
     [
-        "NURATI",
-        "24670130820000068",
-        "6203016212760001",
-        "197612222025212031",
-        "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
+        "MAHDALENA WARNI",
+        "24670130820000541",
+        "6203015402770006",
+        "197702142025212026",
+        "Barito Selatan",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "Badan Kesatuan Bangsa dan Politik"
     ],
     [
         "NURESA OKTAVIA, A.md, Keb",
@@ -14589,14 +14599,14 @@ public function updateData() {
         "UPT Puskesmas Sei Hanyo"
     ],
     [
-        "NURIE ATIE",
-        "24670130820000469",
-        "6203016204770002",
-        "197704222025212034",
-        "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "MINARLY KUSUMAJAYA",
+        "24670130810000379",
+        "6271032301770001",
+        "197701232025211049",
+        "Kapuas",
+        "SEKOLAH TEKNOLOGI MENENGAH",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
         "NURJANNAH, S.Pd",
@@ -14624,7 +14634,7 @@ public function updateData() {
         "6203070704940001",
         "199404072025211133",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Palingkau Baru"
     ],
@@ -14654,7 +14664,7 @@ public function updateData() {
         "6203015505910003",
         "199105152025212219",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -14684,7 +14694,7 @@ public function updateData() {
         "6203081001840001",
         "198401102025211120",
         "Barito Kuala",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -14724,7 +14734,7 @@ public function updateData() {
         "6203016006020003",
         "200206202025212018",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -14744,7 +14754,7 @@ public function updateData() {
         "6271022810950003",
         "199510282025211138",
         "Barito Utara",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -14789,14 +14799,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ORBITO NYANGKAL, S.Pi",
-        "24670130810001015",
-        "6203140712720002",
-        "197212072025211051",
-        "Kapuas",
-        "S-1 PERIKANAN",
-        "Guru Ahli Pertama",
-        "SMP Negeri 2 PASAK TALAWANG SATU ATAP"
+        "NORMILAWATI",
+        "24670130820000482",
+        "6203016403770002",
+        "197703242025212025",
+        "Banjarmasin",
+        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "OSIN, S.Pd",
@@ -14814,7 +14824,7 @@ public function updateData() {
         "6203014507950011",
         "199507062025212149",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -14874,7 +14884,7 @@ public function updateData() {
         "6203011107870008",
         "198707112025211119",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -14959,14 +14969,14 @@ public function updateData() {
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
-        "PEBRUANITA, SE",
-        "24670110820000470",
-        "6202036702740001",
-        "197402272025212008",
-        "Seruyan",
-        "S-1 MANAGEMENT",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Pujon"
+        "NURIE ATIE",
+        "24670130820000469",
+        "6203016204770002",
+        "197704222025212034",
+        "Pulang Pisau",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "PENI, S.Pd",
@@ -14974,7 +14984,7 @@ public function updateData() {
         "6203095202870003",
         "198702122025212133",
         "Kapuas",
-        "S-1 PGTK\/PAUD",
+        "S-1 PGTK/PAUD",
         "Guru Ahli Pertama",
         "SD Negeri 1 Sekata Makmur"
     ],
@@ -15004,19 +15014,19 @@ public function updateData() {
         "6203016507870010",
         "198707252025212114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "PERI SUPRANOTO",
-        "24670130810000730",
-        "6203012312800007",
-        "198012232025211085",
+        "RAUDAH",
+        "24670130820000465",
+        "6203017009910008",
+        "197711282025212028",
         "Kapuas",
-        "MADRASAH ALIYAH",
+        "SEKOLAH MENENGAH EKONOMI ATAS",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "PERMATASARI",
@@ -15024,7 +15034,7 @@ public function updateData() {
         "6203016109860004",
         "198609212025212120",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Selat Dalam"
     ],
@@ -15049,14 +15059,14 @@ public function updateData() {
         "SD Negeri 1 Kayu Bulan"
     ],
     [
-        "PIEN UYEN, A.Md",
-        "24670130820000628",
-        "6203016012780004",
-        "197812202025212035",
-        "Pulang Pisau",
-        "D-III MANAGEMEN INFORMATIKA",
-        "Pengelola Layanan Operasional",
-        "Dinas Pendidikan"
+        "RIYANI, S. Pd",
+        "24670110820000518",
+        "6203116812770002",
+        "197712282025212031",
+        "Kapuas",
+        "S-1 PENDIDIKAN JASMANI KESEHATAN DAN REKREASI",
+        "Guru Ahli Pertama",
+        "SMP NEGERI 2 PASAK TALAWANG"
     ],
     [
         "PINA DEWI SARTIKA",
@@ -15074,7 +15084,7 @@ public function updateData() {
         "6203022211980002",
         "199811222025211044",
         "Kapuas",
-        "D-IV\/S-1 SISTEM INFORMASI",
+        "D-IV/S-1 SISTEM INFORMASI",
         "Penata Layanan Operasional",
         "Kelurahan Barimba"
     ],
@@ -15084,7 +15094,7 @@ public function updateData() {
         "6203040502960002",
         "199602052025211102",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Tamban Catur"
     ],
@@ -15094,7 +15104,7 @@ public function updateData() {
         "6203074209960001",
         "199609022025212113",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -15139,14 +15149,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "PORDAYANTI",
-        "24670130820000315",
-        "6203026608800003",
-        "198008262025212046",
-        "Palangka Raya",
-        "SEKOLAH MENENGAH KEJURUAN",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "ROYA AGUSTINA, S.Pd",
+        "24670110820000326",
+        "6203115908770002",
+        "197708192025212024",
+        "Kapuas",
+        "S-1 PENDDIDIKAN AGAMA KRISTEN",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Kaburan"
     ],
     [
         "PRANSI",
@@ -15154,7 +15164,7 @@ public function updateData() {
         "6203054309930001",
         "199609032025212138",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -15169,14 +15179,14 @@ public function updateData() {
         "Subbagian Keuangan dan Aset"
     ],
     [
-        "PRIANTO YANTINO",
-        "24670130810000580",
-        "6371052209690003",
-        "196909222025211021",
-        "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "SAIFULLAH",
+        "24670130810000779",
+        "6203011503770002",
+        "197703152025211071",
+        "Kapuas",
+        "SMA ILMU ILMU SOSIAL",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "PRIWATI",
@@ -15234,7 +15244,7 @@ public function updateData() {
         "6203010505820018",
         "198205052025211191",
         "Demak",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -15294,7 +15304,7 @@ public function updateData() {
         "6203016601020005",
         "200201262025212017",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -15309,14 +15319,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "PUTU KARTIKA",
-        "24670130810000129",
-        "6203083004790002",
-        "197904302025211059",
+        "SELVI YANTHIE",
+        "24670130820000195",
+        "6203015909770007",
+        "197709192025212030",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMEA KEUANGAN",
         "Operator Layanan Operasional",
-        "Satuan Polisi Pamong Praja"
+        "Dinas Pertanian"
     ],
     [
         "R. PURBO KUSMONO, S.AN",
@@ -15334,7 +15344,7 @@ public function updateData() {
         "6203075310990003",
         "199910132025212074",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Murung"
     ],
@@ -15349,14 +15359,14 @@ public function updateData() {
         "SD Negeri 3 Sei Pinang"
     ],
     [
-        "RACHMAD",
-        "24670130810000212",
-        "6203011404760003",
-        "197604142025211066",
-        "Pulang Pisau",
-        "SMA A.2\/BIOLOGI",
+        "SISWADI",
+        "24670130810000571",
+        "6203012611770002",
+        "197711262025211040",
+        "Kapuas",
+        "SMK",
         "Operator Layanan Operasional",
-        "Dinas Pemadam kebakaran dan Penyelamatan"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "RACHMAD IRAWAN, S.Kom.",
@@ -15379,14 +15389,14 @@ public function updateData() {
         "SD Negeri 1 Lupak Dalam"
     ],
     [
-        "RADIAH",
-        "24670130820000538",
-        "6203016308720003",
-        "197208232025212022",
+        "SMIRNA",
+        "24670130820000526",
+        "6203016702770002",
+        "197702272025212030",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Komunikasi, Informatika, Persandian dan Statistik"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "RADIAH INDAH SARI, S.Pd",
@@ -15414,7 +15424,7 @@ public function updateData() {
         "6271030602020009",
         "200202062025211026",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -15454,7 +15464,7 @@ public function updateData() {
         "6203021106910003",
         "199206112025211137",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -15489,14 +15499,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "RAHMADI",
-        "24670130810000181",
-        "6203011304780001",
-        "197604132025211058",
+        "SRI DEWITO",
+        "24670130810000869",
+        "6203012510770003",
+        "197710252025211044",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMEA ADMINISTRASI PERKANTORAN",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "RAHMADINUR, S.Pd.I",
@@ -15534,7 +15544,7 @@ public function updateData() {
         "6271034201970008",
         "199701022025212104",
         "Kapuas",
-        "S-1",
+        "S-1 PENDIDIKAN (TADRIS) BIOLOGI",
         "Guru Ahli Pertama",
         "SMP Negeri 1 Kapuas Tengah"
     ],
@@ -15564,7 +15574,7 @@ public function updateData() {
         "6203050410870003",
         "198710042025211109",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -15589,14 +15599,14 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "RAHMAWATI, S.Pd.I",
-        "24670110820000289",
-        "6203016212710006",
-        "197112222025212013",
+        "SUPANDI",
+        "24670130810000567",
+        "6203022104730002",
+        "197704212025211080",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM",
-        "Guru Ahli Pertama",
-        "SMP Negeri 11 Mantangai Satu Atap"
+        "SMEA KEUANGAN",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "RAHMAWATI",
@@ -15604,7 +15614,7 @@ public function updateData() {
         "6203016808900004",
         "199008282025212171",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -15614,19 +15624,19 @@ public function updateData() {
         "6203085701960002",
         "199601172025212121",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
     [
-        "RAHMAWATI",
-        "24670130820000560",
-        "6203036808790002",
-        "197908282025212069",
+        "SUSANA SUSANTHY SARY, S.T",
+        "24670130820000654",
+        "6203014509770006",
+        "197709052025212031",
         "Kapuas",
-        "SEKOLAH MENENGAH UMUM",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "S-1 TEKNIK SIPIL",
+        "Penata Layanan Operasional",
+        "Dinas Transmigrasi dan Tenaga Kerja"
     ],
     [
         "RAHMI RUMILIA, S.Pd",
@@ -15704,7 +15714,7 @@ public function updateData() {
         "6203060705910002",
         "199105072025211126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -15724,7 +15734,7 @@ public function updateData() {
         "6203012802940009",
         "199402282025211148",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -15734,7 +15744,7 @@ public function updateData() {
         "6203011908910003",
         "199108192025211122",
         "Kapuas",
-        "S-1",
+        "S-1 ILMU ADMINISTRASI PUBLIK",
         "Penata Layanan Operasional",
         "Badan Kesatuan Bangsa dan Politik"
     ],
@@ -15759,14 +15769,14 @@ public function updateData() {
         "SD Negeri 2 Lungkuh Layang"
     ],
     [
-        "RAMINI",
-        "24670130820000655",
-        "6203014506740005",
-        "197406052025212036",
+        "UDEN ABADI",
+        "24670130810000796",
+        "6203080501770003",
+        "197701052025211073",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "DONI SANTOSO",
@@ -15774,7 +15784,7 @@ public function updateData() {
         "6203010504020006",
         "200204052025211015",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Timur"
     ],
@@ -15804,7 +15814,7 @@ public function updateData() {
         "6203082703840002",
         "198403272025211097",
         "Palangka Raya",
-        "S-1\/A-IV ILMU HUKUM",
+        "S-1/A-IV ILMU HUKUM",
         "Penata Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -15824,7 +15834,7 @@ public function updateData() {
         "6203014611950004",
         "199511062025212134",
         "Kapuas",
-        "S-1",
+        "D-III MANAJEMEN ADMINISTRASI",
         "Pengelola Layanan Operasional",
         "UPT Puskesmas Pulau Kupang"
     ],
@@ -15844,7 +15854,7 @@ public function updateData() {
         "6271035903930010",
         "199303192025212143",
         "Kapuas",
-        "S-1",
+        "S-1 PENDIDIKAN FISIKA",
         "Guru Ahli Pertama",
         "SMP Negeri 4 Kapuas Tengah Satu Atap"
     ],
@@ -15874,7 +15884,7 @@ public function updateData() {
         "6203014304910008",
         "199104032025212163",
         "Kapuas",
-        "S-1",
+        "S-1 ILMU ADMINISTRASI PUBLIK",
         "Penata Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -15904,7 +15914,7 @@ public function updateData() {
         "6203015906840004",
         "198406192025212073",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -15919,14 +15929,14 @@ public function updateData() {
         "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
     [
-        "RAUDAH",
-        "24670130820000465",
-        "6203017009910008",
-        "197711282025212028",
+        "UMAR HADI WIJAYA",
+        "24670130810000548",
+        "6203012107770002",
+        "197707212025211058",
         "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "SMEA MANAJEMEN PEMASARAN",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "RAUDAH, S. Pd. I",
@@ -15934,7 +15944,7 @@ public function updateData() {
         "6203066609910001",
         "199109262025212126",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
         "SD Negeri 1 Teluk Palinget"
     ],
@@ -15949,14 +15959,14 @@ public function updateData() {
         "UPT Puskesmas Pulau Kupang"
     ],
     [
-        "RAYANI",
-        "24670130820000185",
-        "6203016002710005",
-        "197102202025212010",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "WALBER",
+        "24670130810000720",
+        "6203011111770003",
+        "197711112025211079",
+        "Pulang Pisau",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "RAYANTI PERTIWI, S. Tr. Keb",
@@ -15994,7 +16004,7 @@ public function updateData() {
         "6203025808020001",
         "200208182025212027",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -16049,24 +16059,24 @@ public function updateData() {
         "Kecamatan Kapuas Hulu"
     ],
     [
-        "REINHARD",
-        "24670130810000537",
-        "6203010111730001",
-        "197311012025211038",
+        "YUDA EKA SANTOSA",
+        "24670130810000240",
+        "6203071707770004",
+        "197707172025211098",
         "Kapuas",
-        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
+        "SMK KEUANGAN",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
-        "REINHARD SEPTADI",
-        "24670130810000155",
-        "6203012109700002",
-        "197009212025211033",
-        "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "YUNEDIE, S.Pi",
+        "24670130810000137",
+        "6203012002770005",
+        "197702202025211043",
+        "Kapuas",
+        "S-1 BUDIDAYA PERAIRAN",
+        "Penata Layanan Operasional",
+        "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
         "REKNO WINARSIH, S.Pd",
@@ -16084,19 +16094,19 @@ public function updateData() {
         "6203011102890005",
         "198902112025211140",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Perencanaan Pembangunan, Penelitian dan Pengembangan Daerah"
     ],
     [
-        "REMIE",
-        "24670130820000511",
-        "6203114705800003",
-        "197805072025212038",
+        "ABDUL AZIZ",
+        "24670130810000662",
+        "6203011110780005",
+        "197810112025211056",
         "Kapuas",
-        "SMA PAKET C",
+        "MADRASAH ALIYAH NEGERI IPS",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "RENA",
@@ -16154,7 +16164,7 @@ public function updateData() {
         "6203025902020001",
         "200202192025212015",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -16219,14 +16229,14 @@ public function updateData() {
         "Dinas Komunikasi, Informatika, Persandian dan Statistik"
     ],
     [
-        "REPELITA LIUS",
-        "24670130810000443",
-        "6203012310720001",
-        "197210232025211027",
-        "Barito Utara",
-        "SLTA\/SMA SEDERAJAT",
+        "ADJI ANDI ALFIAN",
+        "24670130810000603",
+        "6203011606780001",
+        "197806162025211079",
+        "Kutai Kartanegara",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
-        "Dinas Pemadam kebakaran dan Penyelamatan"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "REPIULO",
@@ -16254,7 +16264,7 @@ public function updateData() {
         "6203015910870003",
         "198710192025212090",
         "Barito Utara",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -16294,7 +16304,7 @@ public function updateData() {
         "6203013001810004",
         "198101302025211058",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -16314,7 +16324,7 @@ public function updateData() {
         "6203016406990007",
         "199906242025212064",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -16429,14 +16439,14 @@ public function updateData() {
         "SMP NEGERI 1 TAMBAN CATUR"
     ],
     [
-        "RIADI",
-        "24670130810000922",
-        "6203012810750005",
-        "197510282025211041",
+        "AGUS SALIM",
+        "24670130810000782",
+        "6203012711780007",
+        "197811272025211049",
         "Kapuas",
-        "SMA IPA",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "RIAN HIDAYAT",
@@ -16454,7 +16464,7 @@ public function updateData() {
         "3602191304900001",
         "199004132025211136",
         "Serang",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -16489,14 +16499,14 @@ public function updateData() {
         "Dinas Penanaman Modal dan PTSP"
     ],
     [
-        "RIANTO",
-        "24670130810000714",
-        "6203041203760002",
-        "197603122025211081",
+        "AHMAD",
+        "24670130810000992",
+        "6203012702780003",
+        "197802272025211039",
         "Kapuas",
-        "SMT PERTANIAN",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "SMP PAKET B",
+        "Pengelola Umum Operasional",
+        "Dinas Perhubungan"
     ],
     [
         "RIANTY, S.Pd",
@@ -16544,7 +16554,7 @@ public function updateData() {
         "6203010604940007",
         "199404062025211105",
         "Tapin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -16554,7 +16564,7 @@ public function updateData() {
         "6203010706920008",
         "199206072025211146",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Inspektorat"
     ],
@@ -16619,14 +16629,14 @@ public function updateData() {
         "UPT Puskesmas Selat"
     ],
     [
-        "RIDUANSYAH",
-        "24670130810000348",
-        "6203052411710001",
-        "197211242025211021",
-        "Kapuas",
-        "SMA ILMU ILMU BIOLOGI",
+        "APRI YOKO",
+        "24670130810000850",
+        "6203050104780003",
+        "197804012025211087",
+        "Palangka Raya",
+        "SMU",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
         "RIFKY FIRMAN PUTRA, S.Sos",
@@ -16704,7 +16714,7 @@ public function updateData() {
         "6211065803890001",
         "198903182025211134",
         "Pulang Pisau",
-        "S-1\/A-IV PENDIDIKAN BIOLOGI",
+        "S-1/A-IV PENDIDIKAN BIOLOGI",
         "Guru Ahli Pertama",
         "SD Negeri 1 Menteng Raya"
     ],
@@ -16719,14 +16729,14 @@ public function updateData() {
         "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
     [
-        "RIMA MANDARALIA",
-        "24670130820000620",
-        "6203024402760002",
-        "197602042025212030",
+        "ARDIANSYAH",
+        "24670130810000758",
+        "6203011705780001",
+        "197805172025211072",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMK AKUNTANSI DAN KEUANGAN",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "RIMANIA KUSMI WULANSARI, S.S.",
@@ -16774,7 +16784,7 @@ public function updateData() {
         "6203015905910003",
         "199305192025212169",
         "Kapuas",
-        "S-1 \/ AKTA IV PAI",
+        "S-1 / AKTA IV PAI",
         "Guru Ahli Pertama",
         "SD NEGERI 4 ANJIR MAMBULAU TIMUR"
     ],
@@ -16829,14 +16839,14 @@ public function updateData() {
         "UPT Puskesmas Pujon"
     ],
     [
-        "RINIE HERLIYANTI",
-        "24670130820000354",
-        "6203015010760012",
-        "197610102025212057",
-        "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "ARIPIN",
+        "24670130810000502",
+        "6203010305780012",
+        "197805032025211083",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kesehatan"
     ],
     [
         "RINITA, S.Pd",
@@ -16904,7 +16914,7 @@ public function updateData() {
         "6203080405020005",
         "200205042025211022",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -16914,7 +16924,7 @@ public function updateData() {
         "6203022808920003",
         "199208282025211177",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -16924,7 +16934,7 @@ public function updateData() {
         "6203013011870005",
         "198711302025211124",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Kecamatan Kapuas Hulu"
     ],
@@ -16934,7 +16944,7 @@ public function updateData() {
         "6203014310920008",
         "199210032025212131",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Penanaman Modal dan PTSP"
     ],
@@ -16954,7 +16964,7 @@ public function updateData() {
         "6203095102930004",
         "199302112025212126",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Selat"
     ],
@@ -16984,7 +16994,7 @@ public function updateData() {
         "6203155505020001",
         "200205152025212014",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Dadahup"
     ],
@@ -16994,7 +17004,7 @@ public function updateData() {
         "6203014506970009",
         "199706062025212143",
         "Tapin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -17069,14 +17079,14 @@ public function updateData() {
         "SMP Negeri 2 Kapuas Timur"
     ],
     [
-        "RITA KARTIKA",
-        "24670130820000403",
-        "6203015006760006",
-        "197606102025212057",
-        "Barito Selatan",
-        "SLTA SEDERAJAT",
+        "BONISON",
+        "24670130810000884",
+        "6203022906780002",
+        "197806292025211051",
+        "Kapuas",
+        "SMU IPS",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
         "RITA PURWANINGSIH, A.Md. Keb",
@@ -17089,14 +17099,14 @@ public function updateData() {
         "UPT Puskesmas Tamban Catur"
     ],
     [
-        "RITA TRIYANIE",
-        "24670130820000380",
-        "6211024306710001",
-        "197106032025212019",
+        "DEGUS HARIYANTO",
+        "24670130810000138",
+        "6203012008780007",
+        "197808202025211072",
         "Kapuas",
-        "SMA BIOLOGI",
+        "SEKOLAH MENENGAH UMUM",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "RITNA WATI, S.Pd",
@@ -17174,19 +17184,19 @@ public function updateData() {
         "6203011302940003",
         "199402132025211096",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "RIYANI, S. Pd",
-        "24670110820000518",
-        "6203116812770002",
-        "197712282025212031",
+        "DIAN ANGGRIYANI",
+        "24670130820000428",
+        "6203017112820006",
+        "197812312025212116",
         "Kapuas",
-        "S-1 PENDIDIKAN JASMANI KESEHATAN DAN REKREASI",
-        "Guru Ahli Pertama",
-        "SMP NEGERI 2 PASAK TALAWANG"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "RIZA, S.Pd",
@@ -17264,7 +17274,7 @@ public function updateData() {
         "6203016208970004",
         "199708222025212115",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -17304,7 +17314,7 @@ public function updateData() {
         "6203012509900001",
         "199009252025211132",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -17334,7 +17344,7 @@ public function updateData() {
         "6203012509910004",
         "199109252025211128",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -17349,14 +17359,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ROBEN",
-        "24670130810000932",
-        "6203012712720006",
-        "197212272025211025",
-        "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "EDINOOR SULAIMAN, A. Md",
+        "24670130810000005",
+        "6203021110780001",
+        "197810112025211054",
+        "Barito Utara",
+        "AKADEMI MANAJEMEN INFORMATIKA DAN KOMPUTER",
+        "Pengelola Layanan Operasional",
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "ROBI KRISTANTO YAHYA, A.Md.Kep",
@@ -17394,7 +17404,7 @@ public function updateData() {
         "6203012106860002",
         "198706212025211119",
         "Kotawaringin Barat",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -17404,19 +17414,19 @@ public function updateData() {
         "6203016305920008",
         "199205232025212169",
         "Barito Kuala",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Guru Ahli Pertama",
         "SD NEGERI 1 MANGGALA PERMAI"
     ],
     [
-        "ROHAPIJAH, S.Pd",
-        "24670110820000660",
-        "6203044301800003",
-        "198001032025212054",
+        "ELGEN TANANO",
+        "24670130810001031",
+        "6203020909780002",
+        "197809092025211088",
         "Kapuas",
-        "S-1 PENDIDIKAN GURU ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD Negeri 1 Lupak Timur"
+        "SMU IPS",
+        "Operator Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "RAFI SAPUTRA",
@@ -17444,7 +17454,7 @@ public function updateData() {
         "6203012101820002",
         "198201212025211083",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Kepegawaian dan Pengembangan Sumber Daya Manusia"
     ],
@@ -17459,14 +17469,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ROLY ISKANDAR",
-        "24670130810000520",
-        "6203010610810003",
-        "198010062025211079",
+        "ELPINA",
+        "24670130820000606",
+        "6203056812780001",
+        "197812282025212039",
         "Kapuas",
-        "SMU",
+        "SEKOLAH MENENGAH ATAS",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Dinas Pendidikan"
     ],
     [
         "ROMANO",
@@ -17549,24 +17559,24 @@ public function updateData() {
         "SD Negeri 1 Sei Kapar"
     ],
     [
-        "ROSALINDA",
-        "24670130820000574",
-        "6203095405740003",
-        "197405142025212019",
-        "Kapuas",
-        "SMEA",
+        "HATNI",
+        "24670130810000975",
+        "6203061603730001",
+        "197804102025211099",
+        "Banjarmasin",
+        "PERSAMAAN SLTA (PAKET C)",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ROYA AGUSTINA, S.Pd",
-        "24670110820000326",
-        "6203115908770002",
-        "197708192025212024",
+        "HENDRU",
+        "24670130810000846",
+        "6203051312780002",
+        "197812132025211061",
         "Kapuas",
-        "S-1 PENDDIDIKAN AGAMA KRISTEN",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Kaburan"
+        "SMT PERTANIAN",
+        "Operator Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "ROYIMAN MOHAIDIN",
@@ -17574,19 +17584,19 @@ public function updateData() {
         "6203020508950003",
         "199508052025211120",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
-        "RUBENSI",
-        "24670130810001003",
-        "6203110405730003",
-        "197305042025211087",
-        "Kapuas",
-        "SMA PAKET C",
+        "I NYOMAN PASEK BAGIARTA",
+        "24670130810000538",
+        "6203011211780008",
+        "197811122025211063",
+        "Buleleng",
+        "SMA IPA",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "RUDIANSYAH",
@@ -17649,14 +17659,14 @@ public function updateData() {
         "UPT Puskesmas Mandomai"
     ],
     [
-        "RUSDI S.",
-        "24670130810000479",
-        "6203030501790001",
-        "197901052025211091",
+        "IBRAMSYAH",
+        "24670130810000872",
+        "6203070709780001",
+        "197809072025211074",
         "Kapuas",
-        "MADRASAH ALIYAH NEGERI",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Kearsipan dan Perpustakaan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "RUSDIANA, S.Kep.,Ners",
@@ -17684,29 +17694,29 @@ public function updateData() {
         "6203016505920007",
         "199202052025211154",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "RUSLIN",
-        "24670130810000876",
-        "6203011703710002",
-        "197103172025211026",
+        "IRMAS SARI, S.Pd.I",
+        "24670110820000005",
+        "6203066708780001",
+        "197808272025212032",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Banama"
     ],
     [
-        "RUSMILA",
-        "24670130820000600",
-        "6203025002730004",
-        "197302102025212036",
+        "JOHN BRORY, S.E.",
+        "24670130810000168",
+        "6301062406780002",
+        "197806242025211058",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Barimba"
+        "S-1 EKONOMI PEMBANGUNAN",
+        "Penata Layanan Operasional",
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "RUSMINI",
@@ -17714,7 +17724,7 @@ public function updateData() {
         "6203014406880012",
         "198806042025212114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -17764,7 +17774,7 @@ public function updateData() {
         "6203035908990004",
         "199908192025212086",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -17784,19 +17794,19 @@ public function updateData() {
         "6203010411990003",
         "199911092025211062",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "SABRI",
-        "24670130810000629",
-        "6203020106760002",
-        "197606012025211097",
-        "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "LIA, S.E",
+        "24670130820000063",
+        "6471056612780009",
+        "197812262025212028",
+        "Palangka Raya",
+        "S-1 EKONOMI",
+        "Penata Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "SAFRI",
@@ -17829,14 +17839,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SAHRIYADI",
-        "24670130810000312",
-        "6203011011760013",
-        "197611102025211084",
+        "LILI YATI, S.Pd",
+        "24670130820000578",
+        "6203074603780003",
+        "197803062025212040",
         "Kapuas",
-        "SMA IPA",
-        "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "S-1 PENDIDIKAN BIOLOGI",
+        "Penata Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "SAIDILAH",
@@ -17849,24 +17859,24 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SAIFULLAH",
-        "24670130810000779",
-        "6203011503770002",
-        "197703152025211071",
+        "MADE FRANDI WINATA, S.Pd",
+        "24670110810000195",
+        "6210010609780001",
+        "197809062025211065",
         "Kapuas",
-        "SMA ILMU ILMU SOSIAL",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "S-1/A-IV PENDIDIKAN BIOLOGI",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Pujon"
     ],
     [
-        "SAIPUL ANWAR",
-        "24670130810000074",
-        "6203012806790005",
-        "197906282025211049",
-        "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "MARLIANCE",
+        "24670130820000494",
+        "6203026809780001",
+        "197809282025212030",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Satuan Polisi Pamong Praja"
+        "Dinas Pendidikan"
     ],
     [
         "SAIPUL RAHMAN, S.Pd.I",
@@ -17874,7 +17884,7 @@ public function updateData() {
         "6203011609850008",
         "198509162025211113",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Penata Layanan Operasional",
         "Dinas Kesehatan"
     ],
@@ -18014,7 +18024,7 @@ public function updateData() {
         "6204055506850002",
         "198307152025212070",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -18039,24 +18049,24 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "SANTA MARIA SINAGA, SP.d",
-        "24670110820000696",
-        "1207287011890003",
-        "198911302025212110",
-        "Deli Serdang",
-        "S-1 KEPENDIDIKAN BAHASA INGGRIS",
+        "MADE CLARA SEPTIANA, S.Pd.",
+        "24670110820000619",
+        "6203084409960001",
+        "Belum ada nip",
+        "Kapuas",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
-        "SD NEGERI 1 BASUTA RAYA"
+        "SD NEGERI 2 TERUSAN RAYA HULU"
     ],
     [
-        "SANTI",
-        "24670130820000022",
-        "6203014607790008",
-        "197907062025212061",
+        "MILAWATI",
+        "24670130820000603",
+        "6203024905780004",
+        "197805092025212041",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SEKOLAH MENENGAH KEJURUA",
         "Operator Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "SANTIA, S.Pd",
@@ -18104,7 +18114,7 @@ public function updateData() {
         "6203011010940004",
         "199410102025211266",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -18114,7 +18124,7 @@ public function updateData() {
         "6211011906910003",
         "199106192025211137",
         "Pulang Pisau",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
         "SMP Negeri 1 Kapuas Hulu"
     ],
@@ -18139,14 +18149,14 @@ public function updateData() {
         "SD Negeri 1 Sumber Mulya"
     ],
     [
-        "SARINAH, S.Pd.I",
-        "24670110820000196",
-        "6203044102750004",
-        "197502012025212031",
-        "Barito Kuala",
-        "S-1 PENDIDIKAN AGAMA ISLAM",
-        "Guru Ahli Pertama",
-        "SD NEGERI 1 TAMBAN JAYA"
+        "MUHAMMAD YUSRO",
+        "24670130810000893",
+        "6203012201780002",
+        "197801222025211048",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "SARINAH",
@@ -18204,7 +18214,7 @@ public function updateData() {
         "6203094703840004",
         "198403072025212088",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -18214,7 +18224,7 @@ public function updateData() {
         "6203062202940002",
         "199401222025211075",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -18239,34 +18249,34 @@ public function updateData() {
         "Dinas Sosial"
     ],
     [
-        "SATRIANOR",
-        "24670130810000739",
-        "6203010709740003",
-        "197409072025211054",
+        "MUTIARA",
+        "24670130820000599",
+        "6204056812810002",
+        "197803172025212035",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pendidikan"
     ],
     [
-        "SAYANG HARWARTO",
-        "24670130810000505",
-        "6203012106790011",
-        "197906212025211072",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "PIEN UYEN, A.Md",
+        "24670130820000628",
+        "6203016012780004",
+        "197812202025212035",
+        "Pulang Pisau",
+        "D-III MANAGEMEN INFORMATIKA",
+        "Pengelola Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
-        "SAYUTI",
-        "24670130810001016",
-        "6203010709720002",
-        "197209072025211058",
+        "REMIE",
+        "24670130820000511",
+        "6203114705800003",
+        "197805072025212038",
         "Kapuas",
-        "SEKOLAH DASAR",
-        "Pengelola Umum Operasional",
-        "Dinas Perhubungan"
+        "SMA PAKET C",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "SEFRIYANIE, S.Pd",
@@ -18279,14 +18289,14 @@ public function updateData() {
         "Bidang Pembinaan SMP"
     ],
     [
-        "SEKO WINARNO",
-        "24670130810001029",
-        "6203100704690002",
-        "196904072025211041",
-        "Kapuas",
-        "D-I IPS",
+        "SELWI",
+        "24670130810000633",
+        "6203011109780005",
+        "197809112025211071",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Timpah"
+        "Bidang Pembinaan Ketenagaan"
     ],
     [
         "SELA ANGGERAINI, S. Pd.",
@@ -18329,14 +18339,14 @@ public function updateData() {
         "Kecamatan Timpah"
     ],
     [
-        "SELVI YANTHIE",
-        "24670130820000195",
-        "6203015909770007",
-        "197709192025212030",
+        "SINARTO",
+        "24670130810000879",
+        "6203021709780001",
+        "197809172025211069",
         "Kapuas",
-        "SMEA KEUANGAN",
+        "SMA PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "SELVY DEWINA",
@@ -18349,14 +18359,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SELWI",
-        "24670130810000633",
-        "6203011109780005",
-        "197809112025211071",
-        "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Bidang Pembinaan Ketenagaan"
+        "SIONNATA, S.E.",
+        "24670130820000347",
+        "6203015706780007",
+        "197806272025212045",
+        "Barito Selatan",
+        "D-IV/S-1 EKONOMI PEMBANGUNAN",
+        "Penata Layanan Operasional",
+        "UPT Puskesmas Selat"
     ],
     [
         "SENDI, S.Pd",
@@ -18369,14 +18379,14 @@ public function updateData() {
         "SD Negeri 2 Lungkuh Layang"
     ],
     [
-        "SENTA",
-        "24670130820000194",
-        "6203144104790001",
-        "197904012025212041",
+        "SOLEHA INDRIANI",
+        "24670130820000088",
+        "6203017103780006",
+        "197803312025212024",
         "Kapuas",
-        "SMU IPS",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
         "SEPRI WAHYU MASMIRI",
@@ -18384,7 +18394,7 @@ public function updateData() {
         "6203016009850009",
         "198509202025212077",
         "Gunung Mas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -18404,7 +18414,7 @@ public function updateData() {
         "6203051109990002",
         "199909112025211082",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -18424,7 +18434,7 @@ public function updateData() {
         "6203051209900002",
         "199009122025211123",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -18499,14 +18509,14 @@ public function updateData() {
         "UPT Puskesmas Pulau Telo"
     ],
     [
-        "SETIA BUNGA INDA",
-        "24670130820000461",
-        "6203055412790001",
-        "197912142025212030",
+        "SUFIAN NOOR, SH",
+        "24670130810000444",
+        "6203010304780008",
+        "197804032025211101",
         "Kapuas",
-        "SLTA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "S-1 ILMU HUKUM",
+        "Penata Layanan Operasional",
+        "Dinas Penanaman Modal dan PTSP"
     ],
     [
         "SETIAWAN",
@@ -18519,12 +18529,12 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "SETIAWAN",
-        "24670130810000874",
-        "6203052011730002",
-        "197311202025211041",
+        "SUHAIMI",
+        "24670130810000686",
+        "6203010105780009",
+        "197805012025211093",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -18534,7 +18544,7 @@ public function updateData() {
         "6203011312870004",
         "198712132025211110",
         "Kapuas",
-        "AKADEMI KOMUNIKASI MASSA ILMU KOMUNIKASI",
+        "D-III ADVERTISING",
         "Pengelola Layanan Operasional",
         "Dinas Kependudukan dan Pencatatan Sipil"
     ],
@@ -18629,14 +18639,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "SINARTO",
-        "24670130810000879",
-        "6203021709780001",
-        "197809172025211069",
+        "TAUFIK",
+        "24670130810000860",
+        "6203011708790006",
+        "197808172025211144",
         "Kapuas",
         "SMA PAKET C",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "SINDY SEPALAN",
@@ -18654,7 +18664,7 @@ public function updateData() {
         "6203016207970004",
         "199707222025212100",
         "Kapuas",
-        "S-1",
+        "S-1 TEKNOLOGI INDUSTRI PERTANIAN",
         "Penata Layanan Operasional",
         "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
@@ -18679,14 +18689,14 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "SINTA WULANDARI, S.Pd",
-        "24670110820000410",
-        "6211026905010004",
-        "200002222025212089",
-        "Pulang Pisau",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "MAHMUD JAUHARI, S.Pd",
+        "24670130810000989",
+        "6203042706920002",
+        "Belum ada nip",
+        "Kapuas",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
-        "SD NEGERI 1 TERUSAN RAYA HULU"
+        "SD NEGERI 2 TERUSAN RAYA BARAT"
     ],
     [
         "RISMA",
@@ -18699,14 +18709,14 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "SIONNATA, S.E.",
-        "24670130820000347",
-        "6203015706780007",
-        "197806272025212045",
-        "Barito Selatan",
-        "D-IV\/S-1 EKONOMI PEMBANGUNAN",
-        "Penata Layanan Operasional",
-        "UPT Puskesmas Selat"
+        "UJANG SUHENDRI",
+        "24670130810000723",
+        "6203010412780005",
+        "197812042025211049",
+        "Kapuas",
+        "SMA PAKET C",
+        "Operator Layanan Operasional",
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "SIPRA, Amd.Kep.",
@@ -18734,7 +18744,7 @@ public function updateData() {
         "6203017012810001",
         "198112302025212045",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -18759,14 +18769,14 @@ public function updateData() {
         "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
-        "SISWADI",
-        "24670130810000571",
-        "6203012611770002",
-        "197711262025211040",
+        "WALTHO",
+        "24670130810000865",
+        "6203012008780004",
+        "197808202025211075",
         "Kapuas",
-        "SMK",
+        "SMU",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "SITI AINUR AMINAH, S.Pd",
@@ -18789,14 +18799,14 @@ public function updateData() {
         "SD Negeri 1 Lunuk Ramba"
     ],
     [
-        "SITI ASIAH",
-        "24670130820000609",
-        "6203044409790001",
-        "197909042025212047",
+        "WIDYA SARI MASDIPURA, SE",
+        "24670130820000094",
+        "6203016912780008",
+        "197812292025212039",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "S-1 MANAJEMEN",
+        "Penata Layanan Operasional",
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "ROLA DAMAYANTI",
@@ -18824,19 +18834,19 @@ public function updateData() {
         "6203016009810002",
         "198109202025212048",
         "Kapuas",
-        "S-1",
+        "S-1 MANAJEMEN HUTAN",
         "Penata Layanan Operasional",
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "SITI HADIJAH, S.Pd.I",
-        "24670130820000575",
-        "6203025108740003",
-        "197408112025212016",
+        "YARDI",
+        "24670130810000952",
+        "6203071605780002",
+        "197805162025211074",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
-        "Guru Ahli Pertama",
-        "SD Negeri 2 Sei Asam"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Kecamatan Kapuas Murung"
     ],
     [
         "SITI HASANAH, S.Pd",
@@ -18864,7 +18874,7 @@ public function updateData() {
         "6203026510020001",
         "200210252025212018",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -18874,7 +18884,7 @@ public function updateData() {
         "6203105704890002",
         "198904172025212143",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -18924,19 +18934,19 @@ public function updateData() {
         "6203036905920001",
         "199205292025212140",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
         "SD Negeri 3 Basarang"
     ],
     [
-        "SITI MUSYAROPAH",
-        "24670130820000604",
-        "6203044403690004",
-        "196903042025212012",
-        "Jember",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "AGUS FITHRY",
+        "24670130810000030",
+        "6203012408790005",
+        "197908242025211063",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
         "SONDANG JULIANA PANGARIBUAN",
@@ -18944,7 +18954,7 @@ public function updateData() {
         "6203015312020004",
         "200212132025212013",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -19004,7 +19014,7 @@ public function updateData() {
         "6203010104890003",
         "198904012025211163",
         "Kapuas",
-        "S-1\/A-IV ILMU PEMERINTAHAN",
+        "S-1/A-IV ILMU PEMERINTAHAN",
         "Penata Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -19019,14 +19029,14 @@ public function updateData() {
         "Dinas Pertanian"
     ],
     [
-        "SMIRNA",
-        "24670130820000526",
-        "6203016702770002",
-        "197702272025212030",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "AHMAD IWANSYAH",
+        "24670130810000636",
+        "6203012510790011",
+        "197910252025211066",
+        "Banjarmasin",
+        "SMK",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "SNEZA AYU FEBRIANI, S.Sos",
@@ -19044,19 +19054,19 @@ public function updateData() {
         "6203096808880009",
         "198808282025212165",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "SOLEHA INDRIANI",
-        "24670130820000088",
-        "6203017103780006",
-        "197803312025212024",
+        "AHMAD KURNIA",
+        "24670130810000480",
+        "6203012210790002",
+        "197910222025211047",
         "Kapuas",
-        "SLTA SEDERAJAT",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
-        "Dinas Ketahanan Pangan dan Perikanan"
+        "Dinas Pertanian"
     ],
     [
         "SOLIHIN",
@@ -19079,14 +19089,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SOPIA, S.Pd.",
-        "24670110820000428",
-        "6203047105990001",
-        "199905312025212085",
+        "MANDRA H. SEM",
+        "24670130810001002",
+        "6203102101760002",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
-        "Guru Ahli Pertama",
-        "SD NEGERI 1 SEI TERAS"
+        "SEKOLAH MENENGAH KEJURUAN",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
     ],
     [
         "SORAYA APRILIANI",
@@ -19099,14 +19109,14 @@ public function updateData() {
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
     [
-        "SOSILAWATI",
-        "24670130820000544",
-        "6203014508800007",
-        "198008052025212064",
-        "Pulang Pisau",
-        "SMK",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "CAROLINA DEASY, A.Md",
+        "24670130820000036",
+        "6203015012790009",
+        "197912102025212062",
+        "Kapuas",
+        "D-III TEKNIK PERTAMBANGAN",
+        "Pengelola Layanan Operasional",
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "SOVIA RAHMAH RUSITA, S.Pd.",
@@ -19119,14 +19129,14 @@ public function updateData() {
         "SD Negeri 1 Lamunti Permai"
     ],
     [
-        "SRI AYU ARIATI",
-        "24670130820000652",
-        "6203015210740004",
-        "197410122025212029",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "EKO BUDIYANTO",
+        "24670130810000839",
+        "6203012111790004",
+        "197911212025211062",
+        "Kendal",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "SRI AYUANITA, S.Pd.AH",
@@ -19149,14 +19159,14 @@ public function updateData() {
         "UPT Puskesmas Jangkang"
     ],
     [
-        "SRI DEWITO",
-        "24670130810000869",
-        "6203012510770003",
-        "197710252025211044",
-        "Kapuas",
-        "SMEA ADMINISTRASI PERKANTORAN",
-        "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "FRAN SALUNDIK, S.T",
+        "24670130810000401",
+        "6203011406790005",
+        "197906142025211105",
+        "Palangka Raya",
+        "S-1 TEKNIK SIPIL",
+        "Penata Layanan Operasional",
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "SRI HANDAYANI, S.Pd",
@@ -19184,39 +19194,39 @@ public function updateData() {
         "6203096611960005",
         "199611262025212148",
         "Tuban",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "SRI MEGAH, SE",
-        "24670110820000707",
-        "6271015008800003",
-        "198008102025212077",
+        "HARIANTO",
+        "24670130810000913",
+        "6203010504790016",
+        "197904052025211101",
         "Kapuas",
-        "S-1 EKONOMI PEMBANGUNAN",
-        "Guru Ahli Pertama",
-        "SMP Negeri 4 Timpah Satu Atap"
+        "SMEA KEUANGAN",
+        "Operator Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "SRI MULATSIH",
-        "24670130820000588",
-        "6371036005700008",
-        "197005202025212021",
-        "Blora",
-        "SEKOLAH MENENGAH KESEJAHTRAAN KELUARGA",
+        "HENDRA TOKANDAYA SAU",
+        "24670130810000552",
+        "6203010212790009",
+        "197912022025211061",
+        "Poso",
+        "SMK MEKANIK OTOMOTIF",
         "Operator Layanan Operasional",
-        "Dinas Sosial"
+        "Badan Pendapatan Daerah"
     ],
     [
-        "SRI MULYAHASANAH",
-        "24670130820000457",
-        "6471046706700004",
-        "197006272025212010",
-        "Barito Utara",
-        "SMA ILMU ILMU SOSIAL",
-        "Operator Layanan Operasional",
-        "Dinas Sosial"
+        "HERMANUS, S.T",
+        "24670130810000659",
+        "6203010603790010",
+        "197903062025211069",
+        "Pulang Pisau",
+        "S-1 TEKNIK INFORMATIKA",
+        "Penata Layanan Operasional",
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "SRI RAHAYU, S.Pd.I.",
@@ -19234,19 +19244,19 @@ public function updateData() {
         "6203015409970005",
         "199709142025212119",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Panamas"
     ],
     [
-        "SRI RAHAYU",
-        "24670130820000408",
-        "6203015810760004",
-        "197610182025212021",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "IKA AUSTRALINA",
+        "24670130820000497",
+        "6203014202790011",
+        "197902022025212062",
+        "Hulu Sungai Tengah",
+        "SMU IPS",
         "Operator Layanan Operasional",
-        "Kelurahan Pulau Kupang"
+        "Dinas Pemberdayaan Perempuan, Perlindungan Anak, Pengendalian Penduduk dan Keluarga Berencana"
     ],
     [
         "SRI RATU, A.Md.Keb",
@@ -19259,14 +19269,14 @@ public function updateData() {
         "UPT Puskesmas Basarang"
     ],
     [
-        "SRI SUSANTI",
-        "24670130820000478",
-        "6203016912690003",
-        "196912292025212013",
-        "Barito Utara",
-        "SMEA",
+        "IRWANSYAH",
+        "24670130810000008",
+        "6203010807790003",
+        "197907082025211078",
+        "Kapuas",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
-        "Dinas Kesehatan"
+        "Badan Pendapatan Daerah"
     ],
     [
         "SRI WAHYUNI",
@@ -19294,7 +19304,7 @@ public function updateData() {
         "6203014104850007",
         "198504012025212094",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -19309,14 +19319,14 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "SRIMINIATI",
-        "24670130820000412",
-        "6203075309740001",
-        "197409132025212021",
-        "Tabalong",
-        "SEKOLAH MENENGAH PERTAMA",
-        "Pengelola Umum Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "IWAN HARTAWAN",
+        "24670130810000692",
+        "6203012110790004",
+        "197910212025211070",
+        "Kapuas",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "SRIWARDINA, S.Pd.I",
@@ -19334,7 +19344,7 @@ public function updateData() {
         "6203011009970008",
         "199709102025211112",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -19344,7 +19354,7 @@ public function updateData() {
         "6203016207830002",
         "198307222025212066",
         "Minahasa",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -19359,14 +19369,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "SUBAHAN",
-        "24670130810001024",
-        "6203011709800003",
-        "198009172025211073",
+        "JABIR",
+        "24670130810000195",
+        "6203041006790004",
+        "197906102025211129",
         "Kapuas",
-        "SMK",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Kecamatan Kapuas Kuala"
     ],
     [
         "SUBHAN, SE",
@@ -19424,7 +19434,7 @@ public function updateData() {
         "6203015302950002",
         "199502132025212119",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Kesehatan"
     ],
@@ -19439,14 +19449,14 @@ public function updateData() {
         "Satuan Polisi Pamong Praja"
     ],
     [
-        "SUFIAN NOOR, SH",
-        "24670130810000444",
-        "6203010304780008",
-        "197804032025211101",
-        "Kapuas",
-        "S-1 ILMU HUKUM",
-        "Penata Layanan Operasional",
-        "Dinas Penanaman Modal dan PTSP"
+        "JAYA",
+        "24670130810000849",
+        "6203021008790004",
+        "197908102025211115",
+        "Barito Timur",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Badan Penanggulangan Bencana Daerah"
     ],
     [
         "SUGENG SUKRIYANTO, S.Pd.I",
@@ -19499,24 +19509,24 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "SUHAIMI",
-        "24670130810000686",
-        "6203010105780009",
-        "197805012025211093",
+        "JHONNY",
+        "24670130810000319",
+        "6302062411790002",
+        "197911242025211068",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SMU IPA",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "SUHARTATIK",
-        "24670130820000525",
-        "6203015109800009",
-        "198009112025212044",
+        "JUMARI",
+        "24670130810000741",
+        "6203010204790010",
+        "197904022025211077",
         "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
+        "SMK BISNIS DAN MANAJEMEN",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "SUHARTINI NINGSIH",
@@ -19529,24 +19539,24 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SUJALMI",
-        "24670130820000388",
-        "6203015303740006",
-        "197403132025212018",
-        "Banyuwangi",
-        "SLTA SEDERAJAT",
+        "KUSMARANTI",
+        "24670130820000591",
+        "6203027011790003",
+        "197911302025212038",
+        "Kapuas",
+        "SMK AKUNTANSI",
         "Operator Layanan Operasional",
-        "Laboratorium Kesehatan Daerah Kabupaten Kapuas"
+        "Dinas Pendidikan"
     ],
     [
-        "SUJOKO",
-        "24670130810000996",
-        "6203042811730002",
-        "197311282025211023",
+        "KUSNADI",
+        "24670130810000752",
+        "6203010612790003",
+        "197912062025211070",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "UPT Puskesmas Tamban Catur"
+        "Kelurahan Palingkau Baru"
     ],
     [
         "SUKARTO FETRIANO",
@@ -19639,14 +19649,14 @@ public function updateData() {
         "Dinas Kesehatan"
     ],
     [
-        "SUMARTONO",
-        "24670130810000207",
-        "6203011212760010",
-        "197612122025211091",
+        "LINAE",
+        "24670130820000520",
+        "6203016301790003",
+        "197901232025212031",
         "Kapuas",
-        "SMA PAKET C",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
-        "Satuan Polisi Pamong Praja"
+        "Dinas Pendidikan"
     ],
     [
         "SUMIATI",
@@ -19724,7 +19734,7 @@ public function updateData() {
         "6203011707830004",
         "198307172025211146",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -19734,29 +19744,29 @@ public function updateData() {
         "6203015509960003",
         "199609152025212115",
         "Barito Utara",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "SUPAIN",
-        "24670130810000704",
-        "6203030404800004",
-        "197605072025211059",
+        "M.RUSDI S.HUT, S.Hut",
+        "24670110810000289",
+        "6203041712790002",
+        "197912172025211079",
         "Kapuas",
-        "PAKET C",
-        "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Lupak Dalam"
     ],
     [
-        "SUPANDI",
-        "24670130810000567",
-        "6203022104730002",
-        "197704212025211080",
-        "Kapuas",
-        "SMEA KEUANGAN",
+        "M.SALEH",
+        "24670130810000804",
+        "6203071905780001",
+        "197906042025211084",
+        "Hulu Sungai Utara",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Pertanian"
     ],
     [
         "SUPARDI",
@@ -19774,7 +19784,7 @@ public function updateData() {
         "6203022005680001",
         "196805202025211030",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -19794,7 +19804,7 @@ public function updateData() {
         "6203012202810001",
         "198102222025211088",
         "Barito Kuala",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -19814,7 +19824,7 @@ public function updateData() {
         "6203075808020001",
         "200209182025212017",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Palingkau Lama"
     ],
@@ -19824,7 +19834,7 @@ public function updateData() {
         "6203083007920002",
         "199207302025211115",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -19864,7 +19874,7 @@ public function updateData() {
         "6203012510900013",
         "199010252025211122",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -19874,7 +19884,7 @@ public function updateData() {
         "6203071911850002",
         "198511192025211095",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -19919,14 +19929,14 @@ public function updateData() {
         "Badan Keuangan dan Aset Daerah"
     ],
     [
-        "SURYADI",
-        "24670130810000769",
-        "6203010708720011",
-        "197208072025211060",
-        "Kapuas",
-        "SMEA PERKANTORAN",
+        "MAKDALENA",
+        "24670130820000359",
+        "6203015204790008",
+        "197904122025212061",
+        "Barito Timur",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kesehatan"
     ],
     [
         "SUSANA, S.M",
@@ -19939,14 +19949,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "SUSANA SUSANTHY SARY, S.T",
-        "24670130820000654",
-        "6203014509770006",
-        "197709052025212031",
+        "MUHAMAD SYAFI'E",
+        "24670130810000800",
+        "6203011910790006",
+        "197910192025211059",
         "Kapuas",
-        "S-1 TEKNIK SIPIL",
-        "Penata Layanan Operasional",
-        "Dinas Transmigrasi dan Tenaga Kerja"
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "SUSANDRI BERKAT HAWINI, S.Pd.",
@@ -20034,7 +20044,7 @@ public function updateData() {
         "6203015909860007",
         "198609192025212104",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
@@ -20044,7 +20054,7 @@ public function updateData() {
         "6203024408940001",
         "199408042025212143",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "UPT Puskesmas Anjir Serapat"
     ],
@@ -20074,19 +20084,19 @@ public function updateData() {
         "6203082302810005",
         "198102232025211064",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Basarang"
     ],
     [
-        "SUTER, S.Sos.",
-        "24670130810000053",
-        "6203050704700001",
-        "197004072025211034",
-        "Kotawaringin Timur",
-        "S-1 ADMINITRASI NEGARA",
-        "Penata Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "MURAI",
+        "24670130820000198",
+        "6203026402790001",
+        "197902242025212033",
+        "Palangka Raya",
+        "SMK",
+        "Operator Layanan Operasional",
+        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
     ],
     [
         "SUTRISNO",
@@ -20099,14 +20109,14 @@ public function updateData() {
         "Dinas Pemberdayaan Masyarakat dan Desa"
     ],
     [
-        "SUYANTO",
-        "24670130810000944",
-        "6203082801760004",
-        "197601282025211033",
-        "Kapuas",
-        "SLTA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pertanian"
+        "NIDYA KIRANA ROMZAH, S.E",
+        "24670130820000217",
+        "6203016104790005",
+        "197904212025212080",
+        "Yogyakarta",
+        "S-1 EKONOMI AKUNTANSI",
+        "Penata Layanan Operasional",
+        "Badan Pendapatan Daerah"
     ],
     [
         "WAHYU HADANI",
@@ -20114,7 +20124,7 @@ public function updateData() {
         "6203013004010006",
         "200205012025211028",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -20124,7 +20134,7 @@ public function updateData() {
         "6203065208020002",
         "200208122025212020",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Satuan Polisi Pamong Praja"
     ],
@@ -20184,7 +20194,7 @@ public function updateData() {
         "6271023009950002",
         "199509302025211104",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -20209,14 +20219,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SYARKIAH, S.Pd.I",
-        "24670110820000288",
-        "6203035607750001",
-        "197507162025212024",
+        "NOORHAYATI, S.Pd.AUD",
+        "24670110820000602",
+        "6203015110790001",
+        "197910112025212051",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "S-1 PENDIDIKAN ANAK USIA DINI",
         "Guru Ahli Pertama",
-        "SD Negeri 1 Anjir Serapat Timur"
+        "SD Negeri 6 Selat Hilir"
     ],
     [
         "SYLVI WULANDARI, S.Kep.,Ns",
@@ -20264,29 +20274,29 @@ public function updateData() {
         "6203015305980003",
         "199805132025212115",
         "Banjarmasin",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Penata Layanan Operasional",
         "Dinas Pertanian"
     ],
     [
-        "TAUFIK",
-        "24670130810000860",
-        "6203011708790006",
-        "197808172025211144",
+        "PUTU KARTIKA",
+        "24670130810000129",
+        "6203083004790002",
+        "197904302025211059",
         "Kapuas",
-        "SMA PAKET C",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "Satuan Polisi Pamong Praja"
     ],
     [
-        "TAUFIK RAHMAN",
-        "24670130810000491",
-        "6203081603790003",
-        "197911102025211102",
+        "RAHMAWATI",
+        "24670130820000560",
+        "6203036808790002",
+        "197908282025212069",
         "Kapuas",
-        "PAKET C",
+        "SEKOLAH MENENGAH UMUM",
         "Operator Layanan Operasional",
-        "Dinas Pekerjaan Umum dan Penataan Ruang"
+        "Dinas Pendidikan"
     ],
     [
         "TAUFIK RAHMAN, S.Kom",
@@ -20329,24 +20339,24 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "TERISIANA FEBRIANTI, A.Ma.",
-        "24670130820000057",
-        "6205056302730004",
-        "197302232025212020",
+        "RUSDI S.",
+        "24670130810000479",
+        "6203030501790001",
+        "197901052025211091",
         "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
+        "MADRASAH ALIYAH NEGERI",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kearsipan dan Perpustakaan"
     ],
     [
-        "TETI HARIYATI",
-        "24670130820000012",
-        "6203076308700002",
-        "197008232025212009",
-        "Kapuas",
-        "SMKK BUSANA",
+        "SAIPUL ANWAR",
+        "24670130810000074",
+        "6203012806790005",
+        "197906282025211049",
+        "Pulang Pisau",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Satuan Polisi Pamong Praja"
     ],
     [
         "THOMAS ARIJAL",
@@ -20364,7 +20374,7 @@ public function updateData() {
         "6203015501990003",
         "199901152025212076",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Pemadam kebakaran dan Penyelamatan"
     ],
@@ -20374,7 +20384,7 @@ public function updateData() {
         "6203010706040007",
         "200306072025211015",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -20404,7 +20414,7 @@ public function updateData() {
         "6203015212930004",
         "199312122025212197",
         "Banjar",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -20444,19 +20454,19 @@ public function updateData() {
         "6203096807990001",
         "199907282025212102",
         "Kapuas",
-        "D-IV\/S-1 EKONOMI",
+        "D-IV/S-1 EKONOMI",
         "Guru Ahli Pertama",
         "SMP NEGERI 12 MANTANGAI SATU ATAP"
     ],
     [
-        "TITI MOLIYANI",
-        "24670130820000563",
-        "6203095012800004",
-        "198012102025212063",
+        "SANTI",
+        "24670130820000022",
+        "6203014607790008",
+        "197907062025212061",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Badan Pendapatan Daerah"
     ],
     [
         "TITIN KARTINI, S.Pd",
@@ -20504,7 +20514,7 @@ public function updateData() {
         "6203051010950001",
         "199510102025211194",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -20514,7 +20524,7 @@ public function updateData() {
         "6203023012890001",
         "198912302025211116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -20524,7 +20534,7 @@ public function updateData() {
         "6203010905820001",
         "198205092025211132",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -20534,7 +20544,7 @@ public function updateData() {
         "6203011206820020",
         "198206122025211164",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
@@ -20574,19 +20584,19 @@ public function updateData() {
         "6203015605940002",
         "199405162025212138",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "TRI MULIYANINGSIH",
-        "24670130820000393",
-        "6203015101750007",
-        "197501112025212016",
+        "SAYANG HARWARTO",
+        "24670130810000505",
+        "6203012106790011",
+        "197906212025211072",
         "Kapuas",
-        "SMEA KEUANGAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "TRI PERMATA KASANAH, S.Kom",
@@ -20594,7 +20604,7 @@ public function updateData() {
         "6203034303000003",
         "200003032025212094",
         "Kapuas",
-        "D-IV\/S-1 TEKNIK INFORMATIKA",
+        "D-IV/S-1 TEKNIK INFORMATIKA",
         "Guru Ahli Pertama",
         "SMP Negeri 1 Selat"
     ],
@@ -20624,7 +20634,7 @@ public function updateData() {
         "6203070104910006",
         "199104012025211146",
         "Tulang Bawang",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Dadahup"
     ],
@@ -20669,12 +20679,12 @@ public function updateData() {
         "SMP Negeri 2 Selat"
     ],
     [
-        "TRIFINA AMBON",
-        "24670130820000644",
-        "6203116304740001",
-        "197404232025212022",
+        "SENTA",
+        "24670130820000194",
+        "6203144104790001",
+        "197904012025212041",
         "Kapuas",
-        "SEKOLAH MENENGAH TEKNOLOGI PERTANIAN",
+        "SMU IPS",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -20689,14 +20699,14 @@ public function updateData() {
         "Dinas Perhubungan"
     ],
     [
-        "TRIS VENTILOWATI",
-        "24670130820000462",
-        "6203016810690003",
-        "196910282025212010",
+        "SETIA BUNGA INDA",
+        "24670130820000461",
+        "6203055412790001",
+        "197912142025212030",
         "Kapuas",
-        "SMA ILMU ILMU SOSIAL",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "TRISNA DWIYANTO PUTRA, S.E",
@@ -20734,7 +20744,7 @@ public function updateData() {
         "6203020708980002",
         "199808072025211081",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Hilir"
     ],
@@ -20754,7 +20764,7 @@ public function updateData() {
         "6203010210910005",
         "199210022025211156",
         "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Inspektorat"
     ],
@@ -20779,14 +20789,14 @@ public function updateData() {
         "SD Negeri 2 Selat Tengah"
     ],
     [
-        "UDEN ABADI",
-        "24670130810000796",
-        "6203080501770003",
-        "197701052025211073",
+        "SITI ASIAH",
+        "24670130820000609",
+        "6203044409790001",
+        "197909042025212047",
         "Kapuas",
-        "SLTA",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "UJANG",
@@ -20799,24 +20809,24 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "UJANG SUHENDRI",
-        "24670130810000723",
-        "6203010412780005",
-        "197812042025211049",
+        "TAUFIK RAHMAN",
+        "24670130810000491",
+        "6203081603790003",
+        "197911102025211102",
         "Kapuas",
-        "SMA PAKET C",
+        "PAKET C",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "UMAR HADI WIJAYA",
-        "24670130810000548",
-        "6203012107770002",
-        "197707212025211058",
+        "WAHYUDI",
+        "24670130810000968",
+        "6203012906790019",
+        "197906292025211053",
         "Kapuas",
-        "SMEA MANAJEMEN PEMASARAN",
+        "SLTA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Penanaman Modal dan PTSP"
     ],
     [
         "UNAL SAPUTRA, Amd.Kep",
@@ -20834,7 +20844,7 @@ public function updateData() {
         "6203011809880001",
         "198809182025211119",
         "Banyumas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Subbagian Umum, Kepegawaian dan Tugas Pembantuan"
     ],
@@ -20844,19 +20854,19 @@ public function updateData() {
         "6203010601920003",
         "199201062025211132",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Bataguh"
     ],
     [
-        "URIANTINUS, S.M",
-        "24670130810000254",
-        "6203012110760003",
-        "197610122025211062",
-        "Barito Selatan",
-        "S-1 MANAJEMEN",
+        "YOHANES DECA HARYANTO.S, S.Hut",
+        "24670130810000099",
+        "6203012605790002",
+        "197905262025211081",
+        "Kapuas",
+        "S-1 KEHUTANAN (MANAJEMEN KEHUTANAN)",
         "Penata Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
     ],
     [
         "UTOMO SAPUTRA, S.Pd.",
@@ -20914,7 +20924,7 @@ public function updateData() {
         "6203025910960002",
         "199510192025212090",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Penanaman Modal dan PTSP"
     ],
@@ -20934,7 +20944,7 @@ public function updateData() {
         "6203116606010003",
         "200206182025212017",
         "Kapuas",
-        "S-1",
+        "S-1 FILSAFAT AGAMA HINDU",
         "Guru Ahli Pertama",
         "SD Negeri 2 Kaburan"
     ],
@@ -20944,7 +20954,7 @@ public function updateData() {
         "6203016104030006",
         "200304212025212015",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -21019,14 +21029,14 @@ public function updateData() {
         "SD Negeri 1 Handiwong"
     ],
     [
-        "VITA ALVIANA, S.Pd",
-        "24670130820000630",
-        "6203015310940003",
-        "199410132025212130",
+        "MONALISA, S.Pd",
+        "24670110820000380",
+        "6203084607990004",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PENDIDIKAN AGAMA ISLAM\/TARBIYAH",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
         "Guru Ahli Pertama",
-        "SD NEGERI 2 MAJU BERSAMA"
+        "SD Negeri 1 Sumber Agung"
     ],
     [
         "VIVI AGUSTINA",
@@ -21104,7 +21114,7 @@ public function updateData() {
         "6203024909940001",
         "199409092025212172",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -21124,7 +21134,7 @@ public function updateData() {
         "6203012905950002",
         "199505292025211140",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Keuangan dan Aset Daerah"
     ],
@@ -21139,24 +21149,24 @@ public function updateData() {
         "SD Negeri 3 Sei Tatas Hilir"
     ],
     [
-        "WAHYUDI",
-        "24670130810000821",
-        "6203082404740003",
-        "197404242025211077",
-        "Trenggalek",
+        "ZAINAL ABADIN",
+        "24670130810000856",
+        "6203011307790005",
+        "197907132025211083",
+        "Kapuas",
+        "SMK MANAJEMEN BISNIS",
+        "Operator Layanan Operasional",
+        "RSUD dr. H. Soemarno Sosroatmodjo"
+    ],
+    [
+        "MUHAMMAD ARSYAD",
+        "24670130810000901",
+        "6203010101800030",
+        "198001012025211255",
+        "Kapuas",
         "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
-    ],
-    [
-        "WAHYUDI",
-        "24670130810000968",
-        "6203012906790019",
-        "197906292025211053",
-        "Kapuas",
-        "SLTA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Penanaman Modal dan PTSP"
     ],
     [
         "WAHYUDI",
@@ -21204,19 +21214,19 @@ public function updateData() {
         "6203014504980004",
         "199804052025212116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Penanggulangan Bencana Daerah"
     ],
     [
-        "WALBER",
-        "24670130810000720",
-        "6203011111770003",
-        "197711112025211079",
-        "Pulang Pisau",
-        "SLTA\/SMA SEDERAJAT",
+        "ABDUL HAKIM",
+        "24670130810000671",
+        "6203010202770011",
+        "198007052025211166",
+        "Kapuas",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Kelurahan Murung Keramat"
     ],
     [
         "WALJHON PAMUNGKAS, S.AN",
@@ -21229,14 +21239,14 @@ public function updateData() {
         "Badan Pendapatan Daerah"
     ],
     [
-        "WALTHO",
-        "24670130810000865",
-        "6203012008780004",
-        "197808202025211075",
-        "Kapuas",
-        "SMU",
-        "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "ANANG AMINUDDIN, S.Pd",
+        "24670110810000173",
+        "6271031709800006",
+        "198009172025211074",
+        "Jombang",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 TERUSAN MAKMUR"
     ],
     [
         "WANYO",
@@ -21279,34 +21289,34 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "WARTINI",
-        "24670130820000659",
-        "6210056210700002",
-        "197010222025212005",
-        "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "ARBAINAH",
+        "24670130820000468",
+        "6203014101800014",
+        "198001012025212149",
+        "Palangka Raya",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "WAWAN",
-        "24670130810000338",
-        "6203071505700003",
-        "197005152025211061",
+        "ARMAN",
+        "24670130810000639",
+        "6203010101800021",
+        "198001012025211247",
         "Kapuas",
-        "SMA IPS",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Kelurahan Selat Dalam"
     ],
     [
-        "WAWAN KUSWANDA",
-        "24670130810000575",
-        "6203012004700004",
-        "197004202025211050",
+        "BATMAN",
+        "24670130810000187",
+        "6203011707800009",
+        "198007172025211117",
         "Kapuas",
-        "SMEA PERDAGANGAN",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
         "Operator Layanan Operasional",
-        "RSUD dr. H. Soemarno Sosroatmodjo"
+        "Dinas Perhubungan"
     ],
     [
         "WAYAN EKA SAPTA JAYA, S. Pd,",
@@ -21329,14 +21339,14 @@ public function updateData() {
         "UPT Puskesmas Danau Rawah"
     ],
     [
-        "WELDI SURIADI",
-        "24670130810000807",
-        "6203060706730001",
-        "197306072025211060",
+        "CISNA HELDAYATI",
+        "24670130820000075",
+        "6203026703800001",
+        "198003272025212050",
         "Kapuas",
-        "PAKET C",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Dinas Kependudukan dan Pencatatan Sipil"
     ],
     [
         "WELSY, A.Md.Keb",
@@ -21354,19 +21364,19 @@ public function updateData() {
         "6203021511860001",
         "198611152025211114",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Pendapatan Daerah"
     ],
     [
-        "WENDY",
-        "24670130810000142",
-        "6203022702720001",
-        "197202272025211024",
-        "Kapuas",
-        "D-I ADMINISTRASI KANTOR",
+        "DEDI MULYANA",
+        "24670130810001033",
+        "3272050707800901",
+        "198007072025211134",
+        "Sukabumi",
+        "SMU IPA",
         "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Kecamatan Selat"
     ],
     [
         "WENDY PRANATA",
@@ -21394,7 +21404,7 @@ public function updateData() {
         "6203045910970002",
         "199710192025212100",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -21409,14 +21419,14 @@ public function updateData() {
         "Kelurahan Selat Barat"
     ],
     [
-        "WIDYA SARI MASDIPURA, SE",
-        "24670130820000094",
-        "6203016912780008",
-        "197812292025212039",
-        "Kapuas",
-        "S-1 MANAJEMEN",
+        "ENDANG SUNARNI, S.E.",
+        "24670130820000111",
+        "6203016009800006",
+        "198009202025212045",
+        "Ponorogo",
+        "D-IV/S-1 MANAJEMEN",
         "Penata Layanan Operasional",
-        "Dinas Kependudukan dan Pencatatan Sipil"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "PUTRI AURA ASIA",
@@ -21474,7 +21484,7 @@ public function updateData() {
         "6203015505030009",
         "200305162025212010",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -21489,14 +21499,14 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "WITRIANY MELATI, S.Pd",
-        "24670110820000702",
-        "6203095509760006",
-        "197609152025212036",
-        "Kapuas",
-        "S-1 GURU PAUD",
-        "Guru Ahli Pertama",
-        "SD Negeri 1 Mantangai Hulu"
+        "FITRIA AN'NISA, SH",
+        "24670130820000145",
+        "6203016911800006",
+        "198011292025212036",
+        "Palangka Raya",
+        "S-1 HUKUM UMUM",
+        "Penata Layanan Operasional",
+        "Dinas Pertanian"
     ],
     [
         "WIWI ARDIATI, S.Pd",
@@ -21509,14 +21519,14 @@ public function updateData() {
         "SD Negeri 1 Saka Tamiang"
     ],
     [
-        "WIWI KUSMAWATI",
-        "24670130820000572",
-        "6203024609800004",
-        "198006062025212075",
+        "HAMDAH",
+        "24670130820000594",
+        "6203045211800003",
+        "198011122025212052",
         "Kapuas",
-        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "MADRASAH ALIYAH NEGERI",
         "Operator Layanan Operasional",
-        "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
+        "Dinas Pendidikan"
     ],
     [
         "WIWIN",
@@ -21524,19 +21534,19 @@ public function updateData() {
         "6203026708940001",
         "199408272025212151",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "WIWIN EMELIA",
-        "24670130820000571",
-        "6203094208800006",
-        "198008022025212042",
+        "HERO SUSILO",
+        "24670130810000398",
+        "6203011104800004",
+        "198004112025211059",
         "Kapuas",
-        "D-I IPS",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "Satuan Polisi Pamong Praja"
     ],
     [
         "WIWIN MEIKA SINTA, S.Pd.",
@@ -21629,34 +21639,34 @@ public function updateData() {
         "SD Negeri 2 Lupak Dalam"
     ],
     [
-        "YAN LOTHARD",
-        "24670130810000719",
-        "6206050506730002",
-        "197306052025211089",
+        "ILAWANSI",
+        "24670130820000629",
+        "6203094812800003",
+        "198012082025212049",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
+        "Operator Layanan Operasional",
+        "Dinas Pendidikan"
+    ],
+    [
+        "JUANDI",
+        "24670130810001020",
+        "6203011009800005",
+        "198009102025211120",
+        "Kapuas",
+        "SMK AKUNTANSI",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "YAN MARO",
-        "24670130810000647",
-        "6203021803750001",
-        "197503182025211034",
+        "LISA",
+        "24670130820000256",
+        "6271034712800004",
+        "198012072025212055",
         "Kapuas",
-        "SEKOLAH MENENGAH EKONOMI ATAS",
+        "SMA IPA",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
-    ],
-    [
-        "YAN MELDA",
-        "24670130810000745",
-        "6203012001710004",
-        "197101202025211028",
-        "Kapuas",
-        "SMA A.1\/FISIKA",
-        "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "Badan Penanggulangan Bencana Daerah"
     ],
     [
         "YANA",
@@ -21669,14 +21679,14 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "YANDRIANUS",
-        "24670130810000997",
-        "6203061109760003",
-        "197609112025211066",
+        "MARIO",
+        "24670130810000660",
+        "6203010604800007",
+        "198004062025211088",
         "Kapuas",
-        "D-I LINGKUNGAN",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Dinas Ketahanan Pangan dan Perikanan"
+        "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
         "YANTI, S.Sos.",
@@ -21699,14 +21709,14 @@ public function updateData() {
         "Dinas Pendidikan"
     ],
     [
-        "YARDI",
-        "24670130810000952",
-        "6203071605780002",
-        "197805162025211074",
+        "MICKY DAVIS",
+        "24670130810000976",
+        "6203021303800003",
+        "198003132025211090",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Kecamatan Kapuas Murung"
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "YASINTHA NGEO",
@@ -21724,7 +21734,7 @@ public function updateData() {
         "6203012006910006",
         "199106202025211124",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Transmigrasi dan Tenaga Kerja"
     ],
@@ -21744,7 +21754,7 @@ public function updateData() {
         "6203015106860001",
         "198606112025212103",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Perumahan, Kawasan Permukiman, dan Pertanahan"
     ],
@@ -21889,14 +21899,14 @@ public function updateData() {
         "SMP Negeri 2 Timpah Satu Atap"
     ],
     [
-        "YOHANES DECA HARYANTO.S, S.Hut",
-        "24670130810000099",
-        "6203012605790002",
-        "197905262025211081",
+        "MURHAD",
+        "24670130810000748",
+        "6203011712800001",
+        "198012172025211080",
         "Kapuas",
-        "S-1",
-        "Penata Layanan Operasional",
-        "Badan Perencanaan Pembangunan, Riset dan Inovasi Daerah"
+        "SMK SEKRETARIS",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "YOHANES SULKANEDI KANCANA, A.md Kep",
@@ -21924,7 +21934,7 @@ public function updateData() {
         "6203017001890006",
         "198901302025212124",
         "Gunung Mas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Badan Pendapatan Daerah"
     ],
@@ -21934,17 +21944,17 @@ public function updateData() {
         "6203020111040002",
         "200411012025211001",
         "Kapuas",
-        "SMA\/MA (IPA)",
+        "SMA/MA (IPA)",
         "Operator Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "YOTO",
-        "24670130810001010",
-        "6203091304750005",
-        "197504132025211047",
+        "NUNING",
+        "24670130820000336",
+        "6203084404800001",
+        "198004042025212067",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -21954,19 +21964,19 @@ public function updateData() {
         "6203010703040006",
         "200403072025211008",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "YUDA EKA SANTOSA",
-        "24670130810000240",
-        "6203071707770004",
-        "197707172025211098",
+        "PERI SUPRANOTO",
+        "24670130810000730",
+        "6203012312800007",
+        "198012232025211085",
         "Kapuas",
-        "SMK KEUANGAN",
+        "MADRASAH ALIYAH",
         "Operator Layanan Operasional",
-        "Dinas Pariwisata, Kebudayaan, Kepemudaan dan Olahraga"
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "YUDA YANSAH",
@@ -21984,7 +21994,7 @@ public function updateData() {
         "6203010812040005",
         "200412082025211002",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -22004,7 +22014,7 @@ public function updateData() {
         "6203015606850004",
         "198506162025212115",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Selat Tengah"
     ],
@@ -22039,14 +22049,14 @@ public function updateData() {
         "SD Negeri 1 Tamban Lupak"
     ],
     [
-        "YULI HARNITA",
-        "24670130820000352",
-        "6203115707760002",
-        "197607172025212031",
-        "Kapuas",
-        "SEKOLAH MENENGAH UMUM",
+        "PORDAYANTI",
+        "24670130820000315",
+        "6203026608800003",
+        "198008262025212046",
+        "Palangka Raya",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
         "YULI MARIANA, S.Pd.",
@@ -22064,7 +22074,7 @@ public function updateData() {
         "6211035810960002",
         "199610182025212137",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -22144,7 +22154,7 @@ public function updateData() {
         "6203014702850007",
         "198210112025212061",
         "Barito Kuala",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Perhubungan"
     ],
@@ -22184,7 +22194,7 @@ public function updateData() {
         "6203016407850003",
         "198507242025212069",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kelurahan Pulau Kupang"
     ],
@@ -22199,14 +22209,14 @@ public function updateData() {
         "SD NEGERI 1 PETAK PUTI"
     ],
     [
-        "YULIANTO.",
-        "24670130810000330",
-        "6203020807710002",
-        "197107082025211051",
+        "ROHAPIJAH, S.Pd",
+        "24670110820000660",
+        "6203044301800003",
+        "198001032025212054",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "S-1 PENDIDIKAN GURU ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Lupak Timur"
     ],
     [
         "YULISA, S.Kom",
@@ -22234,7 +22244,7 @@ public function updateData() {
         "6271036612850004",
         "198512262025212070",
         "Kapuas",
-        "S-1\/A-IV EKONOMI AKUNTANSI",
+        "S-1/A-IV EKONOMI AKUNTANSI",
         "Penata Layanan Operasional",
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
@@ -22249,14 +22259,14 @@ public function updateData() {
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
     [
-        "YULIUS",
-        "24670130810000866",
-        "6203030306760005",
-        "197606032025211057",
+        "ROLY ISKANDAR",
+        "24670130810000520",
+        "6203010610810003",
+        "198010062025211079",
         "Kapuas",
-        "SMA ILMU PENGETAHUAN SOSIAL",
+        "SMU",
         "Operator Layanan Operasional",
-        "Dinas Lingkungan Hidup dan Kehutanan"
+        "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
         "YULIYANA, SE",
@@ -22274,7 +22284,7 @@ public function updateData() {
         "6271036612870004",
         "198712262025212110",
         "Pulang Pisau",
-        "S-1 \/ AKTA IV PGMI\/SD",
+        "S-1 / AKTA IV PGMI/SD",
         "Guru Ahli Pertama",
         "SD Negeri 1 Danau Pantau"
     ],
@@ -22299,14 +22309,14 @@ public function updateData() {
         "UPT Puskesmas Timpah"
     ],
     [
-        "YUNEDIE, S.Pi",
-        "24670130810000137",
-        "6203012002770005",
-        "197702202025211043",
-        "Kapuas",
-        "S-1 BUDIDAYA PERAIRAN",
-        "Penata Layanan Operasional",
-        "Dinas Ketahanan Pangan dan Perikanan"
+        "SOSILAWATI",
+        "24670130820000544",
+        "6203014508800007",
+        "198008052025212064",
+        "Pulang Pisau",
+        "SMK",
+        "Operator Layanan Operasional",
+        "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
         "YUNGKI PRANATA",
@@ -22314,7 +22324,7 @@ public function updateData() {
         "6203101212920004",
         "199212122025211181",
         "Kapuas",
-        "SMA\/MA (IPA DAN IPS)",
+        "SMA/MA (IPA DAN IPS)",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -22324,7 +22334,7 @@ public function updateData() {
         "6203026411900001",
         "199011242025212101",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Sekretariat Dewan Perwakilan Rakyat Daerah"
     ],
@@ -22344,7 +22354,7 @@ public function updateData() {
         "6203026405880002",
         "198805242025212116",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -22369,14 +22379,14 @@ public function updateData() {
         "SD Negeri 1 Lawang Kajang"
     ],
     [
-        "YUNIE",
-        "24670130820000477",
-        "6203026706750002",
-        "197502102025212024",
+        "SRI MEGAH, SE",
+        "24670110820000707",
+        "6271015008800003",
+        "198008102025212077",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "S-1 EKONOMI PEMBANGUNAN",
+        "Guru Ahli Pertama",
+        "SMP Negeri 4 Timpah Satu Atap"
     ],
     [
         "YUNIKO, S.E.",
@@ -22459,12 +22469,12 @@ public function updateData() {
         "Dinas Pekerjaan Umum dan Penataan Ruang"
     ],
     [
-        "YUSUA",
-        "24670130810000583",
-        "6203011605690002",
-        "196905162025211023",
+        "SUBAHAN",
+        "24670130810001024",
+        "6203011709800003",
+        "198009172025211073",
         "Kapuas",
-        "SMA ILMU ILMU BIOLOGI",
+        "SMK",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -22509,12 +22519,12 @@ public function updateData() {
         "SD Negeri 1 Bunga Mawar"
     ],
     [
-        "ZAINAL ABADIN",
-        "24670130810000856",
-        "6203011307790005",
-        "197907132025211083",
+        "SUHARTATIK",
+        "24670130820000525",
+        "6203015109800009",
+        "198009112025212044",
         "Kapuas",
-        "SMK MANAJEMEN BISNIS",
+        "SEKOLAH MENENGAH KEJURUAN",
         "Operator Layanan Operasional",
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
@@ -22544,7 +22554,7 @@ public function updateData() {
         "6203012809040005",
         "200409282025211001",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
@@ -22599,14 +22609,14 @@ public function updateData() {
         "RSUD dr. H. Soemarno Sosroatmodjo"
     ],
     [
-        "ZULKIFLI",
-        "24670130810000019",
-        "6203030609720004",
-        "197209062025211058",
+        "TITI MOLIYANI",
+        "24670130820000563",
+        "6203095012800004",
+        "198012102025212063",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
-        "Badan Pendapatan Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "ZULKIPLI",
@@ -22619,24 +22629,24 @@ public function updateData() {
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "ZULKISMIAH, S.Sos",
-        "24670130820000344",
-        "6203024203730003",
-        "197303022025212026",
-        "Balikpapan",
-        "S-1 ADMINISTRASI NEGARA",
-        "Penata Layanan Operasional",
-        "Dinas Pertanian"
+        "WIWI KUSMAWATI",
+        "24670130820000572",
+        "6203024609800004",
+        "198006062025212075",
+        "Kapuas",
+        "PAKET C ILMU PENGETAHUAN SOSIAL",
+        "Operator Layanan Operasional",
+        "Dinas Perdagangan, Perindustrian, Koperasi dan Usaha Kecil Menengah"
     ],
     [
-        "ZULUDIN.HD",
-        "24670130810000911",
-        "6203011010710011",
-        "197110102025211064",
-        "Hulu Sungai Utara",
-        "SLTA SEDERAJAT",
+        "WIWIN EMELIA",
+        "24670130820000571",
+        "6203094208800006",
+        "198008022025212042",
+        "Kapuas",
+        "D-I IPS",
         "Operator Layanan Operasional",
-        "Sekretariat Dewan Perwakilan Rakyat Daerah"
+        "Dinas Pendidikan"
     ],
     [
         "DEWI NOR LINDAWATI, S.Kom",
@@ -22649,20 +22659,20 @@ public function updateData() {
         "SMP NEGERI 2 TAMBAN CATUR"
     ],
     [
-        "DODI PURWANSYAH",
-        "24670130810000524",
-        "6203030807840003",
-        "0",
-        "Kapuas",
-        "SEKOLAH MENENGAH ATAS",
-        "Pengelola Umum Operasional",
-        "-"
+        "NATALIA PRANATA, S.Sos",
+        "24670110820000630",
+        "6211044801960001",
+        "Belum ada nip",
+        "Pulang Pisau",
+        "S-1 SOSIOLOGI",
+        "Guru Ahli Pertama",
+        "SMP Negeri 2 Kapuas Tengah Satu Atap"
     ],
     [
         "FARIED JANUAR, S.Pd",
         "24670110810000192",
         "6203032401910001",
-        "0",
+        "199101242025211111",
         "Kapuas",
         "S-1 PENDIDIKAN BAHASA INGGRIS",
         "Guru Ahli Pertama",
@@ -22674,7 +22684,7 @@ public function updateData() {
         "6203050707960001",
         "199504062025211160",
         "Kapuas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Kecamatan Kapuas Barat"
     ],
@@ -22689,14 +22699,14 @@ public function updateData() {
         "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
-        "KHUSNUL KHATIMAH, S.Pd",
-        "24670110820000677",
-        "6203016706980014",
-        "0",
-        "Banjarmasin",
-        "S-1 \/ AKTA IV BIMBINGAN DAN KONSELING",
+        "PERLIANTI, S.Pd",
+        "24670110820000723",
+        "6205024402880002",
+        "Belum ada nip",
+        "Kapuas",
+        "S-1 PENDIDIKAN BIOLOGI",
         "Guru Ahli Pertama",
-        "SD NEGERI 1 JAJANGKIT"
+        "SD NEGERI 2 BARUNANG"
     ],
     [
         "M. IQBAL KILABSA, S.Kom",
@@ -22709,22 +22719,22 @@ public function updateData() {
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "MANDRA H. SEM",
-        "24670130810001002",
-        "6203102101760002",
-        "0",
-        "Kapuas",
-        "SEKOLAH MENENGAH KEJURUAN",
-        "Operator Layanan Operasional",
-        "Dinas Pendidikan"
+        "RIBKA GRACE KELLY MANAFE, S.M",
+        "24670620120000267",
+        "6203026608980003",
+        "Belum ada nip",
+        "Palangka Raya",
+        "S-1 MANAJAMEN",
+        "Penata Layanan Operasional",
+        "Sekretariat Daerah Kabupaten Kapuas"
     ],
     [
         "MASITA",
         "24670130820000596",
         "6203086101800002",
-        "0",
+        "198001212025212040",
         "Gunung Mas",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
@@ -22732,7 +22742,7 @@ public function updateData() {
         "MASNAH, S.Pd",
         "24670110820000455",
         "6203075010940006",
-        "0",
+        "199410102025212270",
         "Kapuas",
         "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
         "Guru Ahli Pertama",
@@ -22742,71 +22752,71 @@ public function updateData() {
         "MASTIKA",
         "24670130820000641",
         "6203017012770004",
-        "0",
+        "197712302025212034",
         "Barito Timur",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Pendidikan"
     ],
     [
-        "MONALISA, S.Pd",
-        "24670110820000380",
-        "6203084607990004",
-        "0",
-        "Kapuas",
-        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
+        "SANTA MARIA SINAGA, SP.d",
+        "24670110820000696",
+        "1207287011890003",
+        "Belum ada nip",
+        "Deli Serdang",
+        "S-1 KEPENDIDIKAN BAHASA INGGRIS",
         "Guru Ahli Pertama",
-        "SD Negeri 1 Sumber Agung"
+        "SD NEGERI 1 BASUTA RAYA"
     ],
     [
         "MUHAMMAD FADHILAH, S.Pd.",
         "24670110810000133",
         "6203032912020001",
-        "0",
+        "200212292025211016",
         "Mekkah",
         "S-1 GURU PENDIDIKAN AGAMA ISLAM",
         "Guru Ahli Pertama",
         "SD NEGERI 1 PALINGKAU LAMA"
     ],
     [
-        "NATALIA PRANATA, S.Sos",
-        "24670110820000630",
-        "6211044801960001",
-        "0",
+        "SINTA WULANDARI, S.Pd",
+        "24670110820000410",
+        "6211026905010004",
+        "Belum ada nip",
         "Pulang Pisau",
-        "S-1 SOSIOLOGI",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
         "Guru Ahli Pertama",
-        "SMP Negeri 2 Kapuas Tengah Satu Atap"
+        "SD NEGERI 1 TERUSAN RAYA HULU"
     ],
     [
-        "PERLIANTI, S.Pd",
-        "24670110820000723",
-        "6205024402880002",
-        "0",
+        "SOPIA, S.Pd.",
+        "24670110820000428",
+        "6203047105990001",
+        "Belum ada nip",
         "Kapuas",
-        "S-1 PENDIDIKAN BIOLOGI",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
         "Guru Ahli Pertama",
-        "SD NEGERI 2 BARUNANG"
+        "SD NEGERI 1 SEI TERAS"
     ],
     [
         "RATNO TUAH, S.P.",
         "24670110810000052",
         "6203052611750001",
-        "0",
+        "197511262025211032",
         "Kapuas",
         "S-1 BUDIDAYA PERTANIAN (AGRONOMI)",
         "Guru Ahli Pertama",
         "SMP NEGERI 1 MANDAU TALAWANG SATU ATAP"
     ],
     [
-        "RIBKA GRACE KELLY MANAFE, S.M",
-        "24670620120000267",
-        "6203026608980003",
-        "0",
-        "Palangka Raya",
-        "S-1 MANAJAMEN",
-        "Penata Layanan Operasional",
-        "Sekretariat Daerah Kabupaten Kapuas"
+        "SULIS ELIANA, S.Pd.I.",
+        "24670110820000445",
+        "6211014410900002",
+        "Belum ada nip",
+        "Pulang Pisau",
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "Guru Ahli Pertama",
+        "SMP NEGERI 2 TAMBAN CATUR"
     ],
     [
         "SARTIYAH",
@@ -22824,21 +22834,21 @@ public function updateData() {
         "6203014508970009",
         "199708052025212115",
         "Palangka Raya",
-        "SLTA\/SMA SEDERAJAT",
+        "SLTA/SMA SEDERAJAT",
         "Operator Layanan Operasional",
         "Dinas Lingkungan Hidup dan Kehutanan"
     ],
     [
-        "SULIS ELIANA, S.Pd.I.",
-        "24670110820000445",
-        "6211014410900002",
-        "0",
-        "Pulang Pisau",
-        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "VITA ALVIANA, S.Pd",
+        "24670130820000630",
+        "6203015310940003",
+        "Belum ada nip",
+        "Kapuas",
+        "S-1 PENDIDIKAN AGAMA ISLAM/TARBIYAH",
         "Guru Ahli Pertama",
-        "SMP NEGERI 2 TAMBAN CATUR"
+        "SD NEGERI 2 MAJU BERSAMA"
     ]
-    ];
+];
     }
 
 
