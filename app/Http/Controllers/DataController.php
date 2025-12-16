@@ -8,6 +8,7 @@ use DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
 
 class DataController extends Controller
 {
@@ -69,6 +70,24 @@ class DataController extends Controller
         return $pdf->generate($html, 'nip-spkpw.pdf', 'I');
 
         // return abort(404);
+    }
+
+    public function lihatSPK(Request $request){
+        
+        $query = User::query();
+
+        if ($request->no_peserta) {
+            $query->where('username', $request->no_peserta);
+        }
+
+        if ($request->nik) {
+            $query->where('nik', $request->nik);
+        }
+        // 24670020110000594_SPK.pdf
+        $result = $query->first();
+        $nama_file = $result->username."_SPK.pdf";
+        // $nama_file = "24301220110019112_SPK.pdf";
+        return Redirect('spk/'. $nama_file);
     }
 
     public function uploadSpk(Request $request)
