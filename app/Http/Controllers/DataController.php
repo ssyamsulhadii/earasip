@@ -72,6 +72,28 @@ class DataController extends Controller
         // return abort(404);
     }
 
+    public function cetakSPP(Request $request, ServicePdf $pdf)
+    {
+        $query = User::query();
+
+        if ($request->no_peserta) {
+            $query->where('username', $request->no_peserta);
+        }
+
+        if ($request->nik) {
+            $query->where('nik', $request->nik);
+        }
+        $result = $query->first();
+        $nip = $result->nip;
+        $tanggal_lahir = DateTime::createFromFormat('Ymd', substr($nip, 0, 8))->format('d-m-Y');
+        $html = view('spp.rinder', ['result' => $result, 'tanggal_lahir' => $tanggal_lahir])->render();
+
+        // $filename = $result->usernmae . '_SPKPW.pdf';
+
+        // INI CARA BENAR UNTUK PREVIEW
+        return $pdf->generate($html, 'nip-spkpw.pdf', 'I');
+    }
+
     public function lihatSPK(Request $request)
     {
 

@@ -207,7 +207,8 @@
                                 class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">
                                 <i class="fas fa-download mr-1"></i> Download SK
                             </a>
-                            <a href="{{ asset('SPP/PW' . $result->username . '.pdf') }}" target="_blank"
+                            <a href="{{ route('cetak.spp', ['no_peserta' => $result->username, 'nik' => $result->nik]) }}"
+                                target="_blank"
                                 class="mt-4 self-end px-4 py-2 bg-green-600 text-white text-sm rounded-md hover:bg-green-700">
                                 <i class="fas fa-download mr-1"></i> Download SPP
                             </a>
