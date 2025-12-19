@@ -142,16 +142,13 @@
     <table style="margin-top: 70px; margin-left: 28em">
         <tr>
             <td style="width: 50%; text-align: left; vertical-align: top; text-align: left">
-                <div style="margin-bottom: 5px;">
-                    Kuala Kapuas, 26 November 2025 <br>
-                    Sekretaris Daerah,
+                <div style="margin-bottom: 2px;">Kuala Kapuas, 26 November 2025 Sekretaris Daerah,</div>
+                <div>
+                    <img src="{{ public_path('img/tte-spp-sekda.jpg') }}" style="width:110px; margin-left: -6px;">
                 </div>
-                <img src="{{ public_path('img/tte-spp-sekda.jpg') }}"
-                    style="width:110px; margin-bottom: 15px; margin-left: -129px;">
                 <div style="font-weight: bold; margin-bottom: 3px;">USIS I. SANGKAI</div>
                 <div style="margin-bottom: 3px;">Pembina Utama Madya (IV/d)</div>
                 <div>NIP. 197501181999031006</div>
-
             </td>
         </tr>
     </table>
