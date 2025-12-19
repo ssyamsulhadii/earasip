@@ -144,10 +144,13 @@
         <header class="mb-8">
             <h1 class="text-3xl font-extrabold text-gray-900 border-b pb-2">Penarikan Data SK PPPK Paruh Waktu</h1>
             <p class="text-gray-500 mt-2">Cukup masukkan kata kunci <b>No Peserta</b> dan <b>NIK Peserta</b> untuk
-                menemukan data Anda.</p>
+                menemukan data Anda.
+            </p>
+            <h3 class="text-2xl font-extrabold text-gray-900 border-b pb-2 mt-3">Apabila tampil halaman 505, periksa
+                kembali No peserta dan NIK Peserta
+            </h3>
         </header>
 
-        Form Pencarian
         <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-xl border border-gray-100">
             <form id="search-form" method="GET" action="{{ route('search') }}">
                 <div class="flex-grow">
