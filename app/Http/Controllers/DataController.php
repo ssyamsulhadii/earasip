@@ -171,6 +171,16 @@ class DataController extends Controller
         return  
 [
     [
+        "nama_lengkap",
+        "no_peserta",
+        "nik",
+        "nip",
+        "tempat lahir",
+        "pendidikan",
+        "jabatan",
+        "unit_kerja"
+    ],
+    [
         "A. SYARIF",
         "24670130810000596",
         "6203011303960012",
@@ -5644,11 +5654,11 @@ class DataController extends Controller
         "FAHRIATI, S.Pd.I",
         "24670130820000597",
         "6203014309880004",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "198809032025212109",
+        "HULU SUNGAI TENGAH",
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Pantai"
     ],
     [
         "FAHRINA HIKMAH, S.Pd.",
@@ -7371,7 +7381,7 @@ class DataController extends Controller
         "Dinas Ketahanan Pangan dan Perikanan"
     ],
     [
-        "HENSU RIWUN",
+        "HENSI RIWUN",
         "24670130820000489",
         "6203016107760004",
         "197607212025212028",
@@ -13814,11 +13824,11 @@ class DataController extends Controller
         "NOORHAYATI, S.Pd.AUD",
         "24670110820000602",
         "6203015110790001",
-        "197910112025212051",
-        "KAPUAS",
-        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
-        "Guru Ahli Pertama",
-        "SD Negeri 6 Selat Hilir"
+        "Belum ada NIP",
+        "-",
+        "-",
+        "-",
+        "-"
     ],
     [
         "NOORYANA",
@@ -22346,7 +22356,7 @@ class DataController extends Controller
         "6271036612870004",
         "198712262025212110",
         "PULANG PISAU",
-        "S-1",
+        "#SPILL!",
         "Guru Ahli Pertama",
         "SD Negeri 1 Danau Pantau"
     ],
@@ -22714,11 +22724,11 @@ class DataController extends Controller
         "DIYAH AFSARI, S.Pd",
         "24670110820000371",
         "6203096809880001",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "198809282025212101",
+        "KAPUAS",
+        "S-1 PENDIDIKAN JASMANI, KESEHATAN DAN REKREASI",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Sei Gawing"
     ],
     [
         "DODI PURWANSYAH",
@@ -22734,11 +22744,11 @@ class DataController extends Controller
         "HEMAWATI, S.Pd.I",
         "24670110820000118",
         "6203014412870001",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "198712042025212092",
+        "KAPUAS",
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "Guru Ahli Pertama",
+        "SMP Negeri  4 MANTANGAI SATU ATAP"
     ],
     [
         "KHAIRIYANA, S.Pd.I",
@@ -22764,21 +22774,21 @@ class DataController extends Controller
         "MADE CLARA SEPTIANA, S.Pd.",
         "24670110820000619",
         "6203084409960001",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199609042025212120",
+        "KAPUAS",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Terusan Raya Hulu"
     ],
     [
         "MAHMUD JAUHARI, S.Pd",
         "24670130810000989",
         "6203042706920002",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199206272025211139",
+        "KAPUAS",
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Terusan Raya Barat"
     ],
     [
         "MANDRA H. SEM",
@@ -22844,42 +22854,43 @@ class DataController extends Controller
         "SINTA WULANDARI, S.Pd",
         "24670110820000410",
         "6211026905010004",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "200002222025212089",
+        "PULANG PISAU",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Terusan Raya Hulu"
     ],
     [
         "SOPIA, S.Pd",
         "24670110820000428",
         "6203047105990001",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199905312025212085",
+        "KAPUAS",
+        "S-1 PENDIDIKAN GURU SEKOLAH DASAR (PGSD)",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Sei Teras"
     ],
     [
         "SULIS ELIANA, S.Pd.I",
         "24670110820000445",
         "6211014410900002",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199010042025212143",
+        "PULANG PISAU",
+        "S-1 PENDIDIKAN AGAMA ISLAM ( TARBIYAH )",
+        "Guru Ahli Pertama",
+        "SMP NEGERI  2 TAMBAN CATUR"
     ],
     [
         "VITA ALVIANA, S.Pd",
         "24670130820000630",
         "6203015310940003",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199410132025212130",
+        "KAPUAS",
+        "S-1 PENDIDIKAN AGAMA ISLAM",
+        "Guru Ahli Pertama",
+        "SD Negeri 2 Maju Bersama"
     ]
 ];
+        
     }
 }
