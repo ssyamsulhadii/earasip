@@ -13825,10 +13825,11 @@ class DataController extends Controller
         "24670110820000602",
         "6203015110790001",
         "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "197910112025212051",
+        "BANJARMASIN",
+        "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
+        "Guru Ahli Pertama",
+        "SD Negeri 6 Selat Hilir"
     ],
     [
         "NOORYANA",
@@ -22764,11 +22765,11 @@ class DataController extends Controller
         "KHUSNUL KHATIMAH, S.Pd",
         "24670110820000677",
         "6203016706980014",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "199806272025212111",
+        "BANJARMASIN",
+        "S-1 BIMBINGAN DAN KONSELING",
+        "Guru Ahli Pertama",
+        "SMP Negeri  4 Bataguh Satu Atap"
     ],
     [
         "MADE CLARA SEPTIANA, S.Pd.",
