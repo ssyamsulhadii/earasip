@@ -6,9 +6,7 @@ use App\Models\User;
 use App\Services\ServicePdf;
 use DateTime;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Redirect;
 
 class DataController extends Controller
 {
@@ -170,16 +168,6 @@ class DataController extends Controller
     private function getPegawaiData(): array {
         return  
 [
-    [
-        "nama_lengkap",
-        "no_peserta",
-        "nik",
-        "nip",
-        "tempat lahir",
-        "pendidikan",
-        "jabatan",
-        "unit_kerja"
-    ],
     [
         "A. SYARIF",
         "24670130810000596",
@@ -13824,7 +13812,6 @@ class DataController extends Controller
         "NOORHAYATI, S.Pd.AUD",
         "24670110820000602",
         "6203015110790001",
-        "Belum ada NIP",
         "197910112025212051",
         "BANJARMASIN",
         "S-1 PENDIDIKAN GURU PENDIDIKAN ANAK USIA DINI",
@@ -22845,11 +22832,11 @@ class DataController extends Controller
         "SANTA MARIA SINAGA, SP.d",
         "24670110820000696",
         "1207287011890003",
-        "Belum ada NIP",
-        "-",
-        "-",
-        "-",
-        "-"
+        "198911302025212110",
+        "DELI SERDANG",
+        "S-1 KEPENDIDIKAN BAHASA INGGRIS",
+        "Guru Ahli Pertama",
+        "SD Negeri 1 Basuta Raya"
     ],
     [
         "SINTA WULANDARI, S.Pd",
